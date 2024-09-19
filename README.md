@@ -1,6 +1,6 @@
 # Diseño de Interfaces Web
 
-<p align="center">
+<p>
   <a href="LICENSE">
       <img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg?longCache=true" alt="CC BY-SA License">
     </a>
@@ -9,8 +9,9 @@
 Material didáctico del módulo Diseño de Interfaces Web del CFGS Desarrollo de aplicaciones web del IES Rafael Alberti.
 
 <p align="center">
-  <img src="logos/DWE-22-23-moodle.png" alt="Cover Diseño de Interfaces Web">
+  <img src="logos/Portada-DIW.png" alt="Cover Diseño de Interfaces Web">
 </p>
+
 
 ## Diapositivas
 
