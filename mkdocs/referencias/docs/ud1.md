@@ -7,7 +7,7 @@ hide:
 
 **Curso:** 2º DAW - Diseño de Interfaces Web  
 **Año:** 2024/2025  
-**Profesor:** Alejandro Carmona Martos
+**Profesor:** Alejandro Carmona Martos.
 
 ## Introducción
 
