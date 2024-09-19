@@ -6,7 +6,7 @@ theme:
   favicon: assets/logo-blanco.svg
   palette:
     - media: "(prefers-color-scheme: light)" 
-      scheme: default
+      scheme: daw-style
       primary: grey
       toggle:
         icon: material/toggle-switch-off-outline
@@ -26,8 +26,8 @@ theme:
     - navigation.expand
     - navigation.top
     - header.autohide
-#extra_css:
-  # - stylesheets/extra.css
+daw_style:
+  - stylesheets/daw-style.css
 plugins:
 # Configuración de ejemplo, no se aplicará mientras que no se elimine este plugin de los .yml de cada proyecto
   - search:
