@@ -5,12 +5,9 @@
 }
 
 body > header > nav.md-header__inner.md-grid > a{
-    position: absolute;
-    left: 0;
-    top: -5px;
+
 }
 
 body > header > nav.md-header__inner.md-grid > a > img{
-    width: 300px;
-    height: 300px;
+
 }
