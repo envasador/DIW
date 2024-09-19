@@ -15,11 +15,11 @@ Material didáctico del módulo Diseño de Interfaces Web del CFGS Desarrollo de
 
 ## Diapositivas
 
-- [Presentación del módulo](https://envasadoralvacio.github.io/24-25-DIW/slides/presentacion.html)
+- [Presentación del módulo](https://envasador.github.io/DIW/slides/presentacion.html)
 
 ## Referencias
 
-- [Referencias del curso](https://envasadoralvacio.github.io/24-25-DIW/docs/referencias)
+- [Referencias del curso](https://envasador.github.io/DIW/docs/referencias)
 
 ## Proyectos
-- [Proyectos del curso](https://envasadoralvacio.github.io/24-25-DIW/docs/proyectos/)
+- [Proyectos del curso](https://envasador.github.io/DIW/docs/proyectos/)
