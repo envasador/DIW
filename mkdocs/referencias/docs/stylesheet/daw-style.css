@@ -3,3 +3,14 @@
     --md-primary-fg-color--light: #FFE4E9;
     --md-primary-fg-color--dark:  #FFE4E9;
 }
+
+body > header > nav.md-header__inner.md-grid > a{
+    position: absolute;
+    left: 0;
+    top: -5px;
+}
+
+body > header > nav.md-header__inner.md-grid > a > img{
+    width: 300px;
+    height: 300px;
+}

@@ -26,7 +26,7 @@ theme:
     - navigation.expand
     - navigation.top
     - header.autohide
-daw_style:
+extra_css:
   - stylesheets/daw-style.css
 plugins:
 # Configuración de ejemplo, no se aplicará mientras que no se elimine este plugin de los .yml de cada proyecto
