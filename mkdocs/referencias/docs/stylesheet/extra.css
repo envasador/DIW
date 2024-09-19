@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+:root{
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
 [data-md-color-scheme="daw-style"] {
     --md-primary-fg-color:        #FFE4E9;
     --md-primary-fg-color--light: #FFE4E9;
