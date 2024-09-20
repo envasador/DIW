@@ -4,11 +4,13 @@
     font-optical-sizing: auto;
     font-style: normal;
 }
-
+.md-header--shadow{
+    box-shadow: 0;
+}
 [data-md-color-scheme="daw-style"] {
-    --md-primary-fg-color:        #FFE4E9;
-    --md-primary-fg-color--light: #FFE4E9;
-    --md-primary-fg-color--dark:  #FFE4E9;
+    --md-primary-fg-color:        #e93456;
+    --md-primary-fg-color--light: #e93456;
+    --md-primary-fg-color--dark:  #e93456;
 }
 
 body > header > nav.md-header__inner.md-grid > a{
