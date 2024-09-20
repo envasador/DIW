@@ -13,6 +13,11 @@
     --md-primary-fg-color--dark:  #e93456;
     --md-typeset-a-color: #e93456;
 }
+
+[data-md-color-scheme="black"] {
+    --md-typeset-a-color: #FFE4E9;
+}
+
 a{
     color: #e93456;
 }
