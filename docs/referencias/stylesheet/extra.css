@@ -19,13 +19,13 @@ body > header > nav.md-header__inner.md-grid{
 
 body > header > nav.md-header__inner.md-grid > a{
     position: absolute;
-    top: 0;
-    left: -4.2rem;
+    top: -2px;
+    left: -69px;
 }
 
 body > header > nav.md-header__inner.md-grid > a > img{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 
 [dir=ltr] .md-header__title {
