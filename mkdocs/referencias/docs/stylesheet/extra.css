@@ -14,11 +14,11 @@
 }
 
 body > header > nav.md-header__inner.md-grid{
-    position: relative;
+    position: sticky;
 }
 
 body > header > nav.md-header__inner.md-grid > a{
-    osition: absolute;
+    position: absolute;
     top: 0;
     left: -4.2rem;
 }
