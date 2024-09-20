@@ -13,10 +13,28 @@
     --md-primary-fg-color--dark:  #e93456;
 }
 
-body > header > nav.md-header__inner.md-grid > a{
+body > header > nav.md-header__inner.md-grid{
+    position: relative;
+}
 
+body > header > nav.md-header__inner.md-grid > a{
+    osition: absolute;
+    top: 0;
+    left: -4.2rem;
 }
 
 body > header > nav.md-header__inner.md-grid > a > img{
+    width: 70px;
+    height: 70px;
+}
 
+[dir=ltr] .md-header__title {
+    margin-left: 0.6rem;
+    margin-right: .4rem;
+}
+.md-tabs{
+    height: 30px;
+}
+.md-tabs__link{
+    margin-top: 0;
 }
