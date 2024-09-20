@@ -11,6 +11,7 @@
     --md-primary-fg-color:        #e93456;
     --md-primary-fg-color--light: #e93456;
     --md-primary-fg-color--dark:  #e93456;
+    --md-typeset-a-color: #e93456;
 }
 a{
     color: #e93456;
