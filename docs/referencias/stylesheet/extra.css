@@ -12,6 +12,12 @@
     --md-primary-fg-color--light: #e93456;
     --md-primary-fg-color--dark:  #e93456;
 }
+a{
+    color: #e93456;
+}
+a:hover{
+    text-decoration: underline;
+}
 
 body > header > nav.md-header__inner.md-grid{
     position: sticky;
