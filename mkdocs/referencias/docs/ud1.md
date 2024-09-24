@@ -76,7 +76,7 @@ Diseña una paleta de colores para un sitio web usando la herramienta de combina
 
 ### 2.2 Juego de Combinación de Colores
 **Juego interactivo:**  
-Utiliza [este juego de combinación de colores](#) para entrenar tu percepción de tonos, saturación y valor. Identificarás diferencias sutiles entre colores y practicarás cómo combinarlos armónicamente.
+Utiliza [este juego de combinación de colores](https://color.method.ac/) para entrenar tu percepción de tonos, saturación y valor. Identificarás diferencias sutiles entre colores y practicarás cómo combinarlos armónicamente.
 
 ---
 
@@ -89,7 +89,7 @@ Utiliza [este juego de combinación de colores](#) para entrenar tu percepción 
 ---
 
 ### 2.4 Psicología del Color
-**Enlace:** [Psicología del Color](#)  
+**Enlace:** [Psicología del Color](https://www.begoromero.com/psicologia-del-color/)  
 El color influye en las emociones y percepciones de los usuarios. En este tema se estudiarán:
   - **El impacto emocional de los colores:**
     - **Rojo:** Energía, pasión, urgencia.
@@ -107,7 +107,7 @@ Analiza cómo una marca utiliza los colores en su sitio web para evocar ciertas 
 ## 3. Tipografía
 
 ### 3.1 ¿Qué son las tipografías?
-**Enlace:** [Tipografías](#)  
+**Enlace:** [Tipografías](https://heyjaime.com/blog/tipografias-que-son/)  
 La tipografía es el arte de seleccionar y organizar fuentes para comunicar mensajes de manera efectiva.
   - **Clasificación de fuentes:**
     - **Serif:** Fuentes con remates, ideales para textos largos.
@@ -133,7 +133,7 @@ Consejos clave:
 ## 4. Iconos
 
 ### ¿Qué son los iconos?
-**Enlace:** [Iconos](#)  
+**Enlace:** [Iconos](https://www.domestika.org/es/blog/2492-que-es-un-icono-y-cuales-son-sus-diferencias-con-los-pictogramas)  
 Los iconos son representaciones visuales simplificadas que ayudan a mejorar la navegación y la comprensión en interfaces de usuario.
   - **Uso adecuado de iconos:** Cómo evitar sobrecargar el diseño con iconos innecesarios.
   - **Iconografía adaptable:** Diseñar iconos que funcionen bien en diferentes tamaños y resoluciones.
@@ -146,7 +146,7 @@ Selecciona una serie de iconos para una aplicación móvil y explica cómo repre
 ## 5, Identidad Corporativa y Guía de Estilos
 
 ### 5.1 ¿A qué le llamamos identidad corporativa?
-**Enlace:** [Identidad Corporativa](#)  
+**Enlace:** [Identidad Corporativa](https://neoattack.com/blog/que-es-la-imagen-corporativa/)  
 La identidad corporativa es la combinación de todos los elementos visuales y conceptuales que representan a una marca.
   - **Componentes:** Logotipo, paleta de colores, tipografía, tono de comunicación.
   - **Consistencia visual:** Cómo mantener coherencia en todos los puntos de contacto de una marca.
@@ -154,7 +154,7 @@ La identidad corporativa es la combinación de todos los elementos visuales y co
 ---
 
 ### 5.2 Guía de Estilos de la UI
-**Enlace:** [Guía de Estilos de la UI](#)  
+**Enlace:** [Guía de Estilos de la UI](https://www.ionos.es/digitalguide/paginas-web/diseno-web/la-guia-de-estilo-perfecta-para-paginas-web/)  
 Una guía de estilos de UI asegura la coherencia en el diseño de una aplicación o sitio web.
   - **Componentes típicos:** Botones, formularios, tipografía, colores, iconos.
   - **Ejemplo:** [Guía de Material Design de Google](https://material.io/design).
@@ -165,16 +165,17 @@ Una guía de estilos de UI asegura la coherencia en el diseño de una aplicació
 ## Recursos
 
 ### Entendiendo el Color y la Luz
-**Enlace:** [Entendiendo el Color y la Luz](#)  
+**Enlace:** [Entendiendo el Color y la Luz](https://www.youtube.com/watch?v=UZ5UGnU7oOI&list=PLF40RYwZ15cdeOa03mDlC_rxRfopNJaiP&index=8&themeRefresh=1)  
 Video educativo de Ted-ed sobre cómo los colores y la luz interactúan en la naturaleza.
 
 ### Color y Lingüística
-**Enlace:** [Color y Lingüística](#)  
+**Enlace:** [Color y Lingüística](https://www.youtube.com/watch?v=gMqZR3pqMjg)  
 Video que explora cómo diferentes culturas ven y nombran los colores.
 
 ### El Color Rojo
-**Enlace:** [El Color Rojo](#)  
+**Enlace:** [El Color Rojo](https://www.bbc.com/future/article/20140827-how-the-colour-red-warps-the-mind)  
 Un artículo que examina el simbolismo y la psicología del color rojo en diversas culturas.
+
 
 ---
 
