@@ -167,15 +167,15 @@ Una guía de estilos de UI asegura la coherencia en el diseño de una aplicació
 ## Recursos
 
 ### Entendiendo el Color y la Luz
-**Enlace:** [Entendiendo el Color y la Luz](https://www.youtube.com/watch?v=UZ5UGnU7oOI&list=PLF40RYwZ15cdeOa03mDlC_rxRfopNJaiP&index=8&themeRefresh=1)  
+**Enlace:** [Entendiendo el Color y la Luz](https://www.youtube.com/watch?v=UZ5UGnU7oOI&list=PLF40RYwZ15cdeOa03mDlC_rxRfopNJaiP&index=8&themeRefresh=1){:target="_blank"}
 Video educativo de Ted-ed sobre cómo los colores y la luz interactúan en la naturaleza.
 
 ### Color y Lingüística
-**Enlace:** [Color y Lingüística](https://www.youtube.com/watch?v=gMqZR3pqMjg)  
+**Enlace:** [Color y Lingüística](https://www.youtube.com/watch?v=gMqZR3pqMjg){:target="_blank"}
 Video que explora cómo diferentes culturas ven y nombran los colores.
 
 ### El Color Rojo
-**Enlace:** [El Color Rojo](https://www.bbc.com/future/article/20140827-how-the-colour-red-warps-the-mind)  
+**Enlace:** [El Color Rojo](https://www.bbc.com/future/article/20140827-how-the-colour-red-warps-the-mind){:target="_blank"}
 Un artículo que examina el simbolismo y la psicología del color rojo en diversas culturas.
 
 
