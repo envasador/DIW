@@ -189,8 +189,8 @@ Tarea: Selecciona una marca existente y rediseña su identidad visual. Incluye l
 ### UT1 - AR01: Diseño Tipográfico Abstracto
 Tarea: Crea un diseño tipográfico abstracto usando una paleta de colores limitada y elementos tipográficos de forma creativa.
 
-
-# Referencias
+---
+## Referencias
 - https://www.canva.com/es_mx/aprende/elementos-y-principios-diseno-tips-e-inspiracion/
 - https://karensincuir.wordpress.com/2014/11/16/importancia-de-la-comunicacion-visual/
 - https://www.begoromero.com/psicologia-del-color/
