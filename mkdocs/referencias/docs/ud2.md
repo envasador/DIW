@@ -149,6 +149,8 @@ privacidad y cookies, entre otras cosas.
   - Tooltip.
   - Ventana emergente o popup.
 
+---
+
 ## 2. Patrones de diseño web
 
 Elegir un patrón de diseño web es una de las primeras decisiones que debes tomar al crear una
@@ -365,7 +367,7 @@ El diseño web de la plantilla que indicamos en este ejemplo presenta una experi
   movimiento y profundidad.
   **-** Ideal para: páginas web de largo scroll. Este patrón de diseño web es perfecto
   para sitios web de una sola página.
-
+---
 ## 3. Arquitectura web
 
 ### 3.1 Mapas conceptuales
@@ -428,7 +430,7 @@ criterios:
   gratuitas o de pago. Además, los gestores de contenido nos ofrecen la posibilidad de utilizar plugins específicos para
   la creación de nuestros sitemaps y mapas de navegación. En la wiki de Google puedes encontrar un listado muy
   extenso de herramientas que puedes utilizar.
-
+---
 ## 4. Wireframe, Mockup y Prototipado Web
 
 ### 4.1 **Wireframe**
@@ -472,7 +474,7 @@ criterios:
     - **Wireframe**: Para definir estructura y distribución.
     - **Mockup**: Para mostrar la apariencia final del diseño.
     - **Prototipo**: Para probar y validar la experiencia de usuario y funcionalidad.
-
+---
 # Referencias
 - https://www.canva.com/es_mx/aprende/elementos-y-principios-diseno-tips-e-inspiracion/
 - https://karensincuir.wordpress.com/2014/11/16/importancia-de-la-comunicacion-visual/
