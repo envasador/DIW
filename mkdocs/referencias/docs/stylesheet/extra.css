@@ -18,9 +18,7 @@
     --md-typeset-a-color: #FFE4E9;
 }
 
-a{
-    color: #e93456;
-}
+
 a:hover{
     text-decoration: underline;
 }
