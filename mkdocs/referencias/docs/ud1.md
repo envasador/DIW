@@ -50,7 +50,7 @@ Selecciona una página web y analiza cómo se aplican los principios de balance 
 
 ---
 
-## 1.3 Importancia de la Comunicación Visual
+### 1.3 Importancia de la Comunicación Visual
 La **comunicación visual** es una herramienta clave en el diseño porque:
   - **Transmite mensajes de forma instantánea.** Las imágenes, iconos y colores comunican más rápido que el texto.
   - **Es universal.** Aunque las interpretaciones pueden variar culturalmente, la comunicación visual trasciende las barreras del lenguaje.
