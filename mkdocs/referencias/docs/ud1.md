@@ -9,10 +9,11 @@ hide:
 
 ## 1. Introducción al Diseño
 El diseño es una disciplina que combina creatividad, funcionalidad y estética para resolver problemas visuales y de comunicación. En este tema se tratarán:
-  - **Definición de diseño:** ¿Qué es el diseño gráfico y el diseño de interfaces?
-  - **El proceso de diseño:** Desde la investigación hasta la ejecución.
-  - **Diseño centrado en el usuario (DCU):** La importancia de diseñar pensando en las necesidades del usuario final.
-  - **Funcionalidad vs estética:** Encontrando el balance adecuado para cada proyecto.
+
+- **Definición de diseño:** ¿Qué es el diseño gráfico y el diseño de interfaces?
+- **El proceso de diseño:** Desde la investigación hasta la ejecución.
+- **Diseño centrado en el usuario (DCU):** La importancia de diseñar pensando en las necesidades del usuario final.
+- **Funcionalidad vs estética:** Encontrando el balance adecuado para cada proyecto.
 
 **Ejemplo práctico:**  
 Selecciona una página web que uses frecuentemente. Evalúa cómo balancea los aspectos visuales (colores, tipografías) con la funcionalidad (navegación, facilidad de uso).
@@ -29,18 +30,19 @@ Analiza una interfaz web y determina cómo se aplican los principios de la Gesta
 
 ### 1.2 Elementos y Principios del Diseño
 El diseño visual está compuesto por varios **elementos** que, al ser combinados correctamente, crean una comunicación visual efectiva:
-  - **Elementos del diseño:**
-    - **Línea:** Definir bordes o guiar la mirada del usuario.
-    - **Forma:** Círculos, cuadrados, triángulos, etc. que forman la estructura.
-    - **Textura:** Superficie visual que añade profundidad.
-    - **Espacio:** Positivo (objetos) y negativo (vacíos), que crean jerarquía visual.
-    - **Color:** Capacidad de evocar emociones, destacar elementos y crear armonía.
-  - **Principios del diseño:**
-      - **Balance:** Simétrico, asimétrico y radial.
-      - **Contraste:** Diferencias marcadas entre los elementos para hacerlos destacar.
-      - **Énfasis:** Uso del color, tamaño o forma para destacar un punto focal.
-      - **Proporción:** Relación de tamaño entre los diferentes elementos.
-      - **Ritmo:** Repetición de elementos para crear un patrón.
+
+- **Elementos del diseño:**
+  - **Línea:** Definir bordes o guiar la mirada del usuario.
+  - **Forma:** Círculos, cuadrados, triángulos, etc. que forman la estructura.
+  - **Textura:** Superficie visual que añade profundidad.
+  - **Espacio:** Positivo (objetos) y negativo (vacíos), que crean jerarquía visual.
+  - **Color:** Capacidad de evocar emociones, destacar elementos y crear armonía.
+- **Principios del diseño:**
+  - **Balance:** Simétrico, asimétrico y radial.
+  - **Contraste:** Diferencias marcadas entre los elementos para hacerlos destacar.
+  - **Énfasis:** Uso del color, tamaño o forma para destacar un punto focal.
+  - **Proporción:** Relación de tamaño entre los diferentes elementos.
+  - **Ritmo:** Repetición de elementos para crear un patrón.
 
 **Ejemplo práctico:**  
 Selecciona una página web y analiza cómo se aplican los principios de balance y contraste para guiar al usuario.
@@ -48,6 +50,7 @@ Selecciona una página web y analiza cómo se aplican los principios de balance 
 
 ### 1.3 Importancia de la Comunicación Visual
 La **comunicación visual** es una herramienta clave en el diseño porque:
+
 - **Transmite mensajes de forma instantánea.** Las imágenes, iconos y colores comunican más rápido que el texto.
 - **Es universal.** Aunque las interpretaciones pueden variar culturalmente, la comunicación visual trasciende las barreras del lenguaje.
 - **Refuerza la identidad de marca.** Un buen uso de la comunicación visual refuerza la percepción de una empresa o producto.
@@ -88,7 +91,7 @@ Utiliza [este juego de combinación de colores](https://color.method.ac/) para e
 ### 2.4 Psicología del Color
 **Enlace:** [Psicología del Color](https://www.begoromero.com/psicologia-del-color/)  
 El color influye en las emociones y percepciones de los usuarios. En este tema se estudiarán:
-- 
+
 - **El impacto emocional de los colores:**
   - **Rojo:** Energía, pasión, urgencia.
   - **Azul:** Confianza, calma, profesionalismo.
@@ -121,9 +124,10 @@ Crea una jerarquía tipográfica para un sitio web ficticio, seleccionando dos t
 
 ### 3.2 Recomendaciones para el Uso de la Tipografía
 Consejos clave:
-  - Limita el uso a 2-3 tipografías por proyecto.
-  - Considera la legibilidad en tamaños pequeños.
-  - Mantén una coherencia tipográfica en toda la interfaz.
+
+- Limita el uso a 2-3 tipografías por proyecto.
+- Considera la legibilidad en tamaños pequeños.
+- Mantén una coherencia tipográfica en toda la interfaz.
 
 ---
 
