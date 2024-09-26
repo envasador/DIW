@@ -12,11 +12,6 @@ Material didáctico del módulo Diseño de Interfaces Web del CFGS Desarrollo de
   <img src="logos/Portada-DIW.png" alt="Cover Diseño de Interfaces Web">
 </p>
 
-
-## Diapositivas
-
-- [Presentación del módulo](https://envasador.github.io/DIW/slides/presentacion.html)
-
 ## Referencias
 
 - [Referencias del curso](https://envasador.github.io/DIW/docs/referencias)
