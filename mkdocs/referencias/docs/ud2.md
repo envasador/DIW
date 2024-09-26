@@ -45,45 +45,45 @@ puedan interactuar con eficacia con todos sus componentes y, se sientan cómodos
 #### 1.1.1 Elementos de identificación
 Los elementos de identificación son los que nos ayudan a reconocer el sitio web. Algunos
 ejemplos de elementos de identificación son los siguientes:
-- El nombre de la web.
-- El logotipo.
-- La imagen de la cabecera.
+  - El nombre de la web.
+  - El logotipo.
+  - La imagen de la cabecera.
 
 #### 1.1.2 Elementos de navegación
 Los elementos de navegación son los que nos permiten acceder a todos los contenidos del
 sitio web. Algunos ejemplos de elementos de navegación son los siguientes:
-- Menú principal
-- Widgets.
-- Aside de navegación.
-- Menú de navegación del footer.
+  - Menú principal
+  - Widgets.
+  - Aside de navegación.
+  - Menú de navegación del footer.
 
 Hay varias consideraciones a tener en cuenta para que el usuario pueda navegar por
 una web sabiendo dónde se encuentra y cómo moverse por el sitio. Para conseguirlo,
 el sistema de navegación debe disponer de los siguientes componentes:
-- Elemento de regreso a la página de inicio o home.
-- Menú principal situado en la parte superior de la página.
-- Información sobre la ubicación del usuario dentro del sitio: consiste en una línea
-  de texto en la parte superior, bajo el menú de navegación principal, que indica al
-  usuario dónde se encuentra. Para este cometido también se pueden utilizar las
-  “migas de pan” o breadcrumbs.
+  - Elemento de regreso a la página de inicio o home.
+  - Menú principal situado en la parte superior de la página.
+  - Información sobre la ubicación del usuario dentro del sitio: consiste en una línea
+    de texto en la parte superior, bajo el menú de navegación principal, que indica al
+    usuario dónde se encuentra. Para este cometido también se pueden utilizar las
+    “migas de pan” o breadcrumbs.
 
 #### 1.1.3 Elementos de contenidos
-
-- Los elementos de contenidos son las zonas de la web en las que se muestra la información
+Los elementos de contenidos son las zonas de la web en las que se muestra la información
   destacada como las áreas de texto de un artículo de un blog, el formulario de una página de
-  contacto, etc.
-- Es muy importante que los contenidos de una web sean interesantes para el lector y estén escritos
+  contacto, etc. 
+
+Es muy importante que los contenidos de una web sean interesantes para el lector y estén escritos
   de forma clara y concisa.
-  Elementos de interacción
-- Los elementos de interacción son los que nos permiten realizar acciones en el sitio web. Algunos
-  ejemplos de elementos de interacción son:
-- Cambiar el idioma.
-- Utilizar el buscador.
-- Consultar el carrito de compra.
-- Suscripción en la newsletter.
+
+#### 1.1.4 Elementos de interacción
+Los elementos de interacción son los que nos permiten realizar acciones en el sitio web. Algunos
+    ejemplos de elementos de interacción son:
+  - Cambiar el idioma.
+  - Utilizar el buscador.
+  - Consultar el carrito de compra.
+  - Suscripción en la newsletter.
 
 #### 1.1.4 Componentes de una interfaz web
-
 En prácticamente todas las páginas web hay elementos que son comunes.
 
 Algunos ejemplos son: la cabecera, el menú de navegación, el cuerpo o el pie
@@ -91,8 +91,8 @@ de página. Conocer el nombre de cada una de las partes de un sitio web es
 esencial ya que forma parte del vocabulario utilizado por los desarrolladores y
 diseñadores. La siguiente figura muestra la estructura general de un sitio web.
 Cabecera o header
-##### 1.1.4.1 Cabecera
 
+##### 1.1.4.1 Cabecera
 La cabecera o header es la zona de la interfaz web situada en la parte superior
 y que sirve para identificar la empresa o marca. Normalmente, se utiliza para
 mostrar el logotipo de la empresa o su nombre. Además, este espacio da
@@ -106,7 +106,6 @@ de la página. Por este motivo, no es de extrañar que se aproveche este espacio
 para posicionar el logotipo y el nombre de la marca.
 
 ##### 1.1.4.2 Cuerpo de la página
-
 El cuerpo de la página es donde se muestran los contenidos. Puede verse
 acompañado de uno o varios sidebars (o menús laterales de navegación). Se
 sitúa bajo de la cabecera o header o bajo del navbar (o menú de navegación
@@ -124,32 +123,31 @@ privacidad y cookies, entre otras cosas.
 
 
 #### 1.1.6 Otros elementos
-
-- Acordeón.
-- Action bar.
-- Anuncio, banner o ad.
-- Barra de búsqueda.
-- Barra lateral o sidebar.
-- Barra de progreso o progress bar.
-- Botones.
-- Call to action o CTA.
-- Carrito de compra o cesta.
-- Carrusel o carousel.
-- Contador.
-- Formulario de contacto o contact form.
-- Galería de imágenes.
-- Iconos.
-- Inscripción al boletín de noticias o newsletter.
-- Menú de navegación o navbar.
-- Menú hamburguesa o toggle.
-- Migas de pan o breadcrumbs.
-- Pestañas o tabs.
-- Políticas de privacidad y cookies.
-- Redes sociales o social media.
-- Selector de idiomas o menú de idiomas.
-- Slider.
-- Tooltip.
-- Ventana emergente o popup.
+  - Acordeón.
+  - Action bar.
+  - Anuncio, banner o ad.
+  - Barra de búsqueda.
+  - Barra lateral o sidebar.
+  - Barra de progreso o progress bar.
+  - Botones.
+  - Call to action o CTA.
+  - Carrito de compra o cesta.
+  - Carrusel o carousel.
+  - Contador.
+  - Formulario de contacto o contact form.
+  - Galería de imágenes.
+  - Iconos.
+  - Inscripción al boletín de noticias o newsletter.
+  - Menú de navegación o navbar.
+  - Menú hamburguesa o toggle.
+  - Migas de pan o breadcrumbs.
+  - Pestañas o tabs.
+  - Políticas de privacidad y cookies.
+  - Redes sociales o social media.
+  - Selector de idiomas o menú de idiomas.
+  - Slider.
+  - Tooltip.
+  - Ventana emergente o popup.
 
 ## 2. Patrones de diseño web
 
@@ -176,94 +174,103 @@ importancia.
 Cuando se acerca el momento de elegir el patrón del diseño de una página web, existen dos
 factores que hay que tener en cuenta:
 
-_- Ajustar tu contenido:_ el diseño web de una página debe apoyar el mensaje que deseas transmitir.
+  _- Ajustar tu contenido:_ el diseño web de una página debe apoyar el mensaje que deseas transmitir.
 Algunos patrones son mejores para mostrar productos, mientras que otros son preferibles para
 transmitir información rápida y eficazmente (un blog o un portal de noticias). El patrón de diseño
 web que elijas debe ajustarse a tu tipo de contenido.
 
-_- Usar patrones estándar:_ aunque admiten cierta creatividad, estos patrones de diseño web son
+  _- Usar patrones estándar:_ aunque admiten cierta creatividad, estos patrones de diseño web son
 generalmente la mejor opción porque han demostrado una y mil veces que funcionan. Como son
 muy comunes, cumplen las expectativas del usuario que ya está acostumbrado a ellos: son más
 intuitivos y fáciles de usar.
 
 ### 2.4 Los 10 mejores patrones de diseño web
-- Patrón Z
-- Patrón F
-- Imagen a toda pantalla
-- Pantalla dividida
-- Asimétrico
-- Columna única
-- Bloques
-- Mosaico
-- Revista
-- Franjas horizontales
+  - Patrón Z
+  - Patrón F
+  - Imagen a toda pantalla
+  - Pantalla dividida
+  - Asimétrico
+  - Columna única
+  - Bloques
+  - Mosaico
+  - Revista
+  - Franjas horizontales
 
 
 #### 2.4.1 Diseño web con patrón Z
-- Esta forma de "escanear" con los ojos la página se conoce como lectura rápida y la realizamos
+
+Esta forma de "escanear" con los ojos la página se conoce como lectura rápida y la realizamos
   siguiendo un patrón parecido a la letra Z. Nuestros ojos hacen un barrido en forma de zigzag
   desde la esquina superior derecha de la página hacia su esquina inferior izquierda para luego
   desplazarse hacia la derecha.
-- Una página web con patrón Z se sirve de nuestro hábito de lectura rápida para distribuir la
+
+Una página web con patrón Z se sirve de nuestro hábito de lectura rápida para distribuir la
   información más importante en forma de Z. El logotipo se suele colocar generalmente en la
   esquina superior izquierda para que sea lo primero que perciba el usuario. En frente, a la
-  derecha, se suele colocar el menú de navegación junto a un llamado a la acción que destaque.
-- La diagonal que se extiende a lo ancho de la página, de arriba a abajo, es donde se coloca la
+  derecha, se suele colocar el menú de navegación junto a un llamado a la acción que destaque. 
+
+La diagonal que se extiende a lo ancho de la página, de arriba a abajo, es donde se coloca la
   información que más nos interesa que capte la atención. Esto se consigue usando imágenes
-  seductoras acompañadas de un breve texto que explique de qué trata la página web.
-- La recta final del patrón Z debe ser la culminación de todo lo que la ha precedido hasta ahora.
+  seductoras acompañadas de un breve texto que explique de qué trata la página web. 
+
+La recta final del patrón Z debe ser la culminación de todo lo que la ha precedido hasta ahora.
   Tanto si has intentado seducir o convencer al usuario para que compre un producto o reserve
   un servicio, este es el momento y lugar para que lo hagan. Coloca el llamado a la acción
   (CTA) más importante al final del patrón Z con un botón que anime o urja al usuario a la
   acción.
-- Ideal para: páginas de alto contenido visual y muy poco escrito. Este patrón es el idóneo para
+**Ideal para:** páginas de alto contenido visual y muy poco escrito. Este patrón es el idóneo para
   landing pages que tienen como objetivo una conversión muy específica.
 
 #### 2.4.2 Diseño web con patrón F
-- Al igual que el patrón Z, este patrón de diseño web se basa en otro tipo de hábito
+Al igual que el patrón Z, este patrón de diseño web se basa en otro tipo de hábito
   de lectura. En las páginas web con mucho contenido escrito, tendemos a
   "escanear" el texto siguiendo un patrón de lectura en forma de F. Es decir, la
   sección superior horizontal de la página recibe gran parte de nuestra atención y, a
   continuación, dejamos caer nuestra mirada verticalmente hacia la izquierda que se
-  convierte en nuestro punto de referencia.
-- Si decides usar este patrón de diseño, invierte lo mejor de tus recursos en la
+  convierte en nuestro punto de referencia. 
+
+Si decides usar este patrón de diseño, invierte lo mejor de tus recursos en la
   sección superior de tu página donde tus visitantes probablemente permanezcan
   más tiempo. Escribe en esa franja horizontal un contenido que sintetice de forma
   convincente de qué trata tu página. En la parte superior de la F se suele incluir un
   encabezado, un subtítulo y una imagen.
-- La línea vertical de la F del lado izquierdo tiene como propósito apoyar y hacer
+
+La línea vertical de la F del lado izquierdo tiene como propósito apoyar y hacer
   más atractiva la sección horizontal. Puedes conseguirlo usando todo tipo de
   imágenes e íconos o con otros elementos como una lista de puntos o numeración.
   **-** Ideal para: páginas web de gran contenido escrito. Al crear un blog, por ejemplo,
   este patrón de diseño web es aplicable tanto a la página de inicio como a las
   distintas entradas del blog.
 
-
 #### 2.4.3 Diseño web con imagen a pantalla completa
-- Este patrón de diseño web incluye poco texto sobre una imagen que suele ser grande u
+Este patrón de diseño web incluye poco texto sobre una imagen que suele ser grande u
   ocupar toda la pantalla. Colocar un elemento visual como protagonista en la pantalla
   consigue captar formidablemente la atención de los usuarios y generar una poderosa
   experiencia visual en la página de inicio. Además, también ayuda a comunicar tu mensaje
-  de forma inmediata y eficaz.
-- Los elementos visuales (fotografías, ilustraciones o videos) de gran tamaño son capaces de
+  de forma inmediata y eficaz. 
+
+Los elementos visuales (fotografías, ilustraciones o videos) de gran tamaño son capaces de
   expresar eficazmente y al instante lo que eres y lo que haces. Por tanto, elige un elemento
   visual de alta calidad y que guarde relación con tu producto, servicio y el tono de tu
-  marca.
-- En este tipo de diseño web, el elemento visual siempre viene acompañado de una breve
+  marca. 
+
+En este tipo de diseño web, el elemento visual siempre viene acompañado de una breve
   frase para presentar y explicar lo que ofreces. Por tanto, es conveniente incluir aquí un
   eslogan con gancho que despierte el interés y la curiosidad de tus usuarios.
   **-** Un apunte: este patrón de diseño web funciona estupendamente en su versión para
   móviles.
-  **-** Ideal para: negocios que quieran destacar en un nicho de mercado específico o un
+
+**-** Ideal para: negocios que quieran destacar en un nicho de mercado específico o un
   producto en partículas. Por ejemplo, la página web de un restaurante puede presentar su
   plato estrella, mientras que una página web de boda a la pareja de novios felices y
   sonrientes.
 #### 2.4.4 Diseño web con pantalla dividida
-- El diseño con pantalla dividida es una de las principales tendencias en diseño web. Dividiendo
+El diseño con pantalla dividida es una de las principales tendencias en diseño web. Dividiendo
   verticalmente la pantalla por la mitad se logra un equilibrio simétrico perfecto - un importante
   principio de diseño. La división en dos partes permite que cada sección exprese dos ideas de
-  forma completamente diferente o una misma idea pero desde un ángulo distinto.
-- El diseño web de la plantilla que indicamos en este ejemplo presenta una experiencia culinaria
+  forma completamente diferente o una misma idea pero desde un ángulo distinto. 
+
+El diseño web de la plantilla que indicamos en este ejemplo presenta una experiencia culinaria
   mediante una imagen a la izquierda para captar la atención, y mediante texto y arte vectorial a la
   derecha. El diseño permite que ambas mitades se complementen en lugar de competir entre ellas.
   Este diseño también funciona bien cuando se le pide al usuario elegir entre dos opciones opuestas
