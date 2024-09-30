@@ -1,3 +1,8 @@
+<style>
+    body{background: #FBE6F0;color:#222}
+    p{color:#222}
+    a{color:#222}
+</style>
 # Diseño de Interfaces Web
 
 <p>
