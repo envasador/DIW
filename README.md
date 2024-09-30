@@ -12,14 +12,15 @@
 </p>
 
 Material didáctico del módulo Diseño de Interfaces Web del CFGS Desarrollo de aplicaciones web del IES Rafael Alberti.
+<section>
+    <ul>
+        <li>
+            <a href="https://envasador.github.io/DIW/docs/referencias"> Apuntes y referencias</a>
+        </li>
+        <li>
+            <a href="https://envasador.github.io/DIW/docs/proyectos/"> Proyectos </a>
+        </li>
+    </ul>
+    <img src="logos/Portada-DIW.png" alt="Cover Diseño de Interfaces Web">
+</section>
 
-<p>
-  <img src="logos/Portada-DIW.png" alt="Cover Diseño de Interfaces Web">
-</p>
-
-## Referencias
-
-- [Referencias del curso](https://envasador.github.io/DIW/docs/referencias)
-
-## Proyectos
-- [Proyectos del curso](https://envasador.github.io/DIW/docs/proyectos/)
