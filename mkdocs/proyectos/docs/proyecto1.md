@@ -9,18 +9,15 @@ hide:
 El objetivo de esta primera fase es que los estudiantes diseñen una interfaz de usuario completa para una aplicación web que consuma una API REST, utilizando **Figma** como herramienta de prototipado. Se trabajará en todos los aspectos relacionados con la experiencia de usuario (UX) y el diseño de la interfaz (UI), creando una guía de estilo y wireframes que servirán como base para la maquetación en el módulo de **Desarrollo Web en Entorno Cliente**.
 
 ## Resultados de aprendizaje y Criterios de evaluación
-
 ### RA1 Planifica la creación de una interfaz web valorando y aplicando especificaciones de diseño.
 #### **Criterios de evaluación:**
-  - 1a. Se ha reconocido la importancia de la comunicación visual y sus principios básicos.
-  - 1b. Se han analizado y seleccionado los colores y tipografías adecuados para su visualización en pantalla.
-  - 1c. Se han analizado alternativas para la presentación de la información en documentos web.
-  - 1d. Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación web.
-  - 1e. Se han utilizado y valorado distintas tecnologías para el diseño de documentos web.
-  - 1f. Se han creado y utilizado plantillas de diseño.
-
+- 1a. Se ha reconocido la importancia de la comunicación visual y sus principios básicos.
+- 1b. Se han analizado y seleccionado los colores y tipografías adecuados para su visualización en pantalla.
+- 1c. Se han analizado alternativas para la presentación de la información en documentos web.
+- 1d. Se ha valorado la importancia de definir y aplicar la guía de estilo en el desarrollo de una aplicación web.
+- 1e. Se han utilizado y valorado distintas tecnologías para el diseño de documentos web.
+- 1f. Se han creado y utilizado plantillas de diseño.
 ---
-
 
 ### **Actividades de la Fase 1: Prototipado en Figma**
 
