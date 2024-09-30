@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# **Proyecto 1: Prototipado y Diseño de una Interfaz Web con Figmas**
+# **Proyecto 1: Prototipado y Diseño de una Interfaz Web con Figma.**
 
 ## **Objetivo General de la Fase**
 El objetivo de esta primera fase es que los estudiantes diseñen una interfaz de usuario completa para una aplicación web que consuma una API REST, utilizando **Figma** como herramienta de prototipado. Se trabajará en todos los aspectos relacionados con la experiencia de usuario (UX) y el diseño de la interfaz (UI), creando una guía de estilo y wireframes que servirán como base para la maquetación en el módulo de **Desarrollo Web en Entorno Cliente**.
