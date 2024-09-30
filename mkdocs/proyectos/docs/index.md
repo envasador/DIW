@@ -5,10 +5,8 @@ hide:
 
 # Diseño de Interfaces Web.
 
-<center>
-![](assets/proyectos.jpg)
-</center>
+![](assets/referencias.jpg)
 
 En esta página encontrarás las descripciones de los diferentes proyectos de evaluación.
 
-Proyecto 1.
+* [Proyecto 1: Prototipado y Diseño de una Interfaz Web con Figma](proyecto1.md)
