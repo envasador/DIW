@@ -43,14 +43,14 @@ El objetivo de esta primera fase es que los estudiantes diseñen una interfaz de
     - Coherencia entre las diferentes pantallas y facilidad de navegación.
 
 #### **4. Definición de la Guía de Estilo**
-- **Descripción**: Creación de una guía de estilo que contenga todos los **componentes reutilizables** de la interfaz, como botones, campos de formularios, tarjetas de contenido, y menús de navegación. Esta guía de estilo servirá como referencia para la implementación en el módulo de **Desarrollo Web en Entorno Cliente**.
+- **Descripción**: Creación de una guía de estilo que contenga todos los **componentes reutilizables** de la interfaz, como botones, campos de formularios, tarjetas de contenido, y menús de navegación. Esta guía de estilo servirá como referencia para la implementación para el proyecto 4 de este módulo, que se realizará conjuntamente con **Desarrollo Web en Entorno Cliente**.
 - **Producto Final**: Una **guía de estilo en Figma** que incluya ejemplos de todos los componentes UI, junto con sus estados (normal, hover, activo, deshabilitado, etc.).
 - **Criterios de evaluación**:
     - Complejidad y variedad de los componentes.
     - Coherencia en la aplicación de los estilos definidos (colores, tipografías, espaciados).
 
 #### **5. Prototipado de alta fidelidad**
-- **Descripción**: Con base en los wireframes de baja fidelidad, desarrollaréis un **prototipo de alta fidelidad** en Figma, que represente de manera precisa el diseño final de la aplicación. El prototipo debe ser interactivo y permitir navegar entre las diferentes pantallas simulando la experiencia del usuario.
+- **Descripción**: Con base en los wireframes de baja fidelidad, desarrollaréis un **prototipo de alta fidelidad** en Figma (Tanto desktop como móvil), que represente de manera precisa el diseño final de la aplicación. El prototipo debe ser interactivo y permitir navegar entre las diferentes pantallas simulando la experiencia del usuario.
 - **Producto Final**: Un **prototipo navegable en Figma**, con animaciones simples que mejoren la experiencia del usuario y den retroalimentación visual, como transiciones entre páginas, hover en botones, y campos de formularios interactivos.
 - **Criterios de evaluación**:
     - Precisión del diseño en relación a los wireframes y guía de estilo.
