@@ -475,6 +475,8 @@ criterios:
     - **Mockup**: Para mostrar la apariencia final del diseño.
     - **Prototipo**: Para probar y validar la experiencia de usuario y funcionalidad.
 ---
+# Tutoriales
+- [Aprende a Hacer Prototipos Responsive en Figma en Minutos](https://youtu.be/AE0EGw5tUAs?si=9I1FhbrU9FZZvRYo)
 # Referencias
 - https://www.canva.com/es_mx/aprende/elementos-y-principios-diseno-tips-e-inspiracion/
 - https://karensincuir.wordpress.com/2014/11/16/importancia-de-la-comunicacion-visual/
