@@ -1,0 +1,1803 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/sello-rafael-alberti-imago-blanco.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.40">
+    
+    
+      
+        <title>4.2 Guía completa de CSS3. - Diseño de Interfaces Web - Apuntes y referencias</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheet/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="daw-style" data-md-color-primary="grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#42-guia-completa-de-css3" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Diseño de Interfaces Web - Apuntes y referencias" class="md-header__button md-logo" aria-label="Diseño de Interfaces Web - Apuntes y referencias" data-md-component="logo">
+      
+  <img src="../assets/sello-rafael-alberti-imago-blanco.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Diseño de Interfaces Web - Apuntes y referencias
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              4.2 Guía completa de CSS3.
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="daw-style" data-md-color-primary="grey" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Inicio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ud1-introduccion-al-diseno/" class="md-tabs__link">
+        
+  
+    
+  
+  Introducción al Diseño, Percepción y Comunicación Visual
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../ud2-planificacion-prototipado/" class="md-tabs__link">
+        
+  
+    
+  
+  Planificación y Prototipado de una interfaz web
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Diseño de Interfaces Web - Apuntes y referencias" class="md-nav__button md-logo" aria-label="Diseño de Interfaces Web - Apuntes y referencias" data-md-component="logo">
+      
+  <img src="../assets/sello-rafael-alberti-imago-blanco.svg" alt="logo">
+
+    </a>
+    Diseño de Interfaces Web - Apuntes y referencias
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Inicio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ud1-introduccion-al-diseno/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introducción al Diseño, Percepción y Comunicación Visual
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ud2-planificacion-prototipado/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Planificación y Prototipado de una interfaz web
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#indice" class="md-nav__link">
+    <span class="md-ellipsis">
+      Índice
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion-a-css3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introducción a CSS3
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introducción a CSS3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#por-que-usar-css3" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Por qué usar CSS3?
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#estructura-basica-de-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      Estructura Básica de CSS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Estructura Básica de CSS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sintaxis-basica" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sintaxis Básica
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejemplo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ejemplo
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#selectores-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selectores CSS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Selectores CSS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selectores-basicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selectores Básicos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#selectores-de-clase-y-id" class="md-nav__link">
+    <span class="md-ellipsis">
+      Selectores de Clase y ID
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="42-guia-completa-de-css3">4.2 <strong>Guía completa de CSS3</strong>.</h1>
+<hr />
+<h2 id="indice">Índice</h2>
+<ol>
+<li><a href="#introducción-a-css3">Introducción a CSS3</a></li>
+<li><a href="#estructura-básica-de-css">Estructura Básica de CSS</a></li>
+<li><a href="#selectores-css">Selectores CSS</a><ul>
+<li><a href="#selectores-básicos">Selectores Básicos</a></li>
+<li><a href="#selectores-de-clase-y-id">Selectores de Clase y ID</a></li>
+<li><a href="#selectores-de-atributo">Selectores de Atributo</a></li>
+<li><a href="#selectores-de-pseudo-clases-y-pseudo-elementos">Selectores de Pseudo-clases y Pseudo-elementos</a></li>
+</ul>
+</li>
+<li><a href="#modelo-de-caja-box-model">Modelo de Caja (Box Model)</a></li>
+<li><a href="#propiedades-de-texto-y-fuente">Propiedades de Texto y Fuente</a></li>
+<li><a href="#colores-y-fondos">Colores y Fondos</a></li>
+<li><a href="#diseño-de-layout">Diseño de Layout</a><ul>
+<li><a href="#flexbox">Flexbox</a></li>
+<li><a href="#grid-layout">Grid Layout</a></li>
+</ul>
+</li>
+<li><a href="#transiciones-y-animaciones">Transiciones y Animaciones</a></li>
+<li><a href="#responsividad-y-media-queries">Responsividad y Media Queries</a></li>
+<li><a href="#nuevas-características-de-css3">Nuevas Características de CSS3</a><ul>
+<li><a href="#la-regla-scope">La Regla <code>@scope</code></a></li>
+<li><a href="#otras-nuevas-características">Otras Nuevas Características</a></li>
+</ul>
+</li>
+<li><a href="#buenas-prácticas-en-css">Buenas Prácticas en CSS</a></li>
+<li><a href="#uso-de-css3-en-reactjs">Uso de CSS3 en React.js</a></li>
+<li><a href="#uso-de-css3-en-vuejs">Uso de CSS3 en Vue.js</a></li>
+<li><a href="#conclusión">Conclusión</a></li>
+</ol>
+<hr />
+<h2 id="introduccion-a-css3">Introducción a CSS3</h2>
+<p><strong>CSS3</strong> (Cascading Style Sheets Level 3) es la última versión de CSS, utilizada para describir la presentación de documentos HTML y XML. CSS3 introduce nuevas características y mejoras que facilitan la creación de diseños web más atractivos y funcionales.</p>
+<h3 id="por-que-usar-css3">¿Por qué usar CSS3?</h3>
+<ul>
+<li><strong>Modularidad:</strong> CSS3 se divide en módulos, lo que facilita su uso y comprensión.</li>
+<li><strong>Nuevas propiedades:</strong> Permite efectos visuales avanzados como sombras, transiciones y animaciones.</li>
+<li><strong>Responsive Design:</strong> Facilita la creación de sitios web que se adaptan a diferentes tamaños de pantalla.</li>
+<li><strong>Mejoras en el diseño:</strong> Nuevas herramientas como Flexbox y Grid Layout para layouts más complejos y flexibles.</li>
+</ul>
+<hr />
+<h2 id="estructura-basica-de-css">Estructura Básica de CSS</h2>
+<p>Un archivo CSS está compuesto por reglas que definen cómo se deben mostrar los elementos HTML.</p>
+<h3 id="sintaxis-basica">Sintaxis Básica</h3>
+<pre><code class="language-css">selector {
+    propiedad: valor;
+}
+</code></pre>
+<h3 id="ejemplo">Ejemplo</h3>
+<pre><code class="language-css">body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333333;
+    text-align: center;
+}
+</code></pre>
+<hr />
+<h2 id="selectores-css">Selectores CSS</h2>
+<p>Los <strong>selectores</strong> son patrones utilizados para seleccionar los elementos HTML que deseas estilizar.</p>
+<h3 id="selectores-basicos">Selectores Básicos</h3>
+<ul>
+<li>
+<p><strong>Selector de Tipo:</strong> Selecciona todos los elementos de un tipo específico.</p>
+<p><code>css
+p {
+    color: blue;
+}</code></p>
+</li>
+<li>
+<p><strong>Selector Universal:</strong> Selecciona todos los elementos.</p>
+<p><code>css
+* {
+    margin: 0;
+    padding: 0;
+}</code></p>
+</li>
+</ul>
+<h3 id="selectores-de-clase-y-id">Selectores de Clase y ID</h3>
+<ul>
+<li>
+<p><strong>Clase:</strong> Selecciona elementos con una clase específica.</p>
+<p><code>css
+.mi-clase {
+    background-color: yellow;
+}</code></p>
+</li>
+<li>
+<p><strong>ID:</strong> Selecciona un elemento con un ID específico (debe ser único).</p>
+<p>```css</p>
+<h1 id="mi-id">mi-id {</h1>
+<pre><code>border: 1px solid black;
+</code></pre>
+<p>}
+```</p>
+</li>
+</ul>
+<h3 id="selectores-de-atributo">Selectores de Atributo</h3>
+<p>Seleccionan elementos basados en atributos o valores de atributos.</p>
+<pre><code class="language-css">input[type=&quot;text&quot;] {
+    width: 200px;
+    padding: 5px;
+}
+</code></pre>
+<h3 id="selectores-de-pseudo-clases-y-pseudo-elementos">Selectores de Pseudo-clases y Pseudo-elementos</h3>
+<ul>
+<li>
+<p><strong>Pseudo-clases:</strong> Seleccionan elementos en un estado específico.</p>
+<p><code>css
+a:hover {
+    color: red;
+}</code></p>
+</li>
+<li>
+<p><strong>Pseudo-elementos:</strong> Seleccionan una parte específica de un elemento.</p>
+<p><code>css
+p::first-line {
+    font-weight: bold;
+}</code></p>
+</li>
+</ul>
+<hr />
+<h2 id="modelo-de-caja-box-model">Modelo de Caja (Box Model)</h2>
+<p>El <strong>Box Model</strong> de CSS describe cómo se calculan las dimensiones y el espacio alrededor de los elementos.</p>
+<h3 id="componentes-del-box-model">Componentes del Box Model</h3>
+<ol>
+<li><strong>Contenido:</strong> Área donde se muestra el contenido (texto, imágenes, etc.).</li>
+<li><strong>Padding (Relleno):</strong> Espacio entre el contenido y el borde.</li>
+<li><strong>Border (Borde):</strong> Línea que rodea el padding y el contenido.</li>
+<li><strong>Margin (Margen):</strong> Espacio fuera del borde.</li>
+</ol>
+<h3 id="ejemplo_1">Ejemplo</h3>
+<pre><code class="language-css">div {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin: 15px;
+}
+</code></pre>
+<h3 id="visualizacion">Visualización</h3>
+<pre><code>+-----------------------------+
+|          Margin             |
+|  +-----------------------+  |
+|  |        Border         |  |
+|  |  +-----------------+  |  |
+|  |  |     Padding     |  |  |
+|  |  |  +-----------+  |  |  |
+|  |  |  |  Content  |  |  |  |
+|  |  |  +-----------+  |  |  |
+|  |  +-----------------+  |  |
+|  +-----------------------+  |
++-----------------------------+
+</code></pre>
+<hr />
+<h2 id="propiedades-de-texto-y-fuente">Propiedades de Texto y Fuente</h2>
+<p>CSS3 ofrece una amplia gama de propiedades para estilizar el texto.</p>
+<h3 id="tipografia">Tipografía</h3>
+<ul>
+<li>
+<p><strong>font-family:</strong> Define la familia de fuentes.</p>
+<p><code>css
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}</code></p>
+</li>
+<li>
+<p><strong>font-size:</strong> Tamaño de la fuente.</p>
+<p><code>css
+h1 {
+    font-size: 2em;
+}</code></p>
+</li>
+<li>
+<p><strong>font-weight:</strong> Grosor de la fuente.</p>
+<p><code>css
+p {
+    font-weight: bold;
+}</code></p>
+</li>
+<li>
+<p><strong>font-style:</strong> Estilo de la fuente (normal, italic, oblique).</p>
+<p><code>css
+em {
+    font-style: italic;
+}</code></p>
+</li>
+</ul>
+<h3 id="propiedades-de-texto">Propiedades de Texto</h3>
+<ul>
+<li>
+<p><strong>color:</strong> Color del texto.</p>
+<p><code>css
+span {
+    color: #ff5733;
+}</code></p>
+</li>
+<li>
+<p><strong>text-align:</strong> Alineación del texto.</p>
+<p><code>css
+.centrado {
+    text-align: center;
+}</code></p>
+</li>
+<li>
+<p><strong>text-decoration:</strong> Decoraciones del texto (subrayado, tachado, etc.).</p>
+<p><code>css
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}</code></p>
+</li>
+<li>
+<p><strong>line-height:</strong> Altura de la línea.</p>
+<p><code>css
+p {
+    line-height: 1.6;
+}</code></p>
+</li>
+</ul>
+<hr />
+<h2 id="colores-y-fondos">Colores y Fondos</h2>
+<h3 id="colores">Colores</h3>
+<p>Puedes definir colores usando nombres, códigos hexadecimales, RGB, RGBA, HSL y HSLA.</p>
+<pre><code class="language-css">h2 {
+    color: #3498db; /* Hexadecimal */
+}
+
+p {
+    color: rgb(52, 152, 219); /* RGB */
+}
+
+div {
+    background-color: rgba(52, 152, 219, 0.5); /* RGBA */
+}
+</code></pre>
+<h3 id="fondos">Fondos</h3>
+<ul>
+<li><strong>background-color:</strong> Color de fondo.</li>
+<li><strong>background-image:</strong> Imagen de fondo.</li>
+<li><strong>background-repeat:</strong> Repetición de la imagen.</li>
+<li><strong>background-size:</strong> Tamaño de la imagen de fondo.</li>
+<li><strong>background-position:</strong> Posición de la imagen de fondo.</li>
+</ul>
+<pre><code class="language-css">body {
+    background-color: #ecf0f1;
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+</code></pre>
+<hr />
+<h2 id="diseno-de-layout">Diseño de Layout</h2>
+<h3 id="flexbox">Flexbox</h3>
+<p><strong>Flexbox</strong> es un modelo de diseño unidimensional que facilita la alineación y distribución de elementos dentro de un contenedor.</p>
+<h4 id="contenedor-flex">Contenedor Flex</h4>
+<pre><code class="language-css">.container {
+    display: flex;
+    flex-direction: row; /* column, row-reverse, column-reverse */
+    justify-content: space-between; /* flex-start, flex-end, center, space-around, space-evenly */
+    align-items: center; /* stretch, flex-start, flex-end, center, baseline */
+}
+</code></pre>
+<h4 id="elementos-flex">Elementos Flex</h4>
+<pre><code class="language-css">.item {
+    flex: 1; /* grow, shrink, basis */
+    margin: 10px;
+}
+</code></pre>
+<h4 id="ejemplo-completo">Ejemplo Completo</h4>
+<pre><code class="language-html">&lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;item&quot;&gt;Elemento 1&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;Elemento 2&lt;/div&gt;
+    &lt;div class=&quot;item&quot;&gt;Elemento 3&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<pre><code class="language-css">.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: #f8f9fa;
+}
+
+.item {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+</code></pre>
+<h3 id="grid-layout">Grid Layout</h3>
+<p><strong>Grid Layout</strong> es un sistema de diseño bidimensional que permite crear estructuras complejas con filas y columnas.</p>
+<h4 id="contenedor-grid">Contenedor Grid</h4>
+<pre><code class="language-css">.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual tamaño */
+    grid-gap: 10px; /* Espacio entre filas y columnas */
+}
+</code></pre>
+<h4 id="elementos-grid">Elementos Grid</h4>
+<pre><code class="language-css">.grid-item {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+</code></pre>
+<h4 id="ejemplo-completo_1">Ejemplo Completo</h4>
+<pre><code class="language-html">&lt;div class=&quot;grid-container&quot;&gt;
+    &lt;div class=&quot;grid-item&quot;&gt;1&lt;/div&gt;
+    &lt;div class=&quot;grid-item&quot;&gt;2&lt;/div&gt;
+    &lt;div class=&quot;grid-item&quot;&gt;3&lt;/div&gt;
+    &lt;div class=&quot;grid-item&quot;&gt;4&lt;/div&gt;
+    &lt;div class=&quot;grid-item&quot;&gt;5&lt;/div&gt;
+    &lt;div class=&quot;grid-item&quot;&gt;6&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+<pre><code class="language-css">.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #28a745;
+    color: white;
+    padding: 30px 0;
+    font-size: 30px;
+    text-align: center;
+}
+</code></pre>
+<hr />
+<h2 id="transiciones-y-animaciones">Transiciones y Animaciones</h2>
+<h3 id="transiciones">Transiciones</h3>
+<p>Las <strong>transiciones</strong> permiten cambiar las propiedades CSS de un elemento de manera suave durante un período de tiempo.</p>
+<h4 id="sintaxis">Sintaxis</h4>
+<pre><code class="language-css">.selector {
+    transition: propiedad duración timing-función retraso;
+}
+</code></pre>
+<h4 id="ejemplo_2">Ejemplo</h4>
+<pre><code class="language-css">button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+</code></pre>
+<h3 id="animaciones">Animaciones</h3>
+<p>Las <strong>animaciones</strong> permiten definir una serie de estilos que cambian a lo largo del tiempo.</p>
+<h4 id="sintaxis_1">Sintaxis</h4>
+<pre><code class="language-css">@keyframes nombre-animación {
+    desde { /* estilos iniciales */ }
+    hasta { /* estilos finales */ }
+}
+
+.selector {
+    animation: nombre-animación duración timing-función retraso iteraciones dirección relleno;
+}
+</code></pre>
+<h4 id="ejemplo_3">Ejemplo</h4>
+<pre><code class="language-css">@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.icono {
+    display: inline-block;
+    animation: girar 2s linear infinite;
+}
+</code></pre>
+<pre><code class="language-html">&lt;div class=&quot;icono&quot;&gt;🔄&lt;/div&gt;
+</code></pre>
+<hr />
+<h2 id="responsividad-y-media-queries">Responsividad y Media Queries</h2>
+<p>Las <strong>Media Queries</strong> permiten aplicar estilos CSS específicos según las características del dispositivo, como el ancho de la pantalla.</p>
+<h3 id="ejemplo-basico">Ejemplo Básico</h3>
+<pre><code class="language-css">/* Estilos por defecto */
+body {
+    font-size: 16px;
+}
+
+/* Para pantallas con un ancho máximo de 768px */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Para pantallas con un ancho máximo de 480px */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+</code></pre>
+<h3 id="diseno-responsive-con-flexbox">Diseño Responsive con Flexbox</h3>
+<pre><code class="language-css">.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 300px; /* grow, shrink, basis */
+    margin: 10px;
+}
+
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+</code></pre>
+<hr />
+<h2 id="nuevas-caracteristicas-de-css3">Nuevas Características de CSS3</h2>
+<h3 id="la-regla-scope">La Regla <code>@scope</code></h3>
+<p>La regla <code>@scope</code> es una <strong>propuesta avanzada</strong> en CSS que permite definir un ámbito específico dentro del cual se aplican ciertas reglas de estilo. Esto facilita el encapsulamiento de estilos, evitando conflictos globales y mejorando la mantenibilidad del código CSS.</p>
+<h4 id="sintaxis-basica_1">Sintaxis Básica</h4>
+<pre><code class="language-css">@scope .mi-contenedor {
+    /* Reglas CSS aquí solo aplicarán dentro de .mi-contenedor */
+    h1 {
+        color: blue;
+    }
+
+    .boton {
+        background-color: green;
+    }
+}
+</code></pre>
+<h4 id="estado-actual-de-la-regla-scope">Estado Actual de la Regla <code>@scope</code></h4>
+<p>Hasta la fecha de mi conocimiento (octubre de 2023), la regla <code>@scope</code> aún está en etapa de propuesta y <strong>no es soportada de manera nativa</strong> por la mayoría de los navegadores. Por lo tanto, su uso directo en proyectos web estándar <strong>no es factible</strong>. Sin embargo, entender su funcionamiento es beneficioso para futuros desarrollos y para aprovechar otras técnicas de encapsulamiento de estilos disponibles en frameworks modernos como React y Vue.</p>
+<h4 id="ejemplo-propuesta">Ejemplo (Propuesta)</h4>
+<pre><code class="language-css">@scope .mi-contenedor {
+    h1 {
+        color: blue;
+    }
+
+    .boton {
+        background-color: green;
+    }
+}
+</code></pre>
+<p>En este ejemplo, las reglas dentro de <code>@scope .mi-contenedor</code> solo se aplicarán a los elementos que estén dentro del contenedor con la clase <code>mi-contenedor</code>.</p>
+<h3 id="otras-nuevas-caracteristicas">Otras Nuevas Características</h3>
+<p>Además de la regla <code>@scope</code>, CSS3 ha introducido múltiples nuevas características que mejoran la capacidad de diseño y estilización de las páginas web:</p>
+<ul>
+<li>
+<p><strong>Variables CSS (<code>--variable</code>):</strong> Permiten definir variables reutilizables para colores, tamaños, etc.</p>
+<p>```css
+:root {
+    --color-primario: #3498db;
+    --padding-base: 10px;
+}</p>
+<p>.boton {
+    background-color: var(--color-primario);
+    padding: var(--padding-base);
+}
+```</p>
+</li>
+<li>
+<p><strong>Propiedades de Sombra (<code>box-shadow</code>, <code>text-shadow</code>):</strong> Para agregar sombras a elementos y textos.</p>
+<p>```css
+.caja {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}</p>
+<p>h1 {
+    text-shadow: 2px 2px #ff0000;
+}
+```</p>
+</li>
+<li>
+<p><strong>Transformaciones 2D y 3D (<code>transform</code>):</strong> Para rotaciones, escalados, traslaciones y más.</p>
+<p><code>css
+.elemento {
+    transform: rotate(45deg) scale(1.2);
+}</code></p>
+</li>
+<li>
+<p><strong>Filtros CSS (<code>filter</code>):</strong> Para aplicar efectos visuales como desenfoques y cambios de color.</p>
+<p><code>css
+img {
+    filter: grayscale(50%);
+}</code></p>
+</li>
+<li>
+<p><strong>Clipping y Masking (<code>clip-path</code>, <code>mask</code>):</strong> Para crear formas complejas y máscaras en elementos.</p>
+<p><code>css
+.caja {
+    clip-path: circle(50%);
+}</code></p>
+</li>
+</ul>
+<hr />
+<h2 id="buenas-practicas-en-css">Buenas Prácticas en CSS</h2>
+<ol>
+<li>
+<p><strong>Organización del Código:</strong></p>
+<ul>
+<li>Utiliza comentarios para separar secciones.</li>
+<li>Agrupa selectores relacionados.</li>
+<li>Sigue una estructura lógica (por ejemplo, de lo general a lo específico).</li>
+</ul>
+</li>
+<li>
+<p><strong>Nomenclatura Consistente:</strong></p>
+<ul>
+<li>Sigue convenciones como <strong>BEM</strong> (Block Element Modifier) para nombrar clases.</li>
+</ul>
+<p>```css
+/<em> BEM Example </em>/
+.tarjeta {
+    /<em> Block </em>/
+}</p>
+<p>.tarjeta__titulo {
+    /<em> Element </em>/
+}</p>
+<p>.tarjeta__titulo--destacado {
+    /<em> Modifier </em>/
+}
+```</p>
+</li>
+<li>
+<p><strong>Evita el Uso Excesivo de <code>!important</code>:</strong></p>
+<ul>
+<li>Solo úsalo cuando sea absolutamente necesario para sobreescribir estilos específicos.</li>
+</ul>
+</li>
+<li>
+<p><strong>Optimización de Selectores:</strong></p>
+<ul>
+<li>Utiliza selectores específicos para mejorar el rendimiento.</li>
+<li>Evita selectores demasiado generales que puedan afectar a muchos elementos innecesariamente.</li>
+</ul>
+</li>
+<li>
+<p><strong>Uso de Variables CSS:</strong></p>
+<ul>
+<li>Define variables para colores, tamaños y otros valores repetitivos.</li>
+</ul>
+<p>```css
+:root {
+    --color-primario: #3498db;
+    --padding-base: 10px;
+}</p>
+<p>.boton {
+    background-color: var(--color-primario);
+    padding: var(--padding-base);
+}
+```</p>
+</li>
+<li>
+<p><strong>Compatibilidad entre Navegadores:</strong></p>
+<ul>
+<li>Utiliza prefijos de proveedores cuando sea necesario para asegurar la compatibilidad.</li>
+</ul>
+<p><code>css
+.caja {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}</code></p>
+</li>
+<li>
+<p><strong>Minimización y Compresión:</strong></p>
+<ul>
+<li>Minimiza los archivos CSS para reducir el tamaño y mejorar la carga.</li>
+<li>Utiliza herramientas de compresión como <strong>CSSNano</strong> o <strong>UglifyCSS</strong>.</li>
+</ul>
+</li>
+<li>
+<p><strong>Evita el CSS Innecesario:</strong></p>
+<ul>
+<li>Remueve estilos no utilizados para mantener el código limpio y eficiente.</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="uso-de-css3-en-reactjs">Uso de CSS3 en React.js</h2>
+<p><strong>React.js</strong> es una biblioteca de JavaScript para construir interfaces de usuario. Integrar CSS3 en React permite estilizar componentes de manera eficiente y modular. A continuación, se presentan varias formas de utilizar CSS3 en aplicaciones React.</p>
+<h3 id="1-archivos-css-tradicionales">1. Archivos CSS Tradicionales</h3>
+<p>La forma más sencilla de aplicar CSS en React es mediante la importación de archivos CSS tradicionales.</p>
+<h4 id="ejemplo_4">Ejemplo</h4>
+<pre><code class="language-jsx">// App.js
+import React from 'react';
+import './App.css';
+
+function App() {
+    return (
+        &lt;div className=&quot;app-container&quot;&gt;
+            &lt;h1 className=&quot;app-title&quot;&gt;¡Hola, React!&lt;/h1&gt;
+            &lt;button className=&quot;app-button&quot;&gt;Haz Clic&lt;/button&gt;
+        &lt;/div&gt;
+    );
+}
+
+export default App;
+</code></pre>
+<pre><code class="language-css">/* App.css */
+.app-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.app-title {
+    color: #3498db;
+    font-size: 2.5em;
+}
+
+.app-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.app-button:hover {
+    background-color: #27ae60;
+}
+</code></pre>
+<h3 id="2-css-modules">2. CSS Modules</h3>
+<p><strong>CSS Modules</strong> permiten escribir CSS de manera modular y evitar conflictos de nombres de clases mediante el uso de nombres únicos generados automáticamente.</p>
+<h4 id="configuracion">Configuración</h4>
+<p>Si utilizas <strong>Create React App</strong>, los CSS Modules están soportados de forma predeterminada. Simplemente, nombra tus archivos CSS con la extensión <code>.module.css</code>.</p>
+<h4 id="ejemplo_5">Ejemplo</h4>
+<pre><code class="language-css">/* Button.module.css */
+.boton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.boton:hover {
+    transform: scale(1.05);
+}
+</code></pre>
+<pre><code class="language-jsx">// Button.js
+import React from 'react';
+import styles from './Button.module.css';
+
+function Button({ children }) {
+    return &lt;button className={styles.boton}&gt;{children}&lt;/button&gt;;
+}
+
+export default Button;
+</code></pre>
+<h3 id="3-estilos-en-linea-inline-styles">3. Estilos en Línea (Inline Styles)</h3>
+<p>Los estilos en línea permiten aplicar estilos directamente en los elementos mediante objetos de JavaScript. Son útiles para estilos dinámicos.</p>
+<h4 id="ejemplo_6">Ejemplo</h4>
+<pre><code class="language-jsx">// InlineStyleComponent.js
+import React from 'react';
+
+function InlineStyleComponent() {
+    const estilo = {
+        backgroundColor: '#9b59b6',
+        color: 'white',
+        padding: '15px 30px',
+        border: 'none',
+        borderRadius: '5px',
+        cursor: 'pointer',
+        fontSize: '1em',
+    };
+
+    return &lt;button style={estilo}&gt;Estilo en Línea&lt;/button&gt;;
+}
+
+export default InlineStyleComponent;
+</code></pre>
+<h3 id="4-styled-components">4. Styled-Components</h3>
+<p><strong>Styled-Components</strong> es una biblioteca que permite escribir CSS en JavaScript, proporcionando estilos encapsulados y dinámicos.</p>
+<h4 id="instalacion">Instalación</h4>
+<pre><code class="language-bash">npm install styled-components
+</code></pre>
+<h4 id="ejemplo_7">Ejemplo</h4>
+<pre><code class="language-jsx">// StyledButton.js
+import React from 'react';
+import styled from 'styled-components';
+
+const Boton = styled.button`
+    background-color: #f39c12;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+
+    &amp;:hover {
+        background-color: #d35400;
+    }
+`;
+
+function StyledButton({ children }) {
+    return &lt;Boton&gt;{children}&lt;/Boton&gt;;
+}
+
+export default StyledButton;
+</code></pre>
+<h3 id="5-ejemplo-completo">5. Ejemplo Completo</h3>
+<pre><code class="language-jsx">// App.js
+import React from 'react';
+import './App.css';
+import Button from './Button';
+import InlineStyleComponent from './InlineStyleComponent';
+import StyledButton from './StyledButton';
+
+function App() {
+    return (
+        &lt;div className=&quot;app-container&quot;&gt;
+            &lt;h1 className=&quot;app-title&quot;&gt;Integrando CSS en React&lt;/h1&gt;
+            &lt;Button&gt;CSS Module Button&lt;/Button&gt;
+            &lt;InlineStyleComponent /&gt;
+            &lt;StyledButton&gt;Styled Components Button&lt;/StyledButton&gt;
+        &lt;/div&gt;
+    );
+}
+
+export default App;
+</code></pre>
+<pre><code class="language-css">/* App.css */
+.app-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.app-title {
+    color: #3498db;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+</code></pre>
+<hr />
+<h2 id="uso-de-css3-en-vuejs">Uso de CSS3 en Vue.js</h2>
+<p><strong>Vue.js</strong> es un framework progresivo de JavaScript para construir interfaces de usuario. Vue facilita la integración de CSS3 mediante varias metodologías que promueven la modularidad y el alcance de los estilos.</p>
+<h3 id="1-estilos-globales">1. Estilos Globales</h3>
+<p>Al igual que en React, puedes utilizar archivos CSS globales que se aplican a toda la aplicación.</p>
+<h4 id="ejemplo_8">Ejemplo</h4>
+<pre><code class="language-html">&lt;!-- App.vue --&gt;
+&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;h1 class=&quot;app-title&quot;&gt;¡Hola, Vue!&lt;/h1&gt;
+    &lt;button class=&quot;app-button&quot;&gt;Haz Clic&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  name: 'App',
+};
+&lt;/script&gt;
+
+&lt;style src=&quot;./App.css&quot;&gt;&lt;/style&gt;
+</code></pre>
+<pre><code class="language-css">/* App.css */
+#app {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.app-title {
+    color: #8e44ad;
+    font-size: 2.5em;
+}
+
+.app-button {
+    background-color: #16a085;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.app-button:hover {
+    background-color: #148f77;
+}
+</code></pre>
+<h3 id="2-estilos-escopados-scoped-styles">2. Estilos Escopados (Scoped Styles)</h3>
+<p>Vue permite encapsular los estilos dentro de componentes mediante el atributo <code>scoped</code>. Esto asegura que los estilos definidos solo afecten al componente en el que están definidos.</p>
+<h4 id="ejemplo_9">Ejemplo</h4>
+<pre><code class="language-html">&lt;!-- Boton.vue --&gt;
+&lt;template&gt;
+  &lt;button class=&quot;boton&quot;&gt;Botón Scoped&lt;/button&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  name: 'Boton',
+};
+&lt;/script&gt;
+
+&lt;style scoped&gt;
+.boton {
+    background-color: #e67e22;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #d35400;
+}
+&lt;/style&gt;
+</code></pre>
+<pre><code class="language-html">&lt;!-- App.vue --&gt;
+&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;h1 class=&quot;app-title&quot;&gt;Integrando CSS en Vue&lt;/h1&gt;
+    &lt;Boton /&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import Boton from './components/Boton.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Boton,
+  },
+};
+&lt;/script&gt;
+
+&lt;style&gt;
+/* Estilos Globales */
+.app-title {
+    color: #8e44ad;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+&lt;/style&gt;
+</code></pre>
+<h3 id="3-css-modules">3. CSS Modules</h3>
+<p>Vue también soporta <strong>CSS Modules</strong> para una mayor modularidad y evitar conflictos de nombres.</p>
+<h4 id="configuracion_1">Configuración</h4>
+<p>Si utilizas <strong>Vue CLI</strong>, puedes habilitar CSS Modules añadiendo <code>module</code> en la etiqueta <code>&lt;style&gt;</code>.</p>
+<h4 id="ejemplo_10">Ejemplo</h4>
+<pre><code class="language-html">&lt;!-- Tarjeta.vue --&gt;
+&lt;template&gt;
+  &lt;div :class=&quot;$style.tarjeta&quot;&gt;
+    &lt;h2 :class=&quot;$style.titulo&quot;&gt;Título de la Tarjeta&lt;/h2&gt;
+    &lt;p :class=&quot;$style.descripcion&quot;&gt;Descripción de la tarjeta.&lt;/p&gt;
+    &lt;button :class=&quot;$style.boton&quot;&gt;Acción&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  name: 'Tarjeta',
+};
+&lt;/script&gt;
+
+&lt;style module&gt;
+.tarjeta {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.titulo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.boton {
+    background-color: #e74c3c;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #c0392b;
+}
+&lt;/style&gt;
+</code></pre>
+<h3 id="4-styled-components-en-vuejs">4. Styled-Components en Vue.js</h3>
+<p>Aunque <strong>Styled-Components</strong> es más común en React, también se puede utilizar en Vue mediante bibliotecas adicionales como <a href="https://github.com/styled-components/vue-styled-components">vue-styled-components</a>.</p>
+<h4 id="instalacion_1">Instalación</h4>
+<pre><code class="language-bash">npm install vue-styled-components
+</code></pre>
+<h4 id="ejemplo_11">Ejemplo</h4>
+<pre><code class="language-html">&lt;!-- StyledButton.vue --&gt;
+&lt;template&gt;
+  &lt;BotonComponent&gt;
+    {{ children }}
+  &lt;/BotonComponent&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import styled from 'vue-styled-components';
+
+const BotonComponent = styled.button`
+    background-color: #e67e22;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+
+    &amp;:hover {
+        background-color: #d35400;
+    }
+`;
+
+export default {
+  name: 'StyledButton',
+  components: {
+    BotonComponent,
+  },
+  props: {
+    children: {
+      type: String,
+      required: true,
+    },
+  },
+};
+&lt;/script&gt;
+</code></pre>
+<h3 id="5-ejemplo-completo_1">5. Ejemplo Completo</h3>
+<pre><code class="language-html">&lt;!-- App.vue --&gt;
+&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;h1 class=&quot;app-title&quot;&gt;Integrando CSS en Vue&lt;/h1&gt;
+    &lt;Boton /&gt;
+    &lt;Tarjeta /&gt;
+    &lt;Alerta tipo=&quot;success&quot;&gt;¡Operación Exitosa!&lt;/Alerta&gt;
+    &lt;Alerta tipo=&quot;error&quot;&gt;¡Ha ocurrido un error!&lt;/Alerta&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+import Boton from './components/Boton.vue';
+import Tarjeta from './components/Tarjeta.vue';
+import Alerta from './components/Alerta.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Boton,
+    Tarjeta,
+    Alerta,
+  },
+};
+&lt;/script&gt;
+
+&lt;style&gt;
+/* Estilos Globales */
+.app-title {
+    color: #8e44ad;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+&lt;/style&gt;
+</code></pre>
+<pre><code class="language-html">&lt;!-- Alerta.vue --&gt;
+&lt;template&gt;
+  &lt;div :class=&quot;['alerta', tipo]&quot;&gt;
+    &lt;slot&gt;&lt;/slot&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  name: 'Alerta',
+  props: {
+    tipo: {
+      type: String,
+      default: 'info', // 'success', 'error', 'warning'
+    },
+  },
+};
+&lt;/script&gt;
+
+&lt;style scoped&gt;
+.alerta {
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: white;
+}
+
+.success {
+    background-color: #27ae60;
+}
+
+.error {
+    background-color: #c0392b;
+}
+
+.warning {
+    background-color: #f39c12;
+}
+
+.info {
+    background-color: #2980b9;
+}
+&lt;/style&gt;
+</code></pre>
+<hr />
+<h2 id="mejores-opciones-para-reactjs-y-vuejs">Mejores Opciones para React.js y Vue.js</h2>
+<h3 id="mejor-opcion-para-reactjs">Mejor Opción para React.js</h3>
+<p>Para la mayoría de los proyectos en <strong>React</strong>, las opciones más recomendadas son <strong>CSS Modules</strong> y <strong>Styled-Components</strong> debido a su capacidad para encapsular estilos, evitar conflictos y mejorar la mantenibilidad.</p>
+<h4 id="1-css-modules">1. CSS Modules</h4>
+<p><strong>Descripción:</strong>
+CSS Modules permiten escribir CSS de manera modular y evitar conflictos de nombres de clases mediante el uso de nombres únicos generados automáticamente.</p>
+<p><strong>Ventajas:</strong>
+- <strong>Encapsulamiento de Estilos:</strong> Evita colisiones de nombres de clases.
+- <strong>Mantenibilidad:</strong> Facilita la gestión de estilos en proyectos grandes.
+- <strong>Compatibilidad:</strong> Soportado de forma nativa por herramientas como Create React App.</p>
+<p><strong>Desventajas:</strong>
+- <strong>Curva de Aprendizaje:</strong> Requiere familiarizarse con la sintaxis específica.
+- <strong>Limitaciones Dinámicas:</strong> Menos flexible para estilos altamente dinámicos en comparación con CSS-in-JS.</p>
+<p><strong>Ejemplo:</strong></p>
+<pre><code class="language-css">/* Boton.module.css */
+.boton {
+    background-color: #e67e22;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #d35400;
+}
+</code></pre>
+<pre><code class="language-jsx">// Boton.jsx
+import React from 'react';
+import styles from './Boton.module.css';
+
+function Boton({ children }) {
+    return &lt;button className={styles.boton}&gt;{children}&lt;/button&gt;;
+}
+
+export default Boton;
+</code></pre>
+<h4 id="2-styled-components-css-in-js">2. Styled-Components (CSS-in-JS)</h4>
+<p><strong>Descripción:</strong>
+Styled-Components es una biblioteca que permite escribir CSS directamente en archivos JavaScript, proporcionando estilos encapsulados y dinámicos.</p>
+<p><strong>Ventajas:</strong>
+- <strong>Scoped Styles:</strong> Los estilos están vinculados directamente a los componentes.
+- <strong>Dinamicidad:</strong> Facilita la aplicación de estilos basados en props o estados.
+- <strong>Mantenimiento:</strong> Mejora la mantenibilidad al mantener estilos y lógica juntos.</p>
+<p><strong>Desventajas:</strong>
+- <strong>Performance:</strong> Puede introducir una sobrecarga de rendimiento en aplicaciones muy grandes.
+- <strong>Dependencia de Librería Externa:</strong> Añade una dependencia adicional al proyecto.</p>
+<p><strong>Ejemplo:</strong></p>
+<pre><code class="language-jsx">// StyledButton.jsx
+import React from 'react';
+import styled from 'styled-components';
+
+const Boton = styled.button`
+    background-color: #f39c12;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+
+    &amp;:hover {
+        background-color: #d35400;
+    }
+`;
+
+function StyledButton({ children }) {
+    return &lt;Boton&gt;{children}&lt;/Boton&gt;;
+}
+
+export default StyledButton;
+</code></pre>
+<h3 id="mejor-opcion-para-vuejs">Mejor Opción para Vue.js</h3>
+<p>Para <strong>Vue.js</strong>, las opciones más recomendadas son <strong>Estilos Escopados (<code>scoped</code>)</strong> y <strong>CSS Modules</strong>.</p>
+<h4 id="1-estilos-escopados-scoped">1. Estilos Escopados (<code>scoped</code>)</h4>
+<p><strong>Descripción:</strong>
+Vue permite encapsular los estilos dentro de componentes mediante el atributo <code>scoped</code> en la etiqueta <code>&lt;style&gt;</code>. Esto asegura que los estilos definidos solo afecten al componente actual.</p>
+<p><strong>Ventajas:</strong>
+- <strong>Encapsulamiento Automático:</strong> No requiere configuración adicional.
+- <strong>Simplicidad:</strong> Fácil de implementar y entender.
+- <strong>Compatibilidad:</strong> Funciona de manera nativa con Vue Single File Components (SFC).</p>
+<p><strong>Desventajas:</strong>
+- <strong>Limitaciones en Selectores Globales:</strong> No es adecuado para estilos que deben aplicarse globalmente.
+- <strong>Reutilización:</strong> Menos eficiente para estilos reutilizables en múltiples componentes.</p>
+<p><strong>Ejemplo:</strong></p>
+<pre><code class="language-html">&lt;!-- Boton.vue --&gt;
+&lt;template&gt;
+  &lt;button class=&quot;boton&quot;&gt;Botón Scoped&lt;/button&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  name: 'Boton',
+};
+&lt;/script&gt;
+
+&lt;style scoped&gt;
+.boton {
+    background-color: #e67e22;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #d35400;
+}
+&lt;/style&gt;
+</code></pre>
+<h4 id="2-css-modules_1">2. CSS Modules</h4>
+<p><strong>Descripción:</strong>
+Al igual que en React, Vue soporta <strong>CSS Modules</strong> para una mayor modularidad y evitar conflictos de nombres.</p>
+<p><strong>Ventajas:</strong>
+- <strong>Encapsulamiento de Estilos:</strong> Evita colisiones de nombres de clases.
+- <strong>Reutilización:</strong> Facilita la reutilización de estilos en múltiples componentes.
+- <strong>Integración con Herramientas Modernas:</strong> Funciona bien con Vue CLI y otras herramientas de construcción.</p>
+<p><strong>Desventajas:</strong>
+- <strong>Configuración Adicional:</strong> Requiere una configuración específica en algunos casos.
+- <strong>Sintaxis:</strong> Puede ser menos intuitivo para quienes están acostumbrados a CSS tradicional.</p>
+<p><strong>Ejemplo:</strong></p>
+<pre><code class="language-html">&lt;!-- Tarjeta.vue --&gt;
+&lt;template&gt;
+  &lt;div :class=&quot;$style.tarjeta&quot;&gt;
+    &lt;h2 :class=&quot;$style.titulo&quot;&gt;Título de la Tarjeta&lt;/h2&gt;
+    &lt;p :class=&quot;$style.descripcion&quot;&gt;Descripción de la tarjeta.&lt;/p&gt;
+    &lt;button :class=&quot;$style.boton&quot;&gt;Acción&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+export default {
+  name: 'Tarjeta',
+};
+&lt;/script&gt;
+
+&lt;style module&gt;
+.tarjeta {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.titulo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.descripcion {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.boton {
+    background-color: #e74c3c;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #c0392b;
+}
+&lt;/style&gt;
+</code></pre>
+<hr />
+<h2 id="conclusion">Conclusión</h2>
+<h3 id="para-reactjs">Para React.js:</h3>
+<ul>
+<li><strong>CSS Modules</strong> y <strong>Styled-Components</strong> son las opciones más recomendadas.<ul>
+<li><strong>CSS Modules</strong> son ideales para mantener CSS separado y modular.</li>
+<li><strong>Styled-Components</strong> son excelentes para estilos dinámicos y encapsulados directamente en los componentes.</li>
+</ul>
+</li>
+</ul>
+<h3 id="para-vuejs">Para Vue.js:</h3>
+<ul>
+<li><strong>Estilos Escopados (<code>scoped</code>)</strong> son la opción predeterminada y más sencilla para encapsular estilos dentro de componentes individuales.</li>
+<li><strong>CSS Modules</strong> son recomendables para proyectos que requieren una mayor modularidad y reutilización de estilos.</li>
+</ul>
+<h3 id="sobre-la-regla-scope">Sobre la Regla <code>@scope</code>:</h3>
+<p>Aunque la regla <code>@scope</code> de CSS3 ofrece una forma prometedora de encapsular estilos directamente en CSS, <strong>su falta de soporte amplio</strong> en navegadores la hace <strong>impráctica</strong> para su uso inmediato en proyectos de React y Vue. En su lugar, aprovechar las herramientas y métodos proporcionados por estos frameworks garantiza un encapsulamiento efectivo y mantenible de los estilos.</p>
+<h3 id="recomendaciones-generales">Recomendaciones Generales:</h3>
+<ul>
+<li>Mantén una <strong>nomenclatura consistente</strong> para clases y selectores.</li>
+<li><strong>Organiza</strong> los estilos de manera lógica y modular.</li>
+<li><strong>Sigue las mejores prácticas</strong> para asegurar la escalabilidad y mantenibilidad de tu código CSS.</li>
+<li><strong>Utiliza herramientas de preprocesamiento</strong> como <strong>Sass</strong> o <strong>Less</strong> si tu proyecto lo requiere.</li>
+<li><strong>Optimiza el rendimiento</strong> minimizando y compresionando los archivos CSS.</li>
+</ul>
+<hr />
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Contenido generado por el equipo educativo del IES Rafael Alberti
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.expand", "navigation.top", "header.autohide"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
+      
+    
+  </body>
+</html>
