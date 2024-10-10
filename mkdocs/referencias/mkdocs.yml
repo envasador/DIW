@@ -5,10 +5,10 @@ site_dir: ../../docs/referencias
 # Page tree
 nav:
   - Inicio: index.md
-  - Introducción al Diseño, Percepción y Comunicación Visual: ud1.md
-  - Planificación y Prototipado de una interfaz web: ud2.md
-  # - UD3: ud3.md
-  # - UD4: ud4.md
+  - Introducción al Diseño, Percepción y Comunicación Visual: ud1-introduccion-al-diseno.md
+  - Planificación y Prototipado de una interfaz web: ud2-planificacion-prototipado.md
+  # - UD3: ud4-1-HTML5.md
+  # - UD4: ud4-desarrollando-la-interfaz.md
   # - UD5:
   #     - ud5.md
   #     - ud5.1-Empezando-con-React.md

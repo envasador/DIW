@@ -12,8 +12,8 @@ Diseño de Interfaces Web dentro del ciclo de Desarrollo de Aplicaciones Web se 
 
 El módulo se organiza en las siguientes unidades, que se actualizarán a medida que avance el curso. Cada unidad incluye enlaces de referencia y recursos adicionales para facilitar tu aprendizaje:
 
-* [Unidad 1: Bienvenido/a a la agencia de publicidad](ud1.md)
-* [Unidad 2: Planificación y Prototipado de una interfaz web](ud2.md)
+* [Unidad 1: Bienvenido/a a la agencia de publicidad](ud1-introduccion-al-diseno.md)
+* [Unidad 2: Planificación y Prototipado de una interfaz web](ud2-planificacion-prototipado.md)
 * [Unidad 3: Testing de Usabilidad]()
 * [Unidad 4: Desarrollando la interfaz web]()
 * [Unidad 5: Testing en producción]()

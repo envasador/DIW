@@ -30,7 +30,7 @@ El objetivo de esta primera fase es que los estudiantes diseñen una interfaz de
 
 #### **2. Selección de colores y tipografías**
 - **Descripción**: Se deberá definir una **paleta de colores accesibles** que asegure contraste adecuado y cumpla con los estándares de accesibilidad WCAG. Asimismo, se elegirán una o dos **tipografías** que se adapten a los distintos tamaños de pantalla y que sean legibles y coherentes con la temática de la aplicación.
-- **Producto Final**: Una **biblioteca de estilos** en Figma con la paleta de colores y tipografías seleccionadas.
+- **Producto Final**: Una **biblioteca de estilos** en Figma con la paleta de colores y tipografías seleccionadas. 
 - **Criterios de evaluación**:
     - Contraste y accesibilidad de la paleta de colores.
     - Legibilidad y consistencia de las tipografías seleccionadas.
@@ -44,14 +44,14 @@ El objetivo de esta primera fase es que los estudiantes diseñen una interfaz de
 
 #### **4. Definición de la Guía de Estilo**
 - **Descripción**: Creación de una guía de estilo que contenga todos los **componentes reutilizables** de la interfaz, como botones, campos de formularios, tarjetas de contenido, y menús de navegación. Esta guía de estilo servirá como referencia para la implementación para el proyecto 4 de este módulo, que se realizará conjuntamente con **Desarrollo Web en Entorno Cliente**.
-- **Producto Final**: Una **guía de estilo en Figma** que incluya ejemplos de todos los componentes UI, junto con sus estados (normal, hover, activo, deshabilitado, etc.).
+- **Producto Final**: Una **guía de estilo en Figma** que incluya ejemplos de todos los componentes UI, junto con sus estados (normal, hover, activo, deshabilitado, etc.). Se debe argumentar la elección de los elemenos elegidos.
 - **Criterios de evaluación**:
     - Complejidad y variedad de los componentes.
     - Coherencia en la aplicación de los estilos definidos (colores, tipografías, espaciados).
 
 #### **5. Prototipado de alta fidelidad**
-- **Descripción**: Con base en los wireframes de baja fidelidad, desarrollaréis un **prototipo de alta fidelidad** en Figma (Tanto desktop como móvil), que represente de manera precisa el diseño final de la aplicación. El prototipo debe ser interactivo y permitir navegar entre las diferentes pantallas simulando la experiencia del usuario.
-- **Producto Final**: Un **prototipo navegable en Figma**, con animaciones simples que mejoren la experiencia del usuario y den retroalimentación visual, como transiciones entre páginas, hover en botones, y campos de formularios interactivos.
+- **Descripción**: Con base en los wireframes de baja fidelidad, desarrollaréis un **prototipo de alta fidelidad** en Figma (Tanto desktop como móvil, con versión dark mode), que represente de manera precisa el diseño final de la aplicación. El prototipo debe ser interactivo y permitir navegar entre las diferentes pantallas simulando la experiencia del usuario.
+- **Producto Final**: Un **prototipo navegable en Figma**, con animaciones simples que mejoren la experiencia del usuario y den retroalimentación visual, como transiciones entre páginas, hover en botones, y campos de formularios interactivos, es decir, componentes interactivos que faciliten tanto la animación de los mismos, como las variaciones.
 - **Criterios de evaluación**:
     - Precisión del diseño en relación a los wireframes y guía de estilo.
     - Fluidez e interactividad del prototipo.
@@ -74,8 +74,8 @@ En esta fase, debéis presentar el prototipo de vuestra aplicación en clase. La
 - Debe incluir:
     - Paleta de colores con códigos HEX.
     - Tipografías seleccionadas y jerarquía tipográfica (h1, h2, párrafos, etc.).
-    - Componentes básicos (botones, campos de formularios, tarjetas).
-    - Estados interactivos (hover, clic, deshabilitado).
+    - Componentes y sus variaciones (botones, campos de formularios, tarjetas).
+    - Estados interactivos  (hover, clic, deshabilitado).
     - Iconografía.
 
 #### **2. Wireframes y Prototipo**
