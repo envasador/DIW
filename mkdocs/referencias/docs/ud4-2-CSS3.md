@@ -126,7 +126,6 @@ input[type="text"] {
     padding: 5px;
 }
 ```
-
 ### Selectores de Pseudo-clases y Pseudo-elementos
 
 - **Pseudo-clases:** Seleccionan elementos en un estado específico.
@@ -144,7 +143,6 @@ input[type="text"] {
         font-weight: bold;
     }
     ```
-
 ---
 
 ## Modelo de Caja (Box Model)
@@ -204,7 +202,7 @@ CSS3 ofrece una amplia gama de propiedades para estilizar el texto.
 
 - **font-size:** Tamaño de la fuente.
 
-    ```css
+     ```css
     h1 {
         font-size: 2em;
     }
@@ -212,7 +210,7 @@ CSS3 ofrece una amplia gama de propiedades para estilizar el texto.
 
 - **font-weight:** Grosor de la fuente.
 
-    ```css
+     ```css
     p {
         font-weight: bold;
     }
@@ -230,7 +228,7 @@ CSS3 ofrece una amplia gama de propiedades para estilizar el texto.
 
 - **color:** Color del texto.
 
-    ```css
+     ```css
     span {
         color: #ff5733;
     }
@@ -292,6 +290,7 @@ div {
 - **background-repeat:** Repetición de la imagen.
 - **background-size:** Tamaño de la imagen de fondo.
 - **background-position:** Posición de la imagen de fondo.
+
 
 ```css
 body {
