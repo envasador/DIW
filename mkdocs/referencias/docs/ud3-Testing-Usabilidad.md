@@ -145,5 +145,3 @@ Una vez que se ha recopilado el feedback, se deben priorizar los problemas y apl
 El testing de usabilidad es una herramienta fundamental en el diseño de productos digitales para garantizar que el usuario final pueda interactuar con el producto de manera eficiente y satisfactoria. Utilizando las técnicas y herramientas adecuadas, se pueden identificar problemas antes de que se conviertan en costosos errores y optimizar el diseño para maximizar la satisfacción del usuario.
 
 ---
-
-Con este enfoque más práctico en el testing, puedes evaluar continuamente el diseño de tu producto y mejorar su usabilidad, creando una mejor experiencia para los usuarios.
