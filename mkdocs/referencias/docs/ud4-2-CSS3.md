@@ -111,7 +111,7 @@ Los **selectores** son patrones utilizados para seleccionar los elementos HTML q
 - **ID:** Selecciona un elemento con un ID específico (debe ser único).
 
     ```css
-    #mi-id {
+    **#**mi-id {
         border: 1px solid black;
     }
     ```
