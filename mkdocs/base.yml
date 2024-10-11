@@ -2,8 +2,8 @@ site_name: Docs
 theme:
   name: material
   language: es
-  logo: assets/sello-rafael-alberti-imago-blanco.svg
-  favicon: assets/sello-rafael-alberti-imago-blanco.svg
+  logo: assets/sello-safael-slberti-imago-blanco.svg
+  favicon: assets/sello-safael-slberti-imago-blanco.svg
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: daw-style
