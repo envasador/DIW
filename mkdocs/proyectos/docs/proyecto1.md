@@ -101,14 +101,6 @@ En esta fase, debéis presentar el prototipo de vuestra aplicación en clase. La
 ---
 
 ## **Evaluación**
-
-### **Rúbrica Integrada de Evaluación**
-Aquí tienes la rúbrica unificada y completa, combinando los elementos de las dos rúbricas que me proporcionaste. Se han integrado los aspectos solicitados, como la creación de componentes con variaciones en Figma, el uso del **autolayout**, y la organización, coherencia y consistencia del diseño, junto con los criterios de comunicación visual, colores, tipografías, alternativas de presentación, guías de estilo, tecnologías de diseño web, y plantillas.
-
-### **Rúbrica Integrada de Evaluación**
-
-Tienes razón, faltaba la opción de "Muy Deficiente" en el criterio **1e**. Aquí te dejo la rúbrica corregida con esa sección completada:
-
 ### **Rúbrica Integrada de Evaluación**
 
 | **Criterios/Logro** | Excelente (10 pt)                                                                                                                                                                                                                                                                                                                                                                          | Bien (7,5 pt)                                                                                                                                                                                                                                                                                                                    | Suficiente (5 pt)                                                                                                                                                                                                                                                                                                           | Insuficiente (2,5 pt)                                                                                                                                                                                                                                                                                 | Muy Deficiente (0 pt)                                                                                                                                                                                                                                                                                                         |
