@@ -3,145 +3,55 @@ hide:
   - navigation
 ---
 
-# Unidad de trabajo 3: **Usabilidad y UX en Testing de Productos Digitales**
+# **Unidad de trabajo 3: Pruebas de Usabilidad en Prototipos de Productos Digitales**
 
-## **1. Introducción al Testing de Usabilidad y UX**
+Las pruebas de usabilidad en prototipos permiten evaluar cómo interactúan los usuarios con un producto digital en su fase de diseño, antes de ser completamente desarrollado. Estas pruebas buscan identificar problemas de usabilidad y mejorar la experiencia de usuario, asegurando que la interfaz sea intuitiva, clara y fácil de usar. Al realizar estas pruebas, el equipo de desarrollo puede hacer ajustes en los diseños con base en el feedback y las métricas obtenidas, lo que ahorra tiempo y recursos en etapas posteriores.
 
-El testing de usabilidad es una técnica clave dentro del proceso de desarrollo de productos digitales, ya que permite identificar problemas de interacción en una interfaz o aplicación antes de su lanzamiento. Las pruebas de UX (User Experience) ayudan a validar si el producto no solo es fácil de usar, sino también agradable y cumple con las expectativas del usuario.
+Maze, una herramienta de testing de usabilidad, permite realizar distintos tipos de pruebas directamente en prototipos creados en Figma, brindando métricas y análisis detallados que ayudan a optimizar los diseños. A continuación, se describen los principales tipos de pruebas de usabilidad que se pueden realizar en Maze.
 
-## **2. Principios del Testing de Usabilidad**
+### 1. **Test de Misiones (Mission Test)**
+- **Objetivo:** Evaluar si los usuarios pueden completar tareas específicas, como encontrar un botón o finalizar un proceso.
+- **Configuración:**
+  1. En Figma, asegúrate de que el prototipo esté conectado y listo para ser exportado a Maze.
+  2. Importa el prototipo desde Figma a Maze.
+  3. Crea una "Misión" en Maze e introduce instrucciones claras para cada tarea que quieres que los usuarios realicen.
+  4. Puedes definir una ruta ideal que los usuarios deben seguir para completar la misión, lo que permite a Maze detectar dónde se equivocan.
+- **Resultados:** Podrás ver el tiempo que los usuarios tardaron en completar la misión, el porcentaje de éxito, y dónde hicieron clics incorrectos, lo cual es útil para identificar posibles puntos de fricción en la interfaz.
 
-### **2.1. ¿Qué es el Testing de Usabilidad?**
+### 2. **Test de Rutas (Path Test)**
+- **Objetivo:** Verificar la navegación del usuario y entender cómo interactúan con la interfaz para realizar determinadas acciones.
+- **Configuración:**
+  1. Al crear una nueva prueba en Maze, selecciona "Path Test" y define un objetivo claro (por ejemplo, “encontrar la sección de contacto”).
+  2. Define la ruta o flujo de pantallas que los usuarios deben seguir para cumplir con el objetivo.
+  3. Importa el prototipo y selecciona las pantallas específicas que forman parte de esta ruta.
+- **Resultados:** Maze mostrará qué ruta tomó cada usuario, si se desviaron del flujo ideal, y cuánto tiempo pasaron en cada pantalla, lo cual permite ajustar el diseño para que la navegación sea más intuitiva.
 
-El **testing de usabilidad** se refiere a la práctica de observar a los usuarios reales mientras interactúan con un producto digital (sitio web, aplicación móvil, software, etc.), con el fin de evaluar su capacidad para completar tareas de manera eficiente, efectiva y sin frustraciones.
+### 3. **Test de Cuestionarios (Survey Test)**
+- **Objetivo:** Recoger la percepción del usuario sobre ciertos elementos de la interfaz o sobre su experiencia general.
+- **Configuración:**
+  1. Crea un nuevo cuestionario en Maze y añade preguntas sobre la experiencia del usuario en áreas como diseño, claridad de navegación y accesibilidad.
+  2. Puedes utilizar preguntas de opción múltiple, respuestas abiertas, o incluso calificaciones (por ejemplo, una escala del 1 al 5).
+- **Resultados:** Los cuestionarios brindan datos cualitativos que permiten obtener feedback directo de los usuarios sobre su experiencia y percepción del diseño.
 
-### **2.2. Beneficios del Testing de Usabilidad**
+### 4. **Prueba de Primer Clic (First Click Test)**
+- **Objetivo:** Evaluar dónde hacen clic primero los usuarios al ver una pantalla específica para medir si la interfaz es intuitiva.
+- **Configuración:**
+  1. Selecciona el tipo de test "First Click" en Maze y carga la pantalla que quieres analizar.
+  2. Define el área donde deberían hacer clic según el flujo ideal de la aplicación.
+- **Resultados:** Maze proporciona un mapa de calor y un análisis de cuánto tiempo tardaron los usuarios en hacer su primer clic, ayudando a identificar problemas de diseño que pueden afectar la intuición de la interfaz.
 
-- **Detección de problemas**: Identificación de obstáculos que impiden a los usuarios cumplir sus objetivos.
-- **Optimización de la experiencia**: Mejora del flujo y diseño del producto.
-- **Validación de decisiones**: Confirmación de que las decisiones de diseño están alineadas con las expectativas del usuario.
-- **Reducción de costos**: Prevenir errores en fases avanzadas del desarrollo.
-
----
-
-## **3. Métodos y Técnicas de Testing de Usabilidad**
-
-### **3.1. Pruebas de Usuario Moderadas**
-
-Las pruebas moderadas implican la participación de un facilitador que guía al usuario mientras interactúa con el producto. El facilitador observa y toma nota de los problemas que enfrenta el usuario.
-
-#### **Pasos:**
-1. **Preparar un guion** con las tareas que los usuarios deben completar.
-2. **Seleccionar participantes** que representen al público objetivo.
-3. **Observar** cómo los usuarios realizan las tareas sin intervenir directamente.
-4. **Recopilar retroalimentación** verbal durante o después de la prueba.
-
-#### **Herramientas útiles:**
-- **Lookback** ([https://lookback.io](https://lookback.io)): Para realizar pruebas moderadas en vivo y obtener retroalimentación directa.
-- **UserTesting** ([https://www.usertesting.com](https://www.usertesting.com)): Plataforma que permite crear escenarios de prueba con usuarios reales.
-
-### **3.2. Pruebas de Usuario No Moderadas**
-
-En las pruebas no moderadas, los usuarios completan las tareas sin la intervención directa de un facilitador. Este tipo de pruebas es útil para observar cómo los usuarios interactúan con el producto en un entorno más natural.
-
-#### **Pasos:**
-1. **Preparar tareas y escenarios** que los usuarios seguirán.
-2. **Recopilar datos** a través de la grabación de pantalla, interacción o encuestas de satisfacción.
-3. **Analizar los resultados** de manera automática o manual para identificar puntos débiles.
-
-#### **Herramientas útiles:**
-- **Maze** ([https://maze.co](https://maze.co)): Proporciona análisis detallado del comportamiento del usuario y sus interacciones.
-- **Optimal Workshop** ([https://www.optimalworkshop.com](https://www.optimalworkshop.com)): Herramienta para realizar pruebas no moderadas centradas en la navegación y organización del contenido.
-
-### **3.3. Pruebas de Usabilidad A/B**
-
-Las pruebas A/B comparan dos versiones diferentes de una misma página o elemento de diseño para medir cuál ofrece una mejor experiencia de usuario.
-
-#### **Pasos:**
-1. **Crear dos versiones** de un diseño con una única diferencia (ejemplo: ubicación de un botón).
-2. **Mostrar cada versión** a diferentes grupos de usuarios.
-3. **Medir los resultados** (conversiones, tasa de clics, etc.) para determinar cuál es más efectiva.
-
-#### **Herramientas útiles:**
-- **Google Optimize** ([https://optimize.google.com](https://optimize.google.com)): Herramienta gratuita para realizar pruebas A/B y personalización.
-- **Optimizely** ([https://www.optimizely.com](https://www.optimizely.com)): Plataforma avanzada para experimentar con el diseño de productos digitales.
-
-### **3.4. Test de 5 Segundos**
-
-Este test mide la primera impresión del usuario sobre una interfaz mostrándole una imagen del diseño por solo 5 segundos. Se utiliza para evaluar qué tan rápidamente un usuario entiende el propósito de la página.
-
-#### **Pasos:**
-1. **Mostrar el diseño** por 5 segundos a los participantes.
-2. **Preguntar a los usuarios** sobre lo que recuerdan (ejemplo: ¿De qué trata esta página? ¿Qué elementos viste primero?).
-3. **Analizar** las respuestas para medir la claridad y efectividad del diseño.
-
-#### **Herramientas útiles:**
-- **UsabilityHub** ([https://usabilityhub.com](https://usabilityhub.com)): Herramienta para realizar pruebas rápidas de usabilidad como el test de 5 segundos.
-
-### **3.5. Pruebas de Navegación y Card Sorting**
-
-Las pruebas de navegación y el card sorting ayudan a comprender cómo los usuarios organizan la información y navegan por el contenido de un producto digital.
-
-#### **Pasos para Card Sorting:**
-1. **Crear tarjetas** que representen los contenidos o funcionalidades del producto.
-2. **Pedir a los usuarios** que organicen las tarjetas en grupos lógicos.
-3. **Analizar la estructura** que proponen para mejorar la arquitectura de la información.
-
-#### **Herramientas útiles:**
-- **OptimalSort** ([https://www.optimalworkshop.com/optimalsort](https://www.optimalworkshop.com/optimalsort)): Herramienta de card sorting para evaluar la estructura de la información.
-- **Treejack** ([https://www.optimalworkshop.com/treejack](https://www.optimalworkshop.com/treejack)): Ayuda a realizar pruebas de navegación para ver cómo los usuarios encuentran información.
+### 5. **Test de los 5 Segundos (5-Second Test)**
+- **Objetivo:** Evaluar la claridad y la comprensión inicial de una pantalla en solo 5 segundos, viendo qué información retiene el usuario y si entiende su propósito principal.
+- **Configuración:**
+  1. Importa el prototipo de Figma a Maze y selecciona la pantalla que quieres probar.
+  2. En Maze, crea una prueba nueva y selecciona "5-Second Test".
+  3. Configura el test para mostrar la pantalla durante exactamente 5 segundos.
+  4. Define preguntas específicas para el test, como:
+    - "¿Cuál era el propósito principal de la página?"
+    - "¿Qué elementos recuerdas haber visto?"
+  5. Puedes personalizar el tipo de preguntas para obtener respuestas específicas sobre la percepción inicial de la interfaz.
+- **Resultados:** El test de los 5 segundos recopila respuestas cualitativas que indican si los usuarios comprenden los elementos clave de la pantalla en un primer vistazo, ayudando a mejorar la comunicación visual.
 
 ---
 
-## **4. Análisis de Resultados y Mejora Continua**
-
-### **4.1. Recopilación y Análisis de Datos**
-
-Después de realizar las pruebas, el siguiente paso es analizar los datos recogidos. Se deben observar patrones comunes, errores repetidos y comentarios consistentes que apunten a problemas de usabilidad.
-
-#### **Indicadores clave a medir:**
-- **Tasa de éxito**: ¿Cuántos usuarios completaron las tareas asignadas?
-- **Tiempo de tarea**: ¿Cuánto tiempo tardaron los usuarios en realizar una tarea?
-- **Errores cometidos**: ¿Cuántas veces se equivocaron los usuarios y por qué?
-- **Satisfacción del usuario**: ¿Qué tan satisfechos estaban los usuarios al completar las tareas?
-
-### **4.2. Implementación de Mejoras**
-
-Una vez que se ha recopilado el feedback, se deben priorizar los problemas y aplicar cambios en el diseño para solucionarlos. La mejora es un proceso iterativo; es posible que se necesiten varias rondas de testing para refinar completamente el producto.
-
-#### **Ciclo iterativo:**
-1. **Prueba de usabilidad** → 2. **Identificación de problemas** → 3. **Soluciones de diseño** → 4. **Nueva prueba** → 5. **Validación**.
-
----
-
-## **5. Herramientas y Tutoriales Recomendados**
-
-### **5.1. Herramientas de Testing de Usabilidad**
-
-- **UserTesting**: [https://www.usertesting.com](https://www.usertesting.com)
-    - Plataforma robusta para pruebas moderadas y no moderadas.
-
-- **Lookback**: [https://lookback.io](https://lookback.io)
-    - Ideal para realizar pruebas moderadas y obtener feedback en tiempo real.
-
-- **Hotjar**: [https://www.hotjar.com](https://www.hotjar.com)
-    - Mapas de calor y grabación de sesiones para ver cómo los usuarios interactúan con el producto.
-
-- **Maze**: [https://maze.co](https://maze.co)
-    - Herramienta para análisis de tests no moderados, prototipado y métricas de rendimiento.
-
-### **5.2. Tutoriales de Testing y Usabilidad**
-
-- **Curso de Usabilidad de Coursera**: [https://www.coursera.org/learn/usabilidad](https://www.coursera.org/learn/usabilidad)
-
-- **Testing de Usabilidad con Figma y Maze** (Tutorial): [https://maze.co/resources/figma-usability-testing/](https://maze.co/resources/figma-usability-testing/)
-
-- **Cómo realizar pruebas de usabilidad en productos digitales**: [https://uxdesign.cc/user-testing-guide](https://uxdesign.cc/user-testing-guide)
-
----
-
-## **6. Conclusión**
-
-El testing de usabilidad es una herramienta fundamental en el diseño de productos digitales para garantizar que el usuario final pueda interactuar con el producto de manera eficiente y satisfactoria. Utilizando las técnicas y herramientas adecuadas, se pueden identificar problemas antes de que se conviertan en costosos errores y optimizar el diseño para maximizar la satisfacción del usuario.
-
----
+Cada uno de estos tests proporciona datos únicos y valiosos para comprender cómo interactúan los usuarios con el diseño. Al realizar diferentes tipos de pruebas, los diseñadores y desarrolladores pueden obtener una visión detallada del rendimiento de la interfaz y tomar decisiones fundamentadas para mejorar la experiencia de usuario antes de pasar a desarrollo.
