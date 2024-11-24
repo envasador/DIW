@@ -104,61 +104,61 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 - **Descripción:** Identificador único para el elemento.
 - **Uso:** Permite la referencia del elemento mediante CSS o JavaScript.
 
-  ```html
-  <div id="miDiv">Contenido</div>
-  ```
+```html 
+<div id="miDiv">Contenido</div> 
+```
 
 #### **2. `class`**
 - **Descripción:** Define una o varias clases para el elemento.
 - **Uso:** Facilita la aplicación de estilos CSS o la selección en JavaScript.
 
-  ```html
-  <p class="texto-importante">Texto destacado</p>
-  ```
+```html
+<p class="texto-importante">Texto destacado</p>
+```
 
 #### **3. `style`**
 - **Descripción:** Aplica estilos CSS en línea al elemento.
 - **Uso:** Útil para estilos rápidos o específicos.
 
-  ```html
-  <h1 style="color: blue;">Título Azul</h1>
-  ```
+```html
+<h1 style="color: blue;">Título Azul</h1>
+```
 
 #### **4. `title`**
 - **Descripción:** Proporciona información adicional que aparece como tooltip al pasar el cursor.
 
-  ```html
-  <abbr title="World Health Organization">WHO</abbr>
-  ```
+```html
+<abbr title="World Health Organization">WHO</abbr>
+```
 
 #### **5. `data-*`**
 - **Descripción:** Permite almacenar datos personalizados privados para la página o aplicación.
 - **Uso:** Accesibles mediante JavaScript.
 
-  ```html
-  <div data-user-id="12345">Usuario</div>
-  ```
+```html
+<div data-user-id="12345">Usuario</div>
+```
 
 #### **6. `hidden`**
 - **Descripción:** Indica que el elemento no es relevante y debe ocultarse.
 
-  ```html
-  <p hidden>Este párrafo está oculto.</p>
-  ```
+```html
+<p hidden>Este párrafo está oculto.</p>
+```
 
 #### **7. `lang`**
 - **Descripción:** Especifica el idioma del elemento.
 
-  ```html
+```html
   <p lang="es">Este texto está en español.</p>
-  ```
+```
 
 #### **8. `tabindex`**
 - **Descripción:** Controla el orden de tabulación de los elementos interactivos.
 
-  ```html
+```html
   <button tabindex="1">Primer Botón</button>
-  ```
+```
 
 ### <a name="atributos-especificos-de-etiquetas-comunes"></a>4.2. Atributos Específicos de Etiquetas Comunes
 
