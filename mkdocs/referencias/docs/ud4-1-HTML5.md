@@ -6,48 +6,11 @@ hide:
 
 * [1 HTML5](ud4-1-HTML5.md)
 * [2 CSS3](ud4-2-CSS3.md)
-
-
-# 4.1 **Guía completa de HTML5**.
-
-Esta guía integra los conceptos esenciales de HTML5, incluyendo su sintaxis, atributos, etiquetas semánticas, multimedia, formularios, tablas, y etiquetas modernas. Está organizada de manera lógica para facilitar el aprendizaje progresivo del lenguaje.
-
+* [3 SASS](ud4-3-SASS.md)
 ---
 
-## **Índice**
-
-1. [Introducción a HTML5](#introduccion-a-html5)
-2. [Estructura Básica de un Documento HTML5](#estructura-basica-de-un-documento-html5)
-3. [Sintaxis de las Etiquetas en HTML5](#sintaxis-de-las-etiquetas-en-html5)
-4. [Atributos en HTML5](#atributos-en-html5)
-    - [Atributos Globales](#atributos-globales)
-    - [Atributos Específicos de Etiquetas Comunes](#atributos-especificos-de-etiquetas-comunes)
-    - [Atributos de Accesibilidad](#atributos-de-accesibilidad)
-5. [Etiquetas Semánticas en HTML5](#etiquetas-semanticas-en-html5)
-6. [Multimedia en HTML5](#multimedia-en-html5)
-    - [Etiqueta `<video>`](#etiqueta-video)
-    - [Etiqueta `<audio>`](#etiqueta-audio)
-    - [Etiqueta `<canvas>`](#etiqueta-canvas)
-    - [Etiqueta `<svg>`](#etiqueta-svg)
-7. [Formularios Mejorados en HTML5](#formularios-mejorados-en-html5)
-    - [Fieldsets y Leyendas](#fieldsets-y-leyendas)
-    - [Nuevos Tipos de Input](#nuevos-tipos-de-input)
-    - [Atributos Nuevos en Formularios](#atributos-nuevos-en-formularios)
-8. [Tablas en HTML5](#tablas-en-html5)
-9. [Etiquetas Modernas en HTML5](#etiquetas-modernas-en-html5)
-    - [Etiquetas `<details>` y `<summary>`](#etiquetas-details-y-summary)
-    - [Etiqueta `<progress>`](#etiqueta-progress)
-    - [Etiqueta `<meter>`](#etiqueta-meter)
-    - [Etiqueta `<mark>`](#etiqueta-mark)
-    - [Etiqueta `<time>`](#etiqueta-time)
-    - [Etiqueta `<template>`](#etiqueta-template)
-10. [Buenas Prácticas de HTML5](#buenas-practicas-de-html5)
-11. [Conclusión](#conclusion)
-12. [Recursos Adicionales](#recursos-adicionales)
-
----
-
-## <a name="introduccion-a-html5"></a>1. Introducción a HTML5
+# **4.1 Guía completa de HTML5**.
+## **1. Introducción a HTML5**
 
 **HTML5** es la quinta y más reciente versión del lenguaje de marcado HTML (HyperText Markup Language), utilizado para estructurar y presentar contenido en la web. Fue desarrollado para mejorar las capacidades de HTML4 y XHTML, ofreciendo nuevas características que facilitan la creación de aplicaciones web más ricas, interactivas y semánticas.
 
@@ -61,7 +24,7 @@ Esta guía integra los conceptos esenciales de HTML5, incluyendo su sintaxis, at
 
 ---
 
-## <a name="estructura-basica-de-un-documento-html5"></a>2. Estructura Básica de un Documento HTML5
+## 2. Estructura Básica de un Documento HTML5
 
 Comprender la estructura básica de un documento HTML5 es fundamental antes de profundizar en etiquetas y atributos específicos.
 
@@ -92,8 +55,7 @@ Comprender la estructura básica de un documento HTML5 es fundamental antes de p
 
 ---
 
-## <a name="sintaxis-de-las-etiquetas-en-html5"></a>3. Sintaxis de las Etiquetas en HTML5
-
+## 3. Sintaxis de las Etiquetas en HTML5
 ### **Estructura Básica de una Etiqueta HTML5**
 
 Cada elemento en HTML5 se representa mediante una etiqueta que generalmente consta de una etiqueta de apertura y una de cierre, aunque algunas son auto-cerradas.
@@ -130,7 +92,7 @@ Algunas etiquetas no requieren contenido y se auto-cierran.
 
 ---
 
-## <a name="atributos-en-html5"></a>4. Atributos en HTML5
+## 4. Atributos en HTML5
 
 HTML5 introduce una variedad de **atributos** que mejoran la funcionalidad y la accesibilidad de los elementos. A continuación, se detallan los **atributos globales**, **específicos** de etiquetas comunes, y **de accesibilidad**.
 
@@ -141,7 +103,7 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 #### **1. `id`**
 - **Descripción:** Identificador único para el elemento.
 - **Uso:** Permite la referencia del elemento mediante CSS o JavaScript.
-- **Ejemplo:**
+
   ```html
   <div id="miDiv">Contenido</div>
   ```
@@ -149,7 +111,7 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 #### **2. `class`**
 - **Descripción:** Define una o varias clases para el elemento.
 - **Uso:** Facilita la aplicación de estilos CSS o la selección en JavaScript.
-- **Ejemplo:**
+
   ```html
   <p class="texto-importante">Texto destacado</p>
   ```
@@ -157,14 +119,14 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 #### **3. `style`**
 - **Descripción:** Aplica estilos CSS en línea al elemento.
 - **Uso:** Útil para estilos rápidos o específicos.
-- **Ejemplo:**
+
   ```html
   <h1 style="color: blue;">Título Azul</h1>
   ```
 
 #### **4. `title`**
 - **Descripción:** Proporciona información adicional que aparece como tooltip al pasar el cursor.
-- **Ejemplo:**
+
   ```html
   <abbr title="World Health Organization">WHO</abbr>
   ```
@@ -172,28 +134,28 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 #### **5. `data-*`**
 - **Descripción:** Permite almacenar datos personalizados privados para la página o aplicación.
 - **Uso:** Accesibles mediante JavaScript.
-- **Ejemplo:**
+
   ```html
   <div data-user-id="12345">Usuario</div>
   ```
 
 #### **6. `hidden`**
 - **Descripción:** Indica que el elemento no es relevante y debe ocultarse.
-- **Ejemplo:**
+
   ```html
   <p hidden>Este párrafo está oculto.</p>
   ```
 
 #### **7. `lang`**
 - **Descripción:** Especifica el idioma del elemento.
-- **Ejemplo:**
+
   ```html
   <p lang="es">Este texto está en español.</p>
   ```
 
 #### **8. `tabindex`**
 - **Descripción:** Controla el orden de tabulación de los elementos interactivos.
-- **Ejemplo:**
+
   ```html
   <button tabindex="1">Primer Botón</button>
   ```
@@ -205,7 +167,6 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 - **`target`**: Especifica dónde abrir el enlace (e.g., `_blank` para una nueva pestaña).
 - **`rel`**: Define la relación entre el documento actual y el enlazado (e.g., `noopener`, `nofollow`).
 
-**Ejemplo:**
 ```html
 <a href="https://www.ejemplo.com" target="_blank" rel="noopener">Visitar Ejemplo</a>
 ```
@@ -215,7 +176,6 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 - **`alt`**: Texto alternativo que describe la imagen.
 - **`width` y `height`**: Dimensiones de la imagen.
 
-**Ejemplo:**
 ```html
 <img src="logo.png" alt="Logo de la Empresa" width="200" height="100" />
 ```
@@ -227,7 +187,6 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 - **`placeholder`**: Texto de ayuda dentro del campo.
 - **`required`**: Indica que el campo es obligatorio.
 
-**Ejemplo:**
 ```html
 <input type="email" name="correo" placeholder="tuemail@ejemplo.com" required />
 ```
@@ -236,7 +195,6 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 - **`type`**: Tipo de botón (e.g., `button`, `submit`, `reset`).
 - **`disabled`**: Desactiva el botón.
 
-**Ejemplo:**
 ```html
 <button type="submit">Enviar</button>
 ```
@@ -246,27 +204,26 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
 - **`method`**: Método de envío (`GET` o `POST`).
 - **`enctype`**: Tipo de codificación para los datos del formulario.
 
-**Ejemplo:**
 ```html
 <form action="/enviar" method="post">
     <!-- Campos del formulario -->
 </form>
 ```
 
-### <a name="atributos-de-accesibilidad"></a>4.3. Atributos de Accesibilidad
+### 4.3. Atributos de Accesibilidad
 
 HTML5 también enfatiza la accesibilidad, permitiendo el uso de atributos que mejoran la interacción con tecnologías de asistencia.
 
 #### **`aria-*`**
 - **Descripción:** Atributos de accesibilidad que mejoran la interacción con tecnologías de asistencia.
-- **Ejemplo:**
+
   ```html
   <button aria-label="Cerrar" onclick="cerrarVentana()">X</button>
   ```
 
 ---
 
-## <a name="etiquetas-semanticas-en-html5"></a>5. Etiquetas Semánticas en HTML5
+## 5. Etiquetas Semánticas en HTML5
 
 Las etiquetas semánticas proporcionan significado al contenido, mejorando la accesibilidad y optimizando el SEO.
 
@@ -274,7 +231,7 @@ Las etiquetas semánticas proporcionan significado al contenido, mejorando la ac
 
 1. **`<header>`**
     - **Descripción:** Define el encabezado de una página o sección.
-    - **Ejemplo:**
+    
       ```html
       <header>
           <h1>Bienvenido a Mi Sitio Web</h1>
@@ -294,7 +251,7 @@ Las etiquetas semánticas proporcionan significado al contenido, mejorando la ac
 
 3. **`<main>`**
     - **Descripción:** Representa el contenido principal del documento.
-    - **Ejemplo:**
+    
       ```html
       <main>
           <article>
@@ -306,7 +263,7 @@ Las etiquetas semánticas proporcionan significado al contenido, mejorando la ac
 
 4. **`<section>`**
     - **Descripción:** Define una sección genérica del documento.
-    - **Ejemplo:**
+   
       ```html
       <section>
           <h2>Sección de Servicios</h2>
@@ -320,7 +277,7 @@ Las etiquetas semánticas proporcionan significado al contenido, mejorando la ac
 
 6. **`<aside>`**
     - **Descripción:** Define contenido complementario, como barras laterales o widgets.
-    - **Ejemplo:**
+    
       ```html
       <aside>
           <h3>Información Adicional</h3>
@@ -330,7 +287,7 @@ Las etiquetas semánticas proporcionan significado al contenido, mejorando la ac
 
 7. **`<footer>`**
     - **Descripción:** Define el pie de página de una sección o documento.
-    - **Ejemplo:**
+    
       ```html
       <footer>
           <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
@@ -339,11 +296,11 @@ Las etiquetas semánticas proporcionan significado al contenido, mejorando la ac
 
 ---
 
-## <a name="multimedia-en-html5"></a>6. Multimedia en HTML5
+## 6. Multimedia en HTML5
 
 HTML5 facilita la incorporación de contenido multimedia sin necesidad de plugins externos.
 
-### <a name="etiqueta-video"></a>6.1. Etiqueta `<video>`
+### 6.1. Etiqueta `<video>`
 
 - **Descripción:** Inserta contenido de video.
 - **Atributos Comunes:**
@@ -353,7 +310,6 @@ HTML5 facilita la incorporación de contenido multimedia sin necesidad de plugin
     - `muted`: Inicia el video sin sonido.
     - `poster`: Imagen de previsualización antes de la reproducción.
 
-**Ejemplo:**
 ```html
 <video width="640" height="360" controls>
     <source src="video-ejemplo.mp4" type="video/mp4">
@@ -362,12 +318,11 @@ HTML5 facilita la incorporación de contenido multimedia sin necesidad de plugin
 </video>
 ```
 
-### <a name="etiqueta-audio"></a>6.2. Etiqueta `<audio>`
+### 6.2. Etiqueta `<audio>`
 
 - **Descripción:** Inserta contenido de audio.
 - **Atributos Comunes:** Similar a `<video>`.
 
-**Ejemplo:**
 ```html
 <audio controls>
     <source src="audio-ejemplo.mp3" type="audio/mpeg">
@@ -376,10 +331,10 @@ HTML5 facilita la incorporación de contenido multimedia sin necesidad de plugin
 </audio>
 ```
 
-### <a name="etiqueta-canvas"></a>6.3. Etiqueta `<canvas>`
+### 6.3. Etiqueta `<canvas>`
 
 - **Descripción:** Permite dibujar gráficos mediante scripting (JavaScript).
-- **Ejemplo:**
+
   ```html
   <canvas id="miCanvas" width="200" height="100" style="border:1px solid #000000;">
       Tu navegador no soporta el elemento canvas.
@@ -393,7 +348,7 @@ HTML5 facilita la incorporación de contenido multimedia sin necesidad de plugin
   </script>
   ```
 
-### <a name="etiqueta-svg"></a>6.4. Etiqueta `<svg>`
+### 6.4. Etiqueta `<svg>`
 
 - **Descripción:** Permite integrar gráficos vectoriales escalables directamente en HTML.
 - **Ejemplo:**
@@ -409,15 +364,14 @@ HTML5 facilita la incorporación de contenido multimedia sin necesidad de plugin
 
 ---
 
-## <a name="formularios-mejorados-en-html5"></a>7. Formularios Mejorados en HTML5
+## 7. Formularios Mejorados en HTML5
 
 HTML5 introduce nuevas etiquetas y atributos que mejoran la funcionalidad y la validación de los formularios.
 
-### <a name="fieldsets-y-leyendas"></a>7.1. Fieldsets y Leyendas
+### 7.1. Fieldsets y Leyendas
 
 Los fieldsets agrupan elementos relacionados dentro de un formulario, mientras que la leyenda proporciona una descripción para el grupo.
 
-**Ejemplo de Fieldset:**
 ```html
 <form action="/registrar" method="post">
     <fieldset>
@@ -449,7 +403,7 @@ Los fieldsets agrupan elementos relacionados dentro de un formulario, mientras q
 - **`<fieldset>`:** Agrupa campos relacionados del formulario.
 - **`<legend>`:** Título descriptivo del grupo de campos.
 
-### <a name="nuevos-tipos-de-input"></a>7.2. Nuevos Tipos de Input
+### 7.2. Nuevos Tipos de Input
 
 HTML5 introduce varios nuevos tipos de campos de entrada que mejoran la experiencia del usuario y la validación de datos.
 
@@ -460,14 +414,13 @@ HTML5 introduce varios nuevos tipos de campos de entrada que mejoran la experien
 - `date`, `time`, `datetime-local`: Para seleccionar fechas y horas.
 - `range`: Para seleccionar un rango de valores mediante un control deslizante.
 
-### <a name="atributos-nuevos-en-formularios"></a>7.3. Atributos Nuevos en Formularios
+### 7.3. Atributos Nuevos en Formularios
 
 - `placeholder`: Texto de ayuda dentro del campo de entrada.
 - `required`: Campo obligatorio.
 - `pattern`: Expresión regular para validar el formato.
 - `autocomplete`: Habilita o deshabilita la autocompletación.
 
-**Ejemplo de Formulario Completo:**
 ```html
 <form action="/submit" method="post">
     <fieldset>
@@ -496,7 +449,7 @@ HTML5 introduce varios nuevos tipos de campos de entrada que mejoran la experien
 
 ---
 
-## <a name="tablas-en-html5"></a>8. Tablas en HTML5
+## 8. Tablas en HTML5
 
 Las tablas se utilizan para representar datos tabulares. HTML5 introduce nuevas etiquetas semánticas para mejorar su estructura.
 
@@ -527,6 +480,7 @@ Las tablas se utilizan para representar datos tabulares. HTML5 introduce nuevas 
     - Define una celda de datos.
 
 ### **Ejemplo de Tabla Completa:**
+
 ```html
 <table>
     <caption>Estadísticas de Ventas 2024</caption>
@@ -563,46 +517,13 @@ Las tablas se utilizan para representar datos tabulares. HTML5 introduce nuevas 
     </tfoot>
 </table>
 ```
-
-### **Estilos CSS para Tablas:**
-
-Para mejorar la apariencia de las tablas, puedes aplicar estilos CSS.
-
-```html
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    caption {
-        caption-side: top;
-        font-weight: bold;
-        margin-bottom: 10px;
-    }
-    th, td {
-        border: 1px solid #ddd;
-        padding: 8px;
-        text-align: center;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-    tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
-    tr:hover {
-        background-color: #eaeaea;
-    }
-</style>
-```
-
 ---
 
-## <a name="etiquetas-modernas-en-html5"></a>9. Etiquetas Modernas en HTML5
+## 9. Etiquetas Modernas en HTML5
 
 HTML5 introduce etiquetas que mejoran la interactividad y la experiencia del usuario sin depender de scripts adicionales.
 
-### <a name="etiquetas-details-y-summary"></a>9.1. Etiquetas `<details>` y `<summary>`
+### 9.1. Etiquetas `<details>` y `<summary>`
 
 Permiten crear secciones desplegables que mejoran la interactividad y la experiencia del usuario.
 
@@ -611,7 +532,6 @@ Permiten crear secciones desplegables que mejoran la interactividad y la experie
 - **`<details>`:** Contenedor para contenido adicional que puede ser mostrado u ocultado.
 - **`<summary>`:** Proporciona un resumen o título para el contenido dentro de `<details>`. Es visible siempre y al hacer clic despliega el contenido.
 
-**Ejemplo de Uso:**
 ```html
 <details>
     <summary>Más Información</summary>
@@ -624,20 +544,20 @@ Permiten crear secciones desplegables que mejoran la interactividad y la experie
 - Al cargar la página, solo se muestra "Más Información".
 - Al hacer clic, se despliega el párrafo con el contenido adicional.
 
-### <a name="etiqueta-progress"></a>9.2. Etiqueta `<progress>`
+### 9.2. Etiqueta `<progress>`
 
 - **Descripción:** Representa el progreso de una tarea.
 - **Atributos:**
     - `value`: Valor actual del progreso.
     - `max`: Valor máximo del progreso.
 
-**Ejemplo:**
+
 ```html
 <label for="prog">Carga:</label>
 <progress id="prog" value="70" max="100">70%</progress>
 ```
 
-### <a name="etiqueta-meter"></a>9.3. Etiqueta `<meter>`
+### 9.3. Etiqueta `<meter>`
 
 - **Descripción:** Representa una medida escalar dentro de un rango conocido.
 - **Atributos:**
@@ -645,36 +565,32 @@ Permiten crear secciones desplegables que mejoran la interactividad y la experie
     - `min`, `max`: Rango de valores.
     - `low`, `high`, `optimum`: Valores para indicar rangos específicos.
 
-**Ejemplo:**
 ```html
 <label for="cpu">Uso de CPU:</label>
 <meter id="cpu" value="0.6" min="0" max="1">60%</meter>
 ```
 
-### <a name="etiqueta-mark"></a>9.4. Etiqueta `<mark>`
+### 9.4. Etiqueta `<mark>`
 
 - **Descripción:** Resalta texto importante.
 
-**Ejemplo:**
 ```html
 <p>Este es un <mark>texto destacado</mark> en el párrafo.</p>
 ```
 
-### <a name="etiqueta-time"></a>9.5. Etiqueta `<time>`
+### 9.5. Etiqueta `<time>`
 
 - **Descripción:** Representa una fecha u hora.
 - **Atributo `datetime`:** Proporciona una representación legible por máquinas de la fecha/hora.
 
-**Ejemplo:**
 ```html
 <time datetime="2024-10-10">10 de Octubre de 2024</time>
 ```
 
-### <a name="etiqueta-template"></a>9.6. Etiqueta `<template>`
+### 9.6. Etiqueta `<template>`
 
 - **Descripción:** Contiene contenido que no se muestra en la página hasta que se lo active mediante JavaScript.
 
-**Ejemplo:**
 ```html
 <template id="miPlantilla">
     <div class="card">
@@ -686,7 +602,7 @@ Permiten crear secciones desplegables que mejoran la interactividad y la experie
 
 ---
 
-## <a name="buenas-practicas-de-html5"></a>10. Buenas Prácticas de HTML5
+## 10. Buenas Prácticas de HTML5
 
 1. **Semántica:** Utiliza etiquetas semánticas para mejorar la accesibilidad y el SEO.
 2. **Accesibilidad:** Emplea atributos como `aria-*` y etiquetas adecuadas para asegurar que tu contenido sea accesible para todos los usuarios.
@@ -696,10 +612,6 @@ Permiten crear secciones desplegables que mejoran la interactividad y la experie
 6. **Evitar Uso Excesivo de Inline Styles:** Prefiere el uso de hojas de estilo externas para mantener el código limpio y facilitar el mantenimiento.
 
 ---
-
-## <a name="conclusion"></a>11. Conclusión
-
-HTML5 ha transformado el desarrollo web al proporcionar una estructura más semántica, herramientas multimedia integradas y mejoras en la interacción del usuario. Dominar las etiquetas, atributos y nuevas funcionalidades de HTML5 es esencial para crear aplicaciones web modernas, accesibles y eficientes.
 
 ### **Puntos Clave a Recordar:**
 
