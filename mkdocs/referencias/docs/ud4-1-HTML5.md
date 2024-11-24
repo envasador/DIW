@@ -160,7 +160,7 @@ Los atributos globales están disponibles para la mayoría de las etiquetas HTML
   <button tabindex="1">Primer Botón</button>
 ```
 
-### <a name="atributos-especificos-de-etiquetas-comunes"></a>4.2. Atributos Específicos de Etiquetas Comunes
+### 4.2. Atributos Específicos de Etiquetas Comunes
 
 #### **1. `<a>` (Enlace)**
 - **`href`**: URL del destino del enlace.
@@ -335,7 +335,7 @@ HTML5 facilita la incorporación de contenido multimedia sin necesidad de plugin
 
 - **Descripción:** Permite dibujar gráficos mediante scripting (JavaScript).
 
-  ```html
+```html
   <canvas id="miCanvas" width="200" height="100" style="border:1px solid #000000;">
       Tu navegador no soporta el elemento canvas.
   </canvas>
@@ -346,17 +346,18 @@ HTML5 facilita la incorporación de contenido multimedia sin necesidad de plugin
       contexto.fillStyle = '#FF0000';
       contexto.fillRect(20, 20, 150, 75);
   </script>
-  ```
+ ```
 
 ### 6.4. Etiqueta `<svg>`
 
 - **Descripción:** Permite integrar gráficos vectoriales escalables directamente en HTML.
 - **Ejemplo:**
-  ```html
+
+```html
   <svg width="100" height="100">
       <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
   </svg>
-  ```
+```
 
 **Descripción del Ejemplo:**
 
