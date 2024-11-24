@@ -2,49 +2,20 @@
 hide:
   - navigation
 ---
-
+---
 ## Tabla de contenido
 
 * [1 HTML5](ud4-1-HTML5.md)
 * [2 CSS3](ud4-2-CSS3.md)
-
-
-# 4.2 **Guía completa de CSS3**.
-
+* [3 SASS](ud4-3-SASS.md)
 ---
 
-## Índice
-
-1. [Introducción a CSS3](#introducción-a-css3)
-2. [Estructura Básica de CSS](#estructura-básica-de-css)
-3. [Selectores CSS](#selectores-css)
-    - [Selectores Básicos](#selectores-básicos)
-    - [Selectores de Clase y ID](#selectores-de-clase-y-id)
-    - [Selectores de Atributo](#selectores-de-atributo)
-    - [Selectores de Pseudo-clases y Pseudo-elementos](#selectores-de-pseudo-clases-y-pseudo-elementos)
-4. [Modelo de Caja (Box Model)](#modelo-de-caja-box-model)
-5. [Propiedades de Texto y Fuente](#propiedades-de-texto-y-fuente)
-6. [Colores y Fondos](#colores-y-fondos)
-7. [Diseño de Layout](#diseño-de-layout)
-    - [Flexbox](#flexbox)
-    - [Grid Layout](#grid-layout)
-8. [Transiciones y Animaciones](#transiciones-y-animaciones)
-9. [Responsividad y Media Queries](#responsividad-y-media-queries)
-10. [Nuevas Características de CSS3](#nuevas-características-de-css3)
-    - [La Regla `@scope`](#la-regla-scope)
-    - [Otras Nuevas Características](#otras-nuevas-características)
-11. [Buenas Prácticas en CSS](#buenas-prácticas-en-css)
-12. [Uso de CSS3 en React.js](#uso-de-css3-en-reactjs)
-13. [Uso de CSS3 en Vue.js](#uso-de-css3-en-vuejs)
-14. [Conclusión](#conclusión)
-
----
-
-## Introducción a CSS3
+# **4.2 Guía completa de CSS3**.
+## 1. Introducción a CSS3
 
 **CSS3** (Cascading Style Sheets Level 3) es la última versión de CSS, utilizada para describir la presentación de documentos HTML y XML. CSS3 introduce nuevas características y mejoras que facilitan la creación de diseños web más atractivos y funcionales.
 
-### ¿Por qué usar CSS3?
+### 1.2 ¿Por qué usar CSS3?
 
 - **Modularidad:** CSS3 se divide en módulos, lo que facilita su uso y comprensión.
 - **Nuevas propiedades:** Permite efectos visuales avanzados como sombras, transiciones y animaciones.
@@ -53,11 +24,11 @@ hide:
 
 ---
 
-## Estructura Básica de CSS
+## 2. Estructura Básica de CSS
 
 Un archivo CSS está compuesto por reglas que definen cómo se deben mostrar los elementos HTML.
 
-### Sintaxis Básica
+### 2.2 Sintaxis Básica
 
 ```css
 selector {
@@ -65,7 +36,7 @@ selector {
 }
 ```
 
-### Ejemplo
+### 2.3 Ejemplo de sintaxis
 
 ```css
 body {
@@ -81,11 +52,11 @@ h1 {
 
 ---
 
-## Selectores CSS
+## 3. Selectores CSS
 
 Los **selectores** son patrones utilizados para seleccionar los elementos HTML que deseas estilizar.
 
-### Selectores Básicos
+### 3.1 Selectores Básicos
 
 - **Selector de Tipo:** Selecciona todos los elementos de un tipo específico.
 
@@ -104,7 +75,7 @@ Los **selectores** son patrones utilizados para seleccionar los elementos HTML q
     }
     ```
 
-### Selectores de Clase y ID
+### 3.2 Selectores de Clase y ID
 
 - **Clase:** Selecciona elementos con una clase específica.
 
@@ -122,7 +93,7 @@ Los **selectores** son patrones utilizados para seleccionar los elementos HTML q
     }
     ```
 
-### Selectores de Atributo
+### 3.3 Selectores de Atributo
 
 Seleccionan elementos basados en atributos o valores de atributos.
 
@@ -132,7 +103,7 @@ input[type="text"] {
     padding: 5px;
 }
 ```
-### Selectores de Pseudo-clases y Pseudo-elementos
+### 3.4 Selectores de Pseudo-clases y Pseudo-elementos
 
 - **Pseudo-clases:** Seleccionan elementos en un estado específico.
 
@@ -151,18 +122,18 @@ input[type="text"] {
     ```
 ---
 
-## Modelo de Caja (Box Model)
+## 4. Modelo de Caja (Box Model)
 
 El **Box Model** de CSS describe cómo se calculan las dimensiones y el espacio alrededor de los elementos.
 
-### Componentes del Box Model
+### 4.1 Componentes del Box Model
 
 1. **Contenido:** Área donde se muestra el contenido (texto, imágenes, etc.).
 2. **Padding (Relleno):** Espacio entre el contenido y el borde.
 3. **Border (Borde):** Línea que rodea el padding y el contenido.
 4. **Margin (Margen):** Espacio fuera del borde.
 
-### Ejemplo
+### 4.2 Ejemplo del Box Model
 
 ```css
 div {
@@ -173,7 +144,7 @@ div {
 }
 ```
 
-### Visualización
+### 4.3 Visualización
 
 ```
 +-----------------------------+
@@ -192,11 +163,11 @@ div {
 
 ---
 
-## Propiedades de Texto y Fuente
+## 5. Propiedades de Texto y Fuente
 
 CSS3 ofrece una amplia gama de propiedades para estilizar el texto.
 
-### Tipografía
+### 5.1 Tipografía
 
 - **font-family:** Define la familia de fuentes.
 
@@ -230,7 +201,7 @@ CSS3 ofrece una amplia gama de propiedades para estilizar el texto.
     }
     ```
 
-### Propiedades de Texto
+### 5.2 Propiedades de Texto
 
 - **color:** Color del texto.
 
@@ -269,9 +240,9 @@ CSS3 ofrece una amplia gama de propiedades para estilizar el texto.
 
 ---
 
-## Colores y Fondos
+## 6. Colores y Fondos
 
-### Colores
+### 6.1 Colores
 
 Puedes definir colores usando nombres, códigos hexadecimales, RGB, RGBA, HSL y HSLA.
 
@@ -289,7 +260,7 @@ div {
 }
 ```
 
-### Fondos
+### 6.2 Fondos
 
 - **background-color:** Color de fondo.
 - **background-image:** Imagen de fondo.
@@ -310,9 +281,9 @@ body {
 
 ---
 
-## Diseño de Layout
+## 7. Diseño de Layout
 
-### Flexbox
+### 7.1 Flexbox
 
 **Flexbox** es un modelo de diseño unidimensional que facilita la alineación y distribución de elementos dentro de un contenedor.
 
@@ -363,7 +334,7 @@ body {
 }
 ```
 
-### Grid Layout
+### 7.2 Grid Layout
 
 **Grid Layout** es un sistema de diseño bidimensional que permite crear estructuras complejas con filas y columnas.
 
@@ -421,7 +392,7 @@ body {
 
 ---
 
-## Transiciones y Animaciones
+## 8. Transiciones y Animaciones
 
 ### Transiciones
 
@@ -492,7 +463,7 @@ Las **animaciones** permiten definir una serie de estilos que cambian a lo largo
 
 ---
 
-## Responsividad y Media Queries
+## 9. Responsive y Media Queries
 
 Las **Media Queries** permiten aplicar estilos CSS específicos según las características del dispositivo, como el ancho de la pantalla.
 
@@ -542,7 +513,7 @@ body {
 
 ---
 
-## Nuevas Características de CSS3
+## 10. Nuevas Características de CSS3
 
 ### La Regla `@scope`
 
