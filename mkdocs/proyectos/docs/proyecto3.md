@@ -26,6 +26,7 @@ Este proyecto forma parte de una actividad conjunta con el módulo de Desarrollo
 ## **3. Resultados de aprendizaje y Criterios de evaluación** {#resultados-de-aprendizaje-y-criterios-de-evaluación}
 
 **RA2** Crea interfaces Web homogéneos definiendo y aplicando estilos.
+
 * CE 2a) Se han reconocido las posibilidades de modificar las etiquetas HTML.
 * CE 2b) Se han definido estilos de forma directa.
 * CE 2c) Se han definido y asociado estilos globales en hojas externas. 
@@ -37,6 +38,7 @@ Este proyecto forma parte de una actividad conjunta con el módulo de Desarrollo
 * CE 2j) Se han analizado y utilizado preprocesadores de estilos para traducir estilos comunes a un código estándar y reconocible por los navegadores.
 
 **RA3** Prepara archivos multimedia para la Web, analizando sus características y manejando herramientas específicas.
+
 * CE 3f) Se han realizado animaciones a partir de imágenes fijas.
 * CE 3h) Se ha aplicado la guía de estilo.
 
