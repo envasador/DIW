@@ -72,7 +72,8 @@ Creamos las vistas de las páginas principales de nuestro proyecto (lo haréis a
 * Página 404
 * Página de perfil de usuario …
 
-### **4.3 Creamos uno o varios documentos SASS para incluir nuestro proyecto. Donde tenemos que tener en cuenta los siguientes puntos.**
+### **4.3 Estilos
+Creamos uno o varios documentos SASS para incluir nuestro proyecto. Donde tenemos que tener en cuenta los siguientes puntos.**
 
    - 3.1 El código debe estar documentado con comentarios para que su lectura sea fácil.
    - 3.2 Debemos añadir dos formas de incluir estilos CSS de forma directa y explicar si es recomendable su uso.  (se puede añadir un documento readme.txt en el proyecto, o en un comentario)
