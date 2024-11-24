@@ -72,7 +72,7 @@ Creamos las vistas de las páginas principales de nuestro proyecto (lo haréis a
 * Página 404
 * Página de perfil de usuario …
 
-### **4.3 Estilos
+### **4.3 Estilos**
 Creamos uno o varios documentos SASS para incluir nuestro proyecto. Donde tenemos que tener en cuenta los siguientes puntos.**
 
    - 3.1 El código debe estar documentado con comentarios para que su lectura sea fácil.
