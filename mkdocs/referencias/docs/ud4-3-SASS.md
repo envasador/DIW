@@ -10,7 +10,7 @@ hide:
 * [2 SASS](ud4-3-SASS.md)
 ---
 
-# 4.3 **Guía completa de SASS**.
+# **4.3 Guía completa de SASS**.
 ### **1. ¿Qué es SASS?**
 SASS (Syntactically Awesome Style Sheets) es un preprocesador de CSS que extiende las capacidades de CSS, permitiendo una escritura más eficiente y estructurada de estilos para proyectos web. Es una herramienta que facilita la creación de hojas de estilo complejas y manejables a largo plazo.
 
