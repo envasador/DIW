@@ -88,7 +88,7 @@ Creamos las vistas de las páginas principales de nuestro proyecto (lo haréis a
 Tienes que validar tu CSS para ver si cumple la normativa  ([https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)), adjunta las evidencias.
 
 ### **4.5 Repositorio**
-El proyecto debe estar en Github (Debes agregarme al repositorio con mi usuario **envasadoralvacio**) y *no debe haber ningún commit después de la fecha de la entrega recogida en Moodle.*
+El proyecto debe estar en Github (Debes agregarme al repositorio con mi usuario **envasador** tiene la cara de BMO) y *no debe haber ningún commit después de la fecha de la entrega recogida en Moodle.*
 
 ### **4.6 Videotutorial**
 Para la entrega del videotutorial, cada estudiante debe realizar una presentación clara y detallada de todo el proceso de desarrollo del proyecto. 
@@ -100,7 +100,7 @@ las decisiones de diseño tomadas, las herramientas utilizadas, la maquetación 
 
 Debéis entregar:
 
-* Los archivos que correspondan al proyecto completo a través de GitHub y en la tarea asignada agregar el enlace al repositorio. Este repositorio tiene que estar público o si es privado que pueda tener acceso (envasador)
+* Los archivos que correspondan al proyecto completo a través de GitHub y en la tarea asignada agregar el enlace al repositorio. Este repositorio tiene que estar público o si es privado que pueda tener acceso.
 * Videotutorial explicando el proyecto. (se puede incluir en los archivos de GitHub)
 
 Revisión.
