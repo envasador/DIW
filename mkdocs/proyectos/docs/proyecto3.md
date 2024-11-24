@@ -91,6 +91,9 @@ Tienes que validar tu CSS para ver si cumple la normativa  ([https://jigsaw.w3.o
 El proyecto debe estar en Github (Debes agregarme al repositorio con mi usuario **envasadoralvacio**) y *no debe haber ningún commit después de la fecha de la entrega recogida en Moodle.*
 
 ### **4.6 Videotutorial**
+Para la entrega del videotutorial, cada estudiante debe realizar una presentación clara y detallada de todo el proceso de desarrollo del proyecto. 
+El video debe incluir desde la fase inicial de análisis y planificación hasta la implementación final de la interfaz web. Es fundamental que se expliquen 
+las decisiones de diseño tomadas, las herramientas utilizadas, la maquetación con HTML5 y CSS3/SASS, así como los aspectos que sean destacables como la arquitectura. El videotutorial debe tener una duración máxima de 7 minutos y seguir un orden lógico que permita entender fácilmente cada paso del proyecto, destacando los problemas encontrados y las soluciones aplicadas. Además, se recomienda incluir una breve conclusión sobre el resultado final y posibles mejoras.
 
 
 ## **6. Entrega final** 
