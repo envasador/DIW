@@ -3,8 +3,8 @@ hide:
   - navigation
 ---
 
-# **Proyecto 3:** Maquetando y desarrollando nuestra aplicación web (API).
-## 1. **Descripción del proyecto** 
+# **Proyecto 3: Maquetando y desarrollando nuestra aplicación web (API).** 
+## **1. Descripción del proyecto** 
 
 En este proyecto desarrollarás una aplicación web de una sola página (SPA) que consuma una API REST pública y muestre sus datos de forma dinámica. 
 La navegación entre las distintas secciones de la aplicación se gestionará mediante React Router, permitiendo una experiencia fluida sin recargas de página. 
@@ -12,7 +12,7 @@ En nuestro módulo se trabajará la maquetación completa de la aplicación web 
 Este proyecto forma parte de una actividad conjunta con el módulo de Desarrollo Web en Entorno Cliente (DWEC), justamente en el [proyecto 4](https://fluffy-adventure-zwwjv7l.pages.github.io/docs/proyectos/proyecto4/#fundamentacion-teorica).
 
 
-## 2. **Objetivos del proyecto** 
+## **2. Objetivos del proyecto** 
 
 * Conocer y crear documentos HTML5 aplicando las buenas prácticas.
 * Conocer y Crear estilos CSS.
@@ -23,25 +23,24 @@ Este proyecto forma parte de una actividad conjunta con el módulo de Desarrollo
 * Utilizar un workflow de desarrollo frontend moderno, que diferencie entornos de desarrollo y producción, con las diferencias que correspondan a cada uno.
 * Utilizar el lenguaje de preprocesado de estilos Sass o PostCSS.
 
-## 3. **Resultados de aprendizaje y Criterios de evaluación** {#resultados-de-aprendizaje-y-criterios-de-evaluación}
+## **3. Resultados de aprendizaje y Criterios de evaluación** {#resultados-de-aprendizaje-y-criterios-de-evaluación}
 
-**RA2** Crea interfaces Web homogéneos definiendo y aplicando estilos.  
-* CE 2a) Se han reconocido las posibilidades de modificar las etiquetas HTML.  
+**RA2** Crea interfaces Web homogéneos definiendo y aplicando estilos.
+* CE 2a) Se han reconocido las posibilidades de modificar las etiquetas HTML.
 * CE 2b) Se han definido estilos de forma directa.
-* CE 2c) Se han definido y asociado estilos globales en hojas externas.
-* CE 2d) Se han definido hojas de estilos alternativas.
-* CE 2e) Se han redefinido estilos.
-* CE 2f) Se han identificado las distintas propiedades de cada elemento.
-* CE 2g) Se han creado clases de estilos.
+* CE 2c) Se han definido y asociado estilos globales en hojas externas. 
+* CE 2d) Se han definido hojas de estilos alternativas. 
+* CE 2e) Se han redefinido estilos. 
+* CE 2f) Se han identificado las distintas propiedades de cada elemento. 
+* CE 2g) Se han creado clases de estilos. 
 * CE 2h) Se han utilizado herramientas de validación de hojas de estilos. 
-* CE 2i) Se han analizado y utilizado tecnologías y frameworks para la creación de interfaces web con un diseño responsive.
 * CE 2j) Se han analizado y utilizado preprocesadores de estilos para traducir estilos comunes a un código estándar y reconocible por los navegadores.
 
-**RA3** Prepara archivos multimedia para la Web, analizando sus características y manejando herramientas específicas.  
-* CE. 3f) Se han realizado animaciones a partir de imágenes fijas.  
-* CE. 3h) Se ha aplicado la guía de estilo.
+**RA3** Prepara archivos multimedia para la Web, analizando sus características y manejando herramientas específicas.
+* CE 3f) Se han realizado animaciones a partir de imágenes fijas.
+* CE 3h) Se ha aplicado la guía de estilo.
 
-## 4. **Prueba**
+## **4. Prueba**
 
 La parte de desarrollo se debe entregar en una carpeta y repositorio de GitHub que contenga exactamente los ficheros y carpetas que se indican a continuación:
 
@@ -55,12 +54,12 @@ Las herramientas que utilizaremos serán un IDE de programación, Git y GitHub y
 
 El proceso de la parte de desarrollo es el siguiente:
 
-### 4.1 Estructura del proyecto.
+### **4.1 Estructura del proyecto.**
 
 Carpeta con el proyecto (src) y la arquitectura de organización que sea clara y sea legible. 
 Es recomendable usar la estructura vista en clase de SASS.
 
-### 4.2 Vistas
+### **4.2 Vistas**
 
 Creamos las vistas de las páginas principales de nuestro proyecto (lo haréis a través de React, pero se comprobará en el navegador. (Las que hayamos creado en el mockup).
 * Página de inicio
@@ -71,7 +70,7 @@ Creamos las vistas de las páginas principales de nuestro proyecto (lo haréis a
 * Página 404
 * Página de perfil de usuario …
 
-### 4.3 Creamos uno o varios documentos SASS para incluir nuestro proyecto. Donde tenemos que tener en cuenta los siguientes puntos:
+### **4.3 Creamos uno o varios documentos SASS para incluir nuestro proyecto. Donde tenemos que tener en cuenta los siguientes puntos.**
 
    - 3.1 El código debe estar documentado con comentarios para que su lectura sea fácil.
    - 3.2 Debemos añadir dos formas de incluir estilos CSS de forma directa y explicar si es recomendable su uso.  (se puede añadir un documento readme.txt en el proyecto, o en un comentario)
@@ -83,16 +82,16 @@ Creamos las vistas de las páginas principales de nuestro proyecto (lo haréis a
    - 3.8 Añade transiciones a todos los elementos que puedan tener diferentes eventos. 
    - 3.9 Crea una página 404.html que tenga una animación con transformaciones
 
-### 4.4 Validación
+### **4.4 Validación**
 Tienes que validar tu CSS para ver si cumple la normativa  ([https://jigsaw.w3.org/css-validator/](https://jigsaw.w3.org/css-validator/)), adjunta las evidencias.
 
-### 4.5 Repositorio
+### **4.5 Repositorio**
 El proyecto debe estar en Github (Debes agregarme al repositorio con mi usuario **envasadoralvacio**) y *no debe haber ningún commit después de la fecha de la entrega recogida en Moodle.*
 
-### 4.6 Videotutorial
+### **4.6 Videotutorial**
 
 
-6. # **Entrega final** 
+## **6. Entrega final** 
 
 Debéis entregar:
 
@@ -106,7 +105,7 @@ Revisión.
 Ánimo 🖖
 
 
-6. # **Calificación**
+## **7. Calificación**
 
 **RA2**
 
