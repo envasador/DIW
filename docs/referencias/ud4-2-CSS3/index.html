@@ -1422,52 +1422,50 @@ body {
 <h3 id="otras-nuevas-caracteristicas">Otras Nuevas Características</h3>
 <p>Además de la regla <code>@scope</code>, CSS3 ha introducido múltiples nuevas características que mejoran la capacidad de diseño y estilización de las páginas web:</p>
 <ul>
-<li>
-<p><strong>Variables CSS (<code>--variable</code>):</strong> Permiten definir variables reutilizables para colores, tamaños, etc.</p>
-<p>```css
-:root {
-    --color-primario: #3498db;
-    --padding-base: 10px;
-}</p>
-<p>.boton {
-    background-color: var(--color-primario);
-    padding: var(--padding-base);
-}
-```</p>
-</li>
-<li>
-<p><strong>Propiedades de Sombra (<code>box-shadow</code>, <code>text-shadow</code>):</strong> Para agregar sombras a elementos y textos.</p>
-<p>```css
-.caja {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}</p>
-<p>h1 {
-    text-shadow: 2px 2px #ff0000;
-}
-```</p>
-</li>
-<li>
-<p><strong>Transformaciones 2D y 3D (<code>transform</code>):</strong> Para rotaciones, escalados, traslaciones y más.</p>
-<p><code>css
-.elemento {
-    transform: rotate(45deg) scale(1.2);
-}</code></p>
-</li>
-<li>
-<p><strong>Filtros CSS (<code>filter</code>):</strong> Para aplicar efectos visuales como desenfoques y cambios de color.</p>
-<p><code>css
-img {
-    filter: grayscale(50%);
-}</code></p>
-</li>
-<li>
-<p><strong>Clipping y Masking (<code>clip-path</code>, <code>mask</code>):</strong> Para crear formas complejas y máscaras en elementos.</p>
-<p><code>css
-.caja {
-    clip-path: circle(50%);
-}</code></p>
-</li>
+<li><strong>Variables CSS (<code>--variable</code>):</strong> Permiten definir variables reutilizables para colores, tamaños, etc.</li>
 </ul>
+<pre><code class="language-css">    :root {
+        --color-primario: #3498db;
+        --padding-base: 10px;
+    }
+
+    .boton {
+        background-color: var(--color-primario);
+        padding: var(--padding-base);
+    }
+</code></pre>
+<ul>
+<li><strong>Propiedades de Sombra (<code>box-shadow</code>, <code>text-shadow</code>):</strong> Para agregar sombras a elementos y textos.</li>
+</ul>
+<pre><code class="language-css">    .caja {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-shadow: 2px 2px #ff0000;
+    }
+</code></pre>
+<ul>
+<li><strong>Transformaciones 2D y 3D (<code>transform</code>):</strong> Para rotaciones, escalados, traslaciones y más.</li>
+</ul>
+<pre><code class="language-css">    .elemento {
+        transform: rotate(45deg) scale(1.2);
+    }
+</code></pre>
+<ul>
+<li><strong>Filtros CSS (<code>filter</code>):</strong> Para aplicar efectos visuales como desenfoques y cambios de color.</li>
+</ul>
+<pre><code class="language-css">    img {
+        filter: grayscale(50%);
+    }
+</code></pre>
+<ul>
+<li><strong>Clipping y Masking (<code>clip-path</code>, <code>mask</code>):</strong> Para crear formas complejas y máscaras en elementos.</li>
+</ul>
+<pre><code class="language-css">    .caja {
+        clip-path: circle(50%);
+    }
+</code></pre>
 <hr />
 <h2 id="buenas-practicas-en-css">Buenas Prácticas en CSS</h2>
 <ol>
@@ -1484,23 +1482,26 @@ img {
 <ul>
 <li>Sigue convenciones como <strong>BEM</strong> (Block Element Modifier) para nombrar clases.</li>
 </ul>
-<p>```css
-/<em> BEM Example </em>/
-.tarjeta {
-    /<em> Block </em>/
-}</p>
-<p>.tarjeta__titulo {
-    /<em> Element </em>/
-}</p>
-<p>.tarjeta__titulo--destacado {
-    /<em> Modifier </em>/
-}
-```</p>
 </li>
+</ol>
+<pre><code class="language-css">    /* BEM Example */
+    .tarjeta {
+        /* Block */
+    }
+
+    .tarjeta__titulo {
+        /* Element */
+    }
+
+    .tarjeta__titulo--destacado {
+        /* Modifier */
+    }
+</code></pre>
+<ol>
 <li>
 <p><strong>Evita el Uso Excesivo de <code>!important</code>:</strong></p>
 <ul>
-<li>Solo úsalo cuando sea absolutamente necesario para sobreescribir estilos específicos.</li>
+<li>No se debe usar porque añade mucha especificidad.</li>
 </ul>
 </li>
 <li>
@@ -1515,29 +1516,31 @@ img {
 <ul>
 <li>Define variables para colores, tamaños y otros valores repetitivos.</li>
 </ul>
-<p>```css
-:root {
-    --color-primario: #3498db;
-    --padding-base: 10px;
-}</p>
-<p>.boton {
-    background-color: var(--color-primario);
-    padding: var(--padding-base);
-}
-```</p>
 </li>
-<li>
-<p><strong>Compatibilidad entre Navegadores:</strong></p>
-<ul>
+</ol>
+<pre><code class="language-css">    :root {
+        --color-primario: #3498db;
+        --padding-base: 8px;
+    }
+
+    .boton {
+        background-color: var(--color-primario);
+        padding: var(--padding-base);
+    }
+</code></pre>
+<ol>
+<li><strong>Compatibilidad entre Navegadores:</strong><ul>
 <li>Utiliza prefijos de proveedores cuando sea necesario para asegurar la compatibilidad.</li>
 </ul>
-<p><code>css
-.caja {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-}</code></p>
 </li>
+</ol>
+<pre><code class="language-css">    .caja {
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+    }
+</code></pre>
+<ol>
 <li>
 <p><strong>Minimización y Compresión:</strong></p>
 <ul>
@@ -1548,7 +1551,7 @@ img {
 <li>
 <p><strong>Evita el CSS Innecesario:</strong></p>
 <ul>
-<li>Remueve estilos no utilizados para mantener el código limpio y eficiente.</li>
+<li>Elimina estilos no utilizados para mantener el código limpio y eficiente.</li>
 </ul>
 </li>
 </ol>
