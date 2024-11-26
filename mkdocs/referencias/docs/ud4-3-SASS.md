@@ -140,15 +140,15 @@ Integrar SASS en un proyecto de React es sencillo. Puedes seguir estos pasos:
 
 1. **Instalación**: Instala `node-sass` (o `sass`) en el proyecto para habilitar la compilación de archivos `.scss`.
 
-   ```bash
+```bash
    npm install node-sass
-   ```
+```
 
 2. **Estructura del proyecto**: Organiza el proyecto utilizando una estructura de carpetas para los archivos `.scss`. Por ejemplo, podrías tener una carpeta `styles` con un archivo `main.scss` que importe todos los partials.
 
 3. **Uso en componentes**: Importa los archivos `.scss` directamente en los componentes de React:
 
-   ```javascript
+```javascript
    import './styles/button.scss';
 
    const Button = () => {
@@ -160,20 +160,20 @@ Integrar SASS en un proyecto de React es sencillo. Puedes seguir estos pasos:
    };
 
    export default Button;
-   ```
+```
 
 #### **4.2 En proyectos con Vue**
 Vue tiene una integración excelente con SASS, gracias a la posibilidad de utilizar estilos en el ámbito de cada componente:
 
 1. **Instalación**: Instala `node-sass` o `sass`.
 
-   ```bash
+```bash
    npm install node-sass sass-loader
-   ```
+```
 
 2. **Uso en componentes Vue**: En los componentes Vue, se pueden utilizar estilos en `<style lang="scss">` con la posibilidad de usar partials y mixins:
 
-   ```vue
+```vue
    <template>
      <div class="card">
        <h1>{{ title }}</h1>
@@ -204,7 +204,7 @@ Vue tiene una integración excelente con SASS, gracias a la posibilidad de utili
      }
    }
    </style>
-   ```
+```
 
 ### **5. Buenas prácticas en el uso de SASS en proyectos Frontend**
 
