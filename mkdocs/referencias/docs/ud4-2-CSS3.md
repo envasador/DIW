@@ -724,7 +724,7 @@ Para implementar un modo oscuro en un proyecto utilizando CSS, puedes seguir est
    <button id="toggle-button">Cambiar Tema</button>
 ```
 
-   ```javascript
+```javascript
    const toggleButton = document.getElementById("toggle-button");
 
    toggleButton.addEventListener("click", function() {
