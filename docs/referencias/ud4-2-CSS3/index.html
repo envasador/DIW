@@ -963,6 +963,51 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#como-implemento-un-dark-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      ¿Cómo implemento un Dark mode?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicion-de-variables-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      Definición de Variables CSS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#aplicacion-de-variables-en-el-css" class="md-nav__link">
+    <span class="md-ellipsis">
+      Aplicación de Variables en el CSS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cambio-de-tema-con-javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cambio de Tema con JavaScript
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deteccion-de-preferencias-del-usuario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Detección de Preferencias del Usuario
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1556,6 +1601,66 @@ body {
 </li>
 </ol>
 <hr />
+<h2 id="como-implemento-un-dark-mode">¿Cómo implemento un Dark mode?</h2>
+<p>Para implementar un modo oscuro en un proyecto utilizando CSS, puedes seguir estos pasos:</p>
+<h2 id="definicion-de-variables-css">Definición de Variables CSS</h2>
+<ol>
+<li><strong>Define las variables para ambos temas</strong>: Utiliza el selector <code>:root</code> para establecer las variables CSS globales para el tema claro y oscuro.</li>
+</ol>
+<pre><code class="language-css">   :root {
+     /* Tema claro */
+     --background-color: #ffffff;
+     --text-color: #000000;
+     --accent-color: #007BFF;
+   }
+
+   [data-theme=&quot;dark&quot;] {
+     /* Tema oscuro */
+     --background-color: #121212;
+     --text-color: #E0E0E0;
+     --accent-color: #BB86FC;
+   }
+</code></pre>
+<h2 id="aplicacion-de-variables-en-el-css">Aplicación de Variables en el CSS</h2>
+<ol>
+<li><strong>Utiliza las variables en tus estilos</strong>: Aplica estas variables a los elementos de tu página para que los estilos cambien dinámicamente según el tema seleccionado.</li>
+</ol>
+<pre><code class="language-css">   body {
+     background-color: var(--background-color);
+     color: var(--text-color);
+   }
+
+   a, button {
+     color: var(--accent-color);
+   }
+</code></pre>
+<h2 id="cambio-de-tema-con-javascript">Cambio de Tema con JavaScript</h2>
+<ol>
+<li><strong>Implementa un botón de toggle para cambiar el tema</strong>: Usa JavaScript para alternar entre los temas claro y oscuro.</li>
+</ol>
+<pre><code class="language-html">   &lt;button id=&quot;toggle-button&quot;&gt;Cambiar Tema&lt;/button&gt;
+</code></pre>
+<pre><code class="language-javascript">   const toggleButton = document.getElementById(&quot;toggle-button&quot;);
+
+   toggleButton.addEventListener(&quot;click&quot;, function() {
+     const body = document.body;
+     const currentTheme = body.getAttribute(&quot;data-theme&quot;);
+     const newTheme = currentTheme === &quot;dark&quot; ? &quot;light&quot; : &quot;dark&quot;;
+     body.setAttribute(&quot;data-theme&quot;, newTheme);
+   });
+</code></pre>
+<h2 id="deteccion-de-preferencias-del-usuario">Detección de Preferencias del Usuario</h2>
+<ol>
+<li><strong>Detecta la preferencia del sistema operativo</strong>: Utiliza la media query <code>prefers-color-scheme</code> para aplicar automáticamente el tema según la preferencia del usuario.</li>
+</ol>
+<pre><code class="language-javascript">   const prefersDarkScheme = window.matchMedia(&quot;(prefers-color-scheme: dark)&quot;);
+
+   if (prefersDarkScheme.matches) {
+     document.body.setAttribute(&quot;data-theme&quot;, &quot;dark&quot;);
+   } else {
+     document.body.setAttribute(&quot;data-theme&quot;, &quot;light&quot;);
+   }
+</code></pre>
 
 
 
