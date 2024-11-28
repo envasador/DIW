@@ -676,3 +676,76 @@ Además de la regla `@scope`, CSS3 ha introducido múltiples nuevas característ
     - Elimina estilos no utilizados para mantener el código limpio y eficiente.
 
 ---
+
+## ¿Cómo implemento un Dark mode?
+
+Para implementar un modo oscuro en un proyecto utilizando CSS, puedes seguir estos pasos:
+
+## Definición de Variables CSS
+
+1. **Define las variables para ambos temas**: Utiliza el selector `:root` para establecer las variables CSS globales para el tema claro y oscuro.
+
+```css
+   :root {
+     /* Tema claro */
+     --background-color: #ffffff;
+     --text-color: #000000;
+     --accent-color: #007BFF;
+   }
+
+   [data-theme="dark"] {
+     /* Tema oscuro */
+     --background-color: #121212;
+     --text-color: #E0E0E0;
+     --accent-color: #BB86FC;
+   }
+```
+
+## Aplicación de Variables en el CSS
+
+2. **Utiliza las variables en tus estilos**: Aplica estas variables a los elementos de tu página para que los estilos cambien dinámicamente según el tema seleccionado.
+
+```css
+   body {
+     background-color: var(--background-color);
+     color: var(--text-color);
+   }
+
+   a, button {
+     color: var(--accent-color);
+   }
+```
+
+## Cambio de Tema con JavaScript
+
+3. **Implementa un botón de toggle para cambiar el tema**: Usa JavaScript para alternar entre los temas claro y oscuro.
+
+```html
+   <button id="toggle-button">Cambiar Tema</button>
+```
+
+   ```javascript
+   const toggleButton = document.getElementById("toggle-button");
+
+   toggleButton.addEventListener("click", function() {
+     const body = document.body;
+     const currentTheme = body.getAttribute("data-theme");
+     const newTheme = currentTheme === "dark" ? "light" : "dark";
+     body.setAttribute("data-theme", newTheme);
+   });
+```
+
+## Detección de Preferencias del Usuario
+
+4. **Detecta la preferencia del sistema operativo**: Utiliza la media query `prefers-color-scheme` para aplicar automáticamente el tema según la preferencia del usuario.
+
+```javascript
+   const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+
+   if (prefersDarkScheme.matches) {
+     document.body.setAttribute("data-theme", "dark");
+   } else {
+     document.body.setAttribute("data-theme", "light");
+   }
+```
+
