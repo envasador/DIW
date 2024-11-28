@@ -12,7 +12,7 @@
       
       
       <link rel="icon" href="../assets/sello-safael-slberti-imago-blanco.svg">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.45">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.46">
     
     
       
@@ -20,7 +20,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.0253249f.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
@@ -752,8 +752,8 @@ body.dark-mode {
 <ol>
 <li><strong>Instalación</strong>: Instala <code>node-sass</code> (o <code>sass</code>) en el proyecto para habilitar la compilación de archivos <code>.scss</code>.</li>
 </ol>
-<p><code>bash
-   npm install node-sass</code></p>
+<pre><code class="language-bash">   npm install node-sass
+</code></pre>
 <ol>
 <li>
 <p><strong>Estructura del proyecto</strong>: Organiza el proyecto utilizando una estructura de carpetas para los archivos <code>.scss</code>. Por ejemplo, podrías tener una carpeta <code>styles</code> con un archivo <code>main.scss</code> que importe todos los partials.</p>
@@ -762,35 +762,36 @@ body.dark-mode {
 <p><strong>Uso en componentes</strong>: Importa los archivos <code>.scss</code> directamente en los componentes de React:</p>
 </li>
 </ol>
-<p>```javascript
-   import './styles/button.scss';</p>
-<p>const Button = () =&gt; {
+<pre><code class="language-javascript">   import './styles/button.scss';
+
+   const Button = () =&gt; {
      return (
-       <button className="primary-button">
+       &lt;button className=&quot;primary-button&quot;&gt;
          Click Me
-       </button>
+       &lt;/button&gt;
      );
-   };</p>
-<p>export default Button;
-   ```</p>
+   };
+
+   export default Button;
+</code></pre>
 <h4 id="42-en-proyectos-con-vue"><strong>4.2 En proyectos con Vue</strong></h4>
 <p>Vue tiene una integración excelente con SASS, gracias a la posibilidad de utilizar estilos en el ámbito de cada componente:</p>
 <ol>
 <li><strong>Instalación</strong>: Instala <code>node-sass</code> o <code>sass</code>.</li>
 </ol>
-<p><code>bash
-   npm install node-sass sass-loader</code></p>
+<pre><code class="language-bash">   npm install node-sass sass-loader
+</code></pre>
 <ol>
 <li><strong>Uso en componentes Vue</strong>: En los componentes Vue, se pueden utilizar estilos en <code>&lt;style lang="scss"&gt;</code> con la posibilidad de usar partials y mixins:</li>
 </ol>
-<p>```vue
-   <template>
-     <div class="card">
-       <h1>{{ title }}</h1>
-       <button class="primary-button">Click Me</button>
-     </div>
-   </template></p>
-<script>
+<pre><code class="language-vue">   &lt;template&gt;
+     &lt;div class=&quot;card&quot;&gt;
+       &lt;h1&gt;{{ title }}&lt;/h1&gt;
+       &lt;button class=&quot;primary-button&quot;&gt;Click Me&lt;/button&gt;
+     &lt;/div&gt;
+   &lt;/template&gt;
+
+   &lt;script&gt;
    export default {
      data() {
        return {
@@ -798,9 +799,9 @@ body.dark-mode {
        };
      }
    };
-   </script>
+   &lt;/script&gt;
 
-<style lang="scss">
+   &lt;style lang=&quot;scss&quot;&gt;
    @import './variables.scss';
 
    .card {
@@ -812,8 +813,8 @@ body.dark-mode {
        @include button-style;
      }
    }
-   </style>
-<p>```</p>
+   &lt;/style&gt;
+</code></pre>
 <h3 id="5-buenas-practicas-en-el-uso-de-sass-en-proyectos-frontend"><strong>5. Buenas prácticas en el uso de SASS en proyectos Frontend</strong></h3>
 <h4 id="51-estructura-de-carpetas"><strong>5.1 Estructura de Carpetas</strong></h4>
 <p>Organiza los archivos <code>.scss</code> en carpetas según su funcionalidad: <code>base</code>, <code>components</code>, <code>layout</code>, <code>themes</code>, <code>mixins</code>, <code>utils</code>, etc. Esto facilita el mantenimiento a medida que el proyecto crece.</p>
