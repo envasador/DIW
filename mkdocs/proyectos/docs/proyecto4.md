@@ -124,27 +124,6 @@ Debéis entregar:
 - **Ghost Inspector**: [https://ghostinspector.com](https://ghostinspector.com)  
 
 
-
-# UT5 - Testing de Producción
-
-## Diseño de Interfaces Web
-
-**CFGS Desarrollo de Aplicaciones Web**\
-**IES Rafael Alberti**
-
----
-
-## Tabla de Contenidos
-
-1. [Instrucciones](#1instrucciones)
-2. [Objetivos](#2objetivos)
-3. [Resultados de aprendizaje y Criterios de evaluación](#3resultados-de-aprendizaje-y-criterios-de-evaluación)
-4. [Prueba](#4prueba)
-5. [Entrega Final](#5entrega-final)
-6. [Rúbrica de Evaluación](#6rúbrica-de-evaluación)
-
----
-
 ## 6.Rúbrica de Evaluación
 
 ### **Criterio CE.c: Valoración de estándares en la creación de documentos Web**
