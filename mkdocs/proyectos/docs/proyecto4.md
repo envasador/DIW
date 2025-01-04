@@ -19,6 +19,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
 
 ## 3.Resultados de aprendizaje y Criterios de evaluación
 **RA6**: Desarrolla interfaces web amigables analizando y aplicando las pautas de usabilidad.
+
 - **CE.c)** Se ha valorado la importancia del uso de estándares en la creación de documentos Web.
 - **CE.d)** Se ha verificado la facilidad de navegación de un documento Web mediante distintos periféricos.
 - **CE.f)** Se ha verificado la usabilidad del interfaz Web creado en diferentes navegadores y tecnologías.
@@ -37,18 +38,13 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
     - Evalúa la **facilidad de navegación** del sitio web con diferentes periféricos (ratón, teclado, pantalla táctil).
     - Realiza una reflexión final sobre la importancia de los estándares y la navegación intuitiva.
 
-2. **Pruebas de usabilidad y velocidad con herramientas automáticas**
-
-    Utiliza las siguientes herramientas para evaluar la **usabilidad y rendimiento** del sitio web:
-
+2. **Pruebas de usabilidad y velocidad con herramientas automáticas**: Utiliza las siguientes herramientas para evaluar la **usabilidad y rendimiento** del sitio web:
    1. **[WebPageTest](https://webpagetest.org)**:  
       1.1. Realiza el test en al menos **2 navegadores diferentes** (home).  
       1.2. Evalúa la **navegación** en al menos **2 dispositivos** (listado y producto).
-
    2. **[PageSpeed Insights](https://pagespeed.web.dev/)**:  
       2.1. Analiza al menos **3 páginas clave**: home, listado y producto.  
       2.2. Identifica los **elementos de mejora** y explica las recomendaciones.
-
    3. **Optimización con Lighthouse**:
       1. Evalúa el rendimiento del sitio web utilizando **Lighthouse** en Chrome DevTools. Mide y analiza los siguientes parámetros:
           - **Largest Contentful Paint (LCP):** tiempo que tarda en renderizarse el elemento más grande visible.
@@ -58,8 +54,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
           - **First Input Delay (FID):** tiempo de respuesta a la primera interacción del usuario.
           - **Time to First Byte (TTFB):** tiempo hasta recibir el primer byte del servidor.
       2. Documenta los resultados obtenidos y realiza recomendaciones específicas para optimizar cada parámetro medido.
-
-   3. **Evaluación con Ghost Inspector**
+   4. **Evaluación con Ghost Inspector**
        - Realiza un testeo automatizado con **Ghost Inspector** para comprobar la navegación general y los procesos críticos del sitio web.
        - Adjunta el **video generado** y analiza los resultados. Por ejemplo, presta atención a posibles fallos como botones inactivos, enlaces rotos o tiempos de carga excesivos.
        - Una guía visual sencilla podría consistir en comparar la salida del testeo con el comportamiento esperado (por ejemplo, verificar si los pasos automatizados coinciden con el flujo de navegación diseñado).
