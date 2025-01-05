@@ -9,7 +9,7 @@ hide:
 Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad** para evaluar la interfaz. La prueba debe ser visible a través de una **URL** (por ejemplo, **GitHub Pages** o servidor propio).
 
 
-## 2.Objetivos
+## 2. Objetivos
 - Reconocer la **importancia del uso de estándares** en la creación de documentos.
 - Verificar la **facilidad de navegación** y **usabilidad** de una página web.
 - Utilizar herramientas y técnicas para realizar **tests de usabilidad** en diferentes dispositivos y navegadores.
@@ -17,7 +17,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
 
 ---
 
-## 3.Resultados de aprendizaje y Criterios de evaluación
+## 3. Resultados de aprendizaje y Criterios de evaluación
 **RA6**: Desarrolla interfaces web amigables analizando y aplicando las pautas de usabilidad.
 
 - **CE.c)** Se ha valorado la importancia del uso de estándares en la creación de documentos Web.
@@ -26,7 +26,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
 
 ---
 
-## 4.Prueba
+## 4. Prueba
 
 ### Proceso de la Práctica
 
@@ -39,6 +39,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
     - Realiza una reflexión final sobre la importancia de los estándares y la navegación intuitiva.
 
 2. **Pruebas de usabilidad y velocidad con herramientas automáticas**: Utiliza las siguientes herramientas para evaluar la **usabilidad y rendimiento** del sitio web:
+
    1. **[WebPageTest](https://webpagetest.org)**:  
       1.1. Realiza el test en al menos **2 navegadores diferentes** (home).  
       1.2. Evalúa la **navegación** en al menos **2 dispositivos** (listado y producto).
