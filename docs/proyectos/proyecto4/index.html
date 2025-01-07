@@ -786,30 +786,32 @@
 <li>
 <p><strong>Pruebas de usabilidad y velocidad con herramientas automáticas</strong>: Utiliza las siguientes herramientas para evaluar la <strong>usabilidad y rendimiento</strong> del sitio web:</p>
 </li>
-<li>
-<p><strong><a href="https://webpagetest.org">WebPageTest</a></strong>:<br />
-      1.1. Realiza el test en al menos <strong>2 navegadores diferentes</strong> (home).<br />
-      1.2. Evalúa la <strong>navegación</strong> en al menos <strong>2 dispositivos</strong> (listado y producto).</p>
+<li><strong><a href="https://webpagetest.org">WebPageTest</a></strong>:<ul>
+<li>Realiza el test en al menos <strong>2 navegadores diferentes</strong> (home).</li>
+<li>Evalúa la <strong>navegación</strong> en al menos <strong>2 dispositivos</strong> (listado y producto).</li>
+</ul>
 </li>
-<li><strong><a href="https://pagespeed.web.dev/">PageSpeed Insights</a></strong>:<br />
-      2.1. Analiza al menos <strong>3 páginas clave</strong>: home, listado y producto.<br />
-      2.2. Identifica los <strong>elementos de mejora</strong> y explica las recomendaciones.</li>
-<li><strong>Optimización con Lighthouse</strong>:<ol>
+<li><strong><a href="https://pagespeed.web.dev/">PageSpeed Insights</a></strong>:  <ul>
+<li>Analiza al menos <strong>3 páginas clave</strong>: home, listado y producto.</li>
+<li>Identifica los <strong>elementos de mejora</strong> y explica las recomendaciones.</li>
+</ul>
+</li>
+<li><strong>Optimización con Lighthouse</strong>:<ul>
 <li>Evalúa el rendimiento del sitio web utilizando <strong>Lighthouse</strong> en Chrome DevTools. Mide y analiza los siguientes parámetros:<ul>
 <li><strong>Largest Contentful Paint (LCP):</strong> tiempo que tarda en renderizarse el elemento más grande visible.</li>
 <li><strong>Interaction to Next Paint (INP):</strong> latencia en la interacción con elementos interactivos.</li>
 <li><strong>Cumulative Layout Shift (CLS):</strong> estabilidad visual del contenido durante la carga.</li>
 <li><strong>First Contentful Paint (FCP):</strong> tiempo hasta que se muestra el primer elemento visual.</li>
 <li><strong>First Input Delay (FID):</strong> tiempo de respuesta a la primera interacción del usuario.</li>
-<li><strong>Time to First Byte (TTFB):</strong> tiempo hasta recibir el primer byte del servidor.</li>
+<li><strong>Time to First Byte (TTFB):</strong> tiempo hasta recibir el primer byte del servidor. </li>
 </ul>
 </li>
 <li>Documenta los resultados obtenidos y realiza recomendaciones específicas para optimizar cada parámetro medido.</li>
-</ol>
+</ul>
 </li>
 <li><strong>Evaluación con Ghost Inspector</strong><ul>
-<li>Realiza un testeo automatizado con <strong>Ghost Inspector</strong> para comprobar la navegación general y los procesos críticos del sitio web.</li>
-<li>Adjunta el <strong>video generado</strong> y analiza los resultados. Por ejemplo, presta atención a posibles fallos como botones inactivos, enlaces rotos o tiempos de carga excesivos.</li>
+<li>Realiza un testeo automatizado con <strong>Ghost Inspector</strong> para comprobar la navegación general y los procesos críticos del sitio web. </li>
+<li>Adjunta el <strong>video generado</strong> y analiza los resultados. Por ejemplo, presta atención a posibles fallos como botones inactivos, enlaces rotos o tiempos de carga excesivos. </li>
 <li>Una guía visual sencilla podría consistir en comparar la salida del testeo con el comportamiento esperado (por ejemplo, verificar si los pasos automatizados coinciden con el flujo de navegación diseñado).</li>
 </ul>
 </li>
