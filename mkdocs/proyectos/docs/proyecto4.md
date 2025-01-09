@@ -5,7 +5,10 @@ hide:
 # **Proyecto 4: Testing en producción**
 ## **1. Descripción del proyecto**
 
-### Testing de Usabilidad de una Web
+### Introducción
+En este proyecto, aplicarás tus conocimientos sobre usabilidad y optimización para analizar y mejorar un sitio web existente. A través de pruebas manuales y automáticas, identificarás problemas en el rendimiento, navegación y experiencia de usuario, implementando mejoras justificadas para optimizar la interfaz web.
+
+#### Testing de Usabilidad de una Web
 Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad** para evaluar la interfaz. La prueba debe ser visible a través de una **URL** (por ejemplo, **GitHub Pages** o servidor propio).
 
 
@@ -32,7 +35,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
 
 1. **Evaluación inicial de estándares y navegación**
 
-    - Elige un proyecto web propio o de un/a compañero/a.
+    - Elige el proyecto de un/a compañero/a.
     - Analiza los **estándares empleados** en el desarrollo:
         - ¿Qué estándares se han aplicado correctamente?
         - ¿Cuáles no cumplen con las pautas de usabilidad?
