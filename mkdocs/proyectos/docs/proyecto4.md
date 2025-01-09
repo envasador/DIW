@@ -31,6 +31,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
 ### Proceso de la Práctica
 
 1. **Evaluación inicial de estándares y navegación**
+
     - Elige un proyecto web propio o de un/a compañero/a.
     - Analiza los **estándares empleados** en el desarrollo:
         - ¿Qué estándares se han aplicado correctamente?
@@ -39,6 +40,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
     - Realiza una reflexión final sobre la importancia de los estándares y la navegación intuitiva.
 
 2. **Pruebas de usabilidad y velocidad con herramientas automáticas**: Utiliza las siguientes herramientas para evaluar la **usabilidad y rendimiento** del sitio web:
+
    - **[WebPageTest](https://webpagetest.org)**:
       - Realiza el test en al menos **2 navegadores diferentes** (home).
       - Evalúa la **navegación** en al menos **2 dispositivos** (listado y producto).
@@ -62,6 +64,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
 
 ## 5.Entrega Final
 Debéis entregar en un repositorío de GitHub:
+
 - **Documento** con el informe completo, que incluya:
     - Evaluación de estándares y navegación.
     - Resultados y explicación de los tests automáticos.
