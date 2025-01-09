@@ -89,7 +89,7 @@ Debéis entregar en un repositorío de GitHub:
 - **Lighthouse**: Disponible en Chrome DevTools.
 - **Ghost Inspector**: [https://ghostinspector.com](https://ghostinspector.com)  
 
-## 6.Rúbrica de Evaluación
+## 6.Rúbrica de Evaluación.
 
 ### **Criterio CE.c: Valoración de estándares en la creación de documentos Web**
 | Nivel | Descripción                                                                |
