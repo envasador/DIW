@@ -4,7 +4,6 @@ hide:
 ---
 # **Proyecto 4: Testing en producción**
 ## **1. Descripción del proyecto**
-
 ### Introducción
 En este proyecto, aplicarás tus conocimientos sobre usabilidad y optimización para analizar y mejorar un sitio web existente. A través de pruebas manuales y automáticas, identificarás problemas en el rendimiento, navegación y experiencia de usuario, implementando mejoras justificadas para optimizar la interfaz web.
 
