@@ -17,8 +17,8 @@ El módulo se organiza en las siguientes unidades, que se actualizarán a medida
 * [Unidad 3: Testing de Usabilidad](ud3-Testing-Usabilidad.md)
 * [Unidad 4: Desarrollando la interfaz web](ud4-0-desarrollando-la-interfaz.md)
 * [Unidad 5: Testing en producción]()
-* [Unidad 6: Diseño 2D, audio y video para videojuegos]()
-* [Unidad 7: Elementos interactivos]()
+* [Unidad 6: Accesibilidad Web](ud6-accesibilidad-web.md)
+* [Unidad 7: ]()
 
 ## Referencias web generales
 
