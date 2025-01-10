@@ -200,7 +200,7 @@ Al finalizar todas las fases, cada estudiante o equipo deberá entregar:
 **¡Ánimo! 🖖**
 
 
-## 6. Evaluación
+## 6. Evaluación.
 ### **RA5: Desarrolla interfaces Web accesibles, analizando las pautas establecidas y aplicando técnicas de verificación**
 #### **Criterios de evaluación y niveles de desempeño**
 
