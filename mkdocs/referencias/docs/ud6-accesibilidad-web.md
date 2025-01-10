@@ -32,6 +32,7 @@ Este tema busca proporcionar una guía estructurada para diseñadores y desarrol
 La accesibilidad web se refiere al diseño y desarrollo de sitios web, aplicaciones y herramientas digitales que puedan ser utilizados por todas las personas, incluidas aquellas con diversidad funcional (visual, auditiva, motora o cognitiva). También beneficia a otros grupos que pueden enfrentarse a barreras tecnológicas o contextuales.
 
 **Casos donde la accesibilidad es beneficiosa:**
+
 - Personas mayores con disminución en habilidades motoras o sensoriales.
 - Usuarios con discapacidades temporales (fracturas, lesiones).
 - Personas en situaciones específicas (por ejemplo, leer bajo luz solar intensa).
@@ -39,6 +40,7 @@ La accesibilidad web se refiere al diseño y desarrollo de sitios web, aplicacio
 - Personas no nativas del idioma que necesitan contenido claro y comprensible.
 
 **Importancia:**
+
 - **Social:** Promueve la inclusión digital y reduce la brecha tecnológica.
 - **Legal:** Cumple con normativas como el Real Decreto 1112/2018 en España.
 - **Económica:** Amplía el alcance del público objetivo, mejorando la experiencia del usuario para todos.
@@ -50,6 +52,7 @@ Los principios WCAG 2.1 son esenciales para garantizar que el contenido sea acce
 
 #### **Perceptible**
 La información debe ser presentada de forma que todos los usuarios puedan percibirla:
+
 - *Ejemplo:* Proporcionar texto alternativo (`alt`) para imágenes.
 - *Buenas prácticas:*
     - Asegurar un contraste adecuado entre texto y fondo (mínimo 4.5:1).
@@ -57,6 +60,7 @@ La información debe ser presentada de forma que todos los usuarios puedan perci
 
 #### **Operable**
 Los componentes de la interfaz deben ser utilizables mediante diferentes dispositivos o tecnologías:
+
 - *Ejemplo:* Permitir la navegación mediante teclado.
 - *Buenas prácticas:*
     - Evitar tiempos límite estrictos en formularios.
@@ -64,6 +68,7 @@ Los componentes de la interfaz deben ser utilizables mediante diferentes disposi
 
 #### **Comprensible**
 El contenido debe ser claro y fácil de entender:
+
 - *Ejemplo:* Uso de lenguaje sencillo y directo.
 - *Buenas prácticas:*
     - Proporcionar instrucciones claras en formularios.
@@ -71,6 +76,7 @@ El contenido debe ser claro y fácil de entender:
 
 #### **Robusto**
 El contenido debe ser compatible con tecnologías actuales y futuras:
+
 - *Ejemplo:* Uso correcto de etiquetas semánticas HTML5.
 - *Buenas prácticas:*
     - Validar el código para garantizar su correcta interpretación por lectores de pantalla.
@@ -191,12 +197,3 @@ En aplicaciones modernas basadas en JavaScript o frameworks como React o Angular
 1. Priorizar etiquetas HTML semánticas antes que roles ARIA personalizados siempre que sea posible (`<button>` mejor que `role="button"`).
 2. Validar el uso correcto con herramientas como WAVE o Axe Accessibility Checker.
 3. Evitar sobrecargar elementos con demasiadas propiedades ARIA innecesarias.
-
----
-
-## Conclusión
-La accesibilidad web no solo mejora la experiencia del usuario, sino también fortalece los valores éticos detrás del diseño digital inclusivo. Al aplicar principios WCAG, pautas claras y herramientas avanzadas como WAI-ARIA, podemos avanzar hacia una red más justa donde nadie quede excluido debido a barreras digitales.
-
---- 
-
-Este tema completo combina teoría práctica e implementación avanzada para crear sitios web inclusivos desde todos los ángulos posibles.
