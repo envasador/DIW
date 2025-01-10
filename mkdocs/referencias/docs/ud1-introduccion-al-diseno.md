@@ -2,7 +2,7 @@
 hide:
   - navigation
 ---
-# Unidad de Trabajo 1: Introducción al Diseño, Percepción y Comunicación Visual
+# Unidad de Trabajo 1: **Introducción al Diseño, Percepción y Comunicación Visual**
 
 ![](assets/referencias.jpg)
 

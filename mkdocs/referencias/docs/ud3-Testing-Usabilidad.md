@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# **Unidad de trabajo 3: Pruebas de Usabilidad en Prototipos de Productos Digitales**
+# Unidad de trabajo 3: **Pruebas de Usabilidad en Prototipos de Productos Digitales**
 
 Las pruebas de usabilidad en prototipos permiten evaluar cómo interactúan los usuarios con un producto digital en su fase de diseño, antes de ser completamente desarrollado. Estas pruebas buscan identificar problemas de usabilidad y mejorar la experiencia de usuario, asegurando que la interfaz sea intuitiva, clara y fácil de usar. Al realizar estas pruebas, el equipo de desarrollo puede hacer ajustes en los diseños con base en el feedback y las métricas obtenidas, lo que ahorra tiempo y recursos en etapas posteriores.
 

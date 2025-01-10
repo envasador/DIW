@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# Unidad de trabajo 2: Planificación y Prototipado de una interfaz web
+# Unidad de trabajo 2: **Planificación y Prototipado de una interfaz web**
 
 ![](assets/referencias.jpg)
 
