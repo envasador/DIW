@@ -1,84 +1,175 @@
+---
+hide:
+  - navigation
+---
+# **Proyecto 5: Mejora de la Accesibilidad Web**
+## **1. Descripción del proyecto**
+### Introducción
+El objetivo de este proyecto es diseñar y desarrollar una web accesible, alcanzando el nivel de conformidad AA según las pautas WCAG 2.1. Para ello, el alumnado trabajará en distintas fases que abarcan desde el análisis inicial hasta la verificación final, documentando cada etapa en un informe que servirá como referencia para futuros proyectos. Esta relacionado con el proyecto de [**Desarrollo Full-Stack con MERN**](https://0xmrivas.github.io/material-DWEC/docs/referencias/ud6/) del módulo de DWEC.
+
+## 2. Objetivos
+
+- Conocer qué es la accesibilidad. 
+- Desarrollar webs accesibles teniendo en cuenta las pautas de accesibilidad al contenido en la web (WCAG), teniendo en cuenta prioridades, puntos de verificación y niveles de adecuación. 
+- Conocer los principios generales del diseño accesible 
+- Utilizar herramientas de análisis de accesibilidad web. 
+- Realizar análisis de accesibilidad web a través de dispositivos.
 
 ---
 
-## **Mejorando la Accesibilidad Web según WCAG 2.2 Nivel AA**
+## 3. Resultados de aprendizaje y Criterios de evaluación
 
-### **Objetivos**
-1. Evaluar y mejorar la accesibilidad del sitio web según las pautas WCAG 2.2, nivel AA.
-2. Aplicar técnicas de desarrollo accesible para garantizar una experiencia inclusiva.
-3. Utilizar herramientas automáticas y manuales para identificar y corregir barreras de accesibilidad.
 
----
+**RA5**: Desarrolla interfaces web accesibles, analizando las pautas establecidas y aplicando técnicas de verificación.
 
-### **Fases del Proyecto**
-
-#### **Fase 1: Testeo inicial de accesibilidad**
-1. **Herramientas de evaluación**:
-    - Ejecutar pruebas automáticas con:
-        - **Lighthouse** (DevTools en Chrome/Edge).
-        - **Wave** (extensión para navegadores o versión web).
-        - **Axe** (integración en DevTools).
-    - Documentar los problemas detectados con capturas de pantalla y explicaciones.
-
-2. **Pruebas manuales**:
-    - Navegar utilizando solo teclado y evaluar:
-        - Secuencia lógica de navegación.
-        - Visibilidad del foco en elementos interactivos (**WCAG 2.4.11**).
-    - Probar componentes interactivos con lectores de pantalla como NVDA o VoiceOver.
-
-3. **Identificación de criterios incumplidos**:
-    - Relacionar los problemas encontrados con criterios WCAG 2.2 nivel AA.
-    - Priorizar los problemas según su impacto (críticos, moderados, menores).
-
-4. **Entrega de informe inicial**:
-    - Documento con:
-        - Problemas detectados (pruebas automáticas y manuales).
-        - Criterios WCAG 2.2 incumplidos.
-        - Prioridad de cada problema.
+- **CE. a)** Se ha reconocido la necesidad de diseñar webs accesibles.
+- **CE. b)** Se ha analizado la accesibilidad de diferentes documentos web. 
+- **CE. c)** Se han identificado las principales pautas de accesibilidad al contenido. 
+- **CE. d)** Se han analizado los posibles errores según los puntos de verificación de prioridad. 
+- **CE. e)** Se ha alcanzado el nivel de conformidad deseado 
+- **CE. f)** Se han verificado los niveles alcanzados mediante el uso de test externos. 
+- **CE. g)** Se ha verificado la visualización del interfaz con diferentes navegadores y tecnologías.
 
 ---
 
-#### **Fase 2: Corrección de problemas**
-1. **Implementación de mejoras**:
-    - **Semántica HTML**: Corregir etiquetas mal usadas, añadir `alt` a imágenes, y asociar correctamente `label` con campos de formulario.
-    - **Estilos y diseño visual**: Ajustar contraste de colores (**1.4.3**), visibilidad del foco (**2.4.11**), y escalabilidad del texto.
-    - **Interacción y JavaScript**: Añadir descripciones accesibles (`aria-label`, `aria-describedby`), alternativas a gestos dependientes del ratón (**2.5.7**), y mensajes de error accesibles en formularios (**3.3.1**, **3.3.3**).
+## 4. Prueba - **Fases del Proyecto**
 
-2. **Pruebas después de cada mejora**:
-    - Repetir pruebas automáticas y manuales para validar las correcciones.
+### **Fase 1: Reconocimiento de la necesidad de accesibilidad web**
 
----
+**Objetivo:** Comprender la importancia de la accesibilidad web y su impacto en los usuarios y en el desarrollo profesional.
 
-#### **Fase 3: Validación final y presentación**
-1. **Pruebas finales**:
-    - Ejecutar nuevamente las herramientas de testeo y validar con tecnologías asistivas.
+**Tareas:**
+1. Investigar sobre la importancia de la accesibilidad web.
+2. Redactar un apartado en el informe explicando:
+   - ¿Por qué es necesario diseñar webs accesibles?
+   - Beneficios para los usuarios (especialmente aquellos con discapacidades) y para los desarrolladores.
+   - Relación con normativas vigentes, como las WCAG 2.1 y el Real Decreto 1112/2018.
 
-2. **Informe final**:
-    - Comparativa "antes y después".
-    - Explicación de las mejoras aplicadas y su impacto en la accesibilidad.
-
-3. **Presentación del proyecto**:
-    - Exposición de los resultados por parte del alumnado.
+**Entrega:** Apartado en el informe que justifique la necesidad de accesibilidad.
 
 ---
 
-### **Rúbrica de Evaluación**
+### **Fase 2: Análisis inicial de accesibilidad**
 
-#### **RA5: Desarrolla interfaces web accesibles**
+**Objetivo:** Identificar los problemas de accesibilidad en una web existente o en una parte del proyecto asignado.
 
-| **Indicador**                                    | **Excelente (4)**                                                                                              | **Bueno (3)**                                                                                   | **Aceptable (2)**                                                                         | **Insuficiente (1)**                                                      |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| **CE a) Reconoce la necesidad de diseñar webs accesibles** | Explica con profundidad y ejemplos concretos la importancia de la accesibilidad web.                           | Reconoce la importancia de la accesibilidad y menciona pautas clave.                          | Muestra una comprensión básica de la necesidad, pero sin profundizar.                     | No identifica por qué es importante diseñar webs accesibles.              |
-| **CE b) Analiza la accesibilidad de documentos web**  | Evalúa con precisión y justifica los problemas detectados en un informe bien estructurado.                     | Detecta problemas de accesibilidad, pero la justificación o documentación es parcial.         | Identifica solo algunos problemas de accesibilidad con una justificación mínima.          | No realiza un análisis correcto ni detecta problemas significativos.      |
-| **CE c) Identifica pautas clave de accesibilidad**   | Relaciona pautas específicas de WCAG 2.2 con ejemplos y soluciones aplicables al proyecto.                    | Enumera las pautas clave de WCAG 2.2 y sugiere soluciones generales.                          | Muestra un conocimiento básico de las pautas sin relacionarlas con casos prácticos.       | No identifica pautas o lo hace de forma incorrecta o superficial.         |
-| **CE d) Analiza errores según los puntos de verificación** | Identifica errores en profundidad, incluyendo prioridades, impacto y posibles soluciones.                      | Detecta errores y clasifica prioridades, pero sin profundizar en el impacto.                  | Reconoce errores menores o superficiales sin profundizar en las prioridades.              | No analiza errores ni aplica puntos de verificación de WCAG 2.2.          |
-| **CE e) Alcanza el nivel de conformidad deseado**   | Cumple con todos los criterios WCAG 2.2 AA, con una implementación técnica impecable y justificada.            | Cumple con la mayoría de los criterios WCAG 2.2 AA, aunque algunos aspectos son mejorables.   | Alcanza el nivel deseado solo parcialmente, dejando varios criterios sin cumplir.          | No alcanza el nivel de conformidad deseado ni implementa mejoras clave.   |
-| **CE f) Verifica niveles mediante test externos**   | Realiza pruebas exhaustivas con múltiples herramientas (Lighthouse, Axe, Wave) y documenta claramente resultados. | Usa herramientas externas y documenta parcialmente los resultados.                            | Utiliza herramientas, pero sin suficiente rigor o documentación de los resultados.         | No utiliza herramientas externas o lo hace sin validar adecuadamente.     |
-| **CE g) Verifica la visualización en diferentes navegadores y tecnologías** | Realiza pruebas exhaustivas en navegadores (Chrome, Firefox, Edge) y dispositivos, y documenta problemas.       | Realiza pruebas en varios navegadores y tecnologías, aunque omite documentar ciertos casos.   | Verifica la visualización, pero no incluye pruebas en todas las tecnologías requeridas.    | No realiza pruebas suficientes ni valida compatibilidad en navegadores.   |
+**Tareas:**
+1. Seleccionar una página web para analizar.
+2. Utilizar herramientas automáticas como **WAVE**, **Lighthouse** o **TAW** para detectar problemas técnicos.
+3. Realizar pruebas manuales para verificar aspectos no detectables automáticamente, como etiquetas semánticas o textos alternativos.
+4. Documentar los problemas encontrados:
+   - Tipo de problema (contraste, navegación, etiquetas, etc.).
+   - Ubicación exacta dentro del sitio.
+   - Impacto en la experiencia del usuario.
+
+**Entrega:** Informe parcial con los resultados del análisis inicial.
 
 ---
 
-### **Incorporación al proyecto actual**
-Este proyecto puede añadirse como un **apartado nuevo** en el material DWEC (UD6) bajo un título como:  
-**“Práctica: Análisis y Mejora de Accesibilidad Web según WCAG 2.2”**, integrándolo como una extensión del contenido de interfaces accesibles. Esto refuerza los conocimientos prácticos del alumnado al complementar el material teórico con una aplicación real.
+### **Fase 3: Identificación de pautas principales**
+
+**Objetivo:** Familiarizarse con las pautas WCAG 2.1 y aplicarlas al diseño y desarrollo web.
+
+**Tareas:**
+1. Estudiar los principios fundamentales de las WCAG 2.1:
+   - Perceptible.
+   - Operable.
+   - Comprensible.
+   - Robusto.
+2. Incluir en el informe ejemplos prácticos sobre cómo aplicar estas pautas al contenido web (por ejemplo, uso de texto alternativo, navegación por teclado, etc.).
+
+**Entrega:** Sección del informe que resuma las pautas principales y su aplicación práctica.
+
+---
+
+### **Fase 4: Análisis y priorización de errores**
+
+**Objetivo:** Identificar los errores más críticos y plantear soluciones efectivas para mejorar la accesibilidad.
+
+**Tareas:**
+1. Revisar los problemas detectados en el análisis inicial.
+2. Priorizar los errores según su impacto en la experiencia del usuario:
+   - Contraste insuficiente entre texto y fondo.
+   - Imágenes sin texto alternativo.
+   - Formularios sin etiquetas descriptivas.
+3. Proponer soluciones específicas para cada problema identificado.
+
+**Entrega:** Documento con la lista priorizada de errores y las soluciones propuestas.
+
+---
+
+### **Fase 5: Implementación de mejoras**
+
+**Objetivo:** Realizar las modificaciones necesarias para alcanzar el nivel AA de conformidad según las WCAG 2.1.
+
+**Tareas:**
+1. Modificar el código HTML/CSS/JS del proyecto para solucionar los problemas detectados:
+   - Mejorar el contraste entre texto y fondo.
+   - Añadir textos alternativos a imágenes y elementos multimedia.
+   - Asegurar que todos los formularios tengan etiquetas claras y descriptivas.
+   - Garantizar la navegación completa mediante teclado.
+2. Documentar cada mejora realizada con capturas antes y después del cambio.
+
+**Entrega:** Archivos del proyecto actualizados con las mejoras implementadas.
+
+---
+
+### **Fase 6: Verificación externa**
+
+**Objetivo:** Comprobar que se han alcanzado los objetivos de accesibilidad mediante herramientas externas y pruebas manuales.
+
+**Tareas:**
+1. Utilizar herramientas automáticas como **TAW**, **SortSite**, o validadores online para verificar el cumplimiento del nivel AA.
+2. Realizar pruebas manuales:
+   - Navegación por teclado (sin usar ratón).
+   - Uso de lectores de pantalla como NVDA o VoiceOver.
+3. Documentar los resultados obtenidos (capturas, informes generados por herramientas).
+
+**Entrega:** Evidencias del cumplimiento del nivel AA (resultados obtenidos, capturas, etc.).
+
+---
+
+### **Fase 7: Verificación multiplataforma**
+
+**Objetivo:** Garantizar que la web es funcional en diferentes navegadores, dispositivos y tecnologías asistivas.
+
+**Tareas:**
+1. Probar la visualización del sitio en navegadores modernos como Chrome, Firefox y Edge.
+2. Verificar su funcionamiento en dispositivos móviles y tabletas (diseño responsive).
+3. Comprobar su compatibilidad con tecnologías asistivas como lectores de pantalla o magnificadores.
+
+**Entrega:** Informe con los resultados de las pruebas multiplataforma.
+
+---
+
+### **Fase 8: Elaboración del informe final**
+
+**Objetivo:** Documentar todo el proceso seguido durante el proyecto para que sirva como referencia futura.
+
+**Tareas:**
+1. Redactar un informe final que incluya:
+   - Introducción sobre la importancia de la accesibilidad web.
+   - Análisis inicial: problemas detectados y herramientas utilizadas.
+   - Modificaciones realizadas para alcanzar el nivel AA.
+   - Resultados obtenidos tras las verificaciones externas y multiplataforma.
+   - Conclusiones y recomendaciones para futuros proyectos.
+2. Asegurarse de que el informe sea claro, estructurado e incluya evidencias gráficas (capturas antes/después).
+
+**Entrega:** Informe final completo en formato PDF.
+
+---
+
+## **Entregables Finales**
+
+
+## 5.Entrega Final
+Debéis entregar en un repositorío de GitHub (el mismo del proyecto de :
+
+Al finalizar todas las fases, cada equipo deberá entregar:
+
+1. El informe final documentado con todas las fases descritas.
+2. Los archivos actualizados del proyecto web con las mejoras implementadas.
+3. Evidencias gráficas o informes generados por herramientas externas que demuestren el cumplimiento del nivel AA.
+
+**¡Ánimo! 🖖**
 
