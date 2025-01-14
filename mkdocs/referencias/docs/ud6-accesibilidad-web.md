@@ -5,7 +5,7 @@ hide:
 
 # Unidad de Trabajo 6: **"Accesibilidad Web"**
 
-## **Introducción**
+## **Introducción**.
 La accesibilidad web es un componente clave del diseño inclusivo. Su objetivo es garantizar que todas las personas, independientemente de sus capacidades físicas, sensoriales, cognitivas o tecnológicas, puedan interactuar con los sitios web y aplicaciones de manera equitativa. En España, la accesibilidad web está regulada por normativas como el Real Decreto 1112/2018, que adapta las directrices europeas al contexto nacional. Sin embargo, más allá de las obligaciones legales, la accesibilidad es un compromiso ético con la igualdad de oportunidades en el entorno digital.
 
 En este contexto, el término *diversidad funcional* se utiliza como una alternativa al concepto de discapacidad, promoviendo una visión más inclusiva y positiva sobre las capacidades humanas. Además, la accesibilidad no solo beneficia a personas con diversidad funcional, sino también a otros grupos como:
