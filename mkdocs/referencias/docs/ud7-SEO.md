@@ -13,8 +13,8 @@ Search Engine Optimization (SEO) es el conjunto de técnicas y estrategias que p
 ### **Tipos de SEO**
 
 - **SEO On-page:** Optimización de contenido y estructura del sitio web.
-- **SEO Off-page:** Estrategias externas, como backlinks y redes sociales.
 - **SEO Técnico:** Optimizaciones que afectan al rastreo y rendimiento del sitio web.
+- **SEO Off-page:** Estrategias externas, como backlinks y redes sociales.
 
 ## 2. SEO On-page con HTML
 ### **Buenas prácticas**

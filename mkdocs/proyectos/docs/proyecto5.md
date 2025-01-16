@@ -48,6 +48,7 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
 **Objetivo:** Comprender la importancia de diseñar webs accesibles y su impacto en los usuarios.
 
 **Tareas:**
+
 1. Investigar sobre la accesibilidad web y redactar un apartado en el informe que responda:
     - ¿Por qué es importante diseñar webs accesibles?
     - ¿Qué beneficios aporta a los usuarios (especialmente aquellos con discapacidades) y a los desarrolladores?
@@ -63,6 +64,7 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
 **Objetivo:** Identificar problemas de accesibilidad en páginas web existentes o en partes del proyecto asignado.
 
 **Tareas:**
+
 1. Seleccionar una página web para analizar.
 2. Utilizar herramientas automáticas como **WAVE**, **Lighthouse** o **TAW** para detectar problemas técnicos.
 3. Realizar pruebas manuales para verificar aspectos no detectables automáticamente, como etiquetas semánticas correctas o textos alternativos descriptivos.
@@ -80,6 +82,7 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
 **Objetivo:** Familiarizarse con los principios fundamentales de las WCAG 2.1 y los niveles de conformidad (A, AA, AAA).
 
 **Tareas:**
+
 1. Estudiar los principios fundamentales:
     - Perceptible.
     - Operable.
@@ -98,6 +101,7 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
 **Objetivo:** Identificar los errores más críticos según su prioridad e impacto en la experiencia del usuario.
 
 **Tareas:**
+
 1. Revisar los problemas detectados en el análisis inicial.
 2. Priorizar los errores según su impacto:
     - Contraste insuficiente entre texto y fondo.
@@ -114,6 +118,7 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
 **Objetivo:** Realizar las modificaciones necesarias para alcanzar el nivel AA de conformidad según las WCAG 2.1.
 
 **Tareas:**
+
 1. Modificar el código HTML/CSS/JS del proyecto para solucionar los problemas detectados:
     - Mejorar el contraste entre texto y fondo.
     - Añadir textos alternativos a imágenes y elementos multimedia.
@@ -130,6 +135,7 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
 **Objetivo:** Comprobar que se han alcanzado los objetivos de accesibilidad mediante herramientas externas y pruebas manuales.
 
 **Tareas:**
+
 1. Utilizar herramientas automáticas como **TAW**, **SortSite**, o validadores online para verificar el cumplimiento del nivel AA.
 2. Realizar pruebas manuales:
     - Navegación por teclado (sin usar ratón).
@@ -145,6 +151,7 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
 **Objetivo:** Garantizar que la web es funcional en diferentes navegadores, dispositivos y tecnologías asistivas.
 
 **Tareas:**
+
 1. Probar la visualización del sitio en navegadores modernos como Chrome, Firefox y Edge.
 2. Verificar su funcionamiento en dispositivos móviles y tabletas (diseño responsive).
 3. Comprobar su compatibilidad con tecnologías asistivas como lectores de pantalla o magnificadores.
@@ -159,24 +166,20 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
 **Tareas:**
 
 1. **SEO On-page:**
-
    - Crear una estructura semántica usando React para las páginas principales, incluyendo metaetiquetas dinámicas con React Helmet.
    - Implementar URLs amigables y configurar rutas con React Router.
    - Añadir contenido optimizado con palabras clave relacionadas con el tema de la aplicación.
 
 2. **SEO Técnico:**
-
    - Configurar un sitemap dinámico utilizando Express que incluya las rutas principales de la aplicación.
    - Implementar un archivo `robots.txt` para gestionar el acceso de los motores de búsqueda.
    - Medir y optimizar el tiempo de carga utilizando herramientas como Lighthouse, ajustando imágenes y activando la compresión Gzip en el servidor.
 
 3. **SEO Off-page:**
-
    - Diseñar una estrategia de backlinks creando contenido atractivo (como tutoriales o blogs) que pueda ser enlazado desde otras plataformas.
    - Crear un perfil en Google Search Console y analizar el tráfico y las páginas indexadas.
 
 4. **Evaluación del SEO:**
-
    - Usar herramientas como PageSpeed Insights y Google Search Console para analizar las mejoras implementadas.
    - Elaborar un informe que incluya las métricas iniciales y los cambios logrados.
 
