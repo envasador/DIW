@@ -18,7 +18,7 @@ El módulo se organiza en las siguientes unidades, que se actualizarán a medida
 * [Unidad 4: Desarrollando la interfaz web](ud4-0-desarrollando-la-interfaz.md)
 * [Unidad 5: Testing en producción]()
 * [Unidad 6: Accesibilidad Web](ud6-accesibilidad-web.md)
-* [Unidad 7: ]()
+* [Unidad 7: SEO ](ud7-SEO.md)
 
 ## Referencias web generales
 

@@ -169,16 +169,13 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
    - Crear una estructura semántica usando React para las páginas principales, incluyendo metaetiquetas dinámicas con React Helmet.
    - Implementar URLs amigables y configurar rutas con React Router.
    - Añadir contenido optimizado con palabras clave relacionadas con el tema de la aplicación.
-
 2. **SEO Técnico:**
    - Configurar un sitemap dinámico utilizando Express que incluya las rutas principales de la aplicación.
    - Implementar un archivo `robots.txt` para gestionar el acceso de los motores de búsqueda.
    - Medir y optimizar el tiempo de carga utilizando herramientas como Lighthouse, ajustando imágenes y activando la compresión Gzip en el servidor.
-
 3. **SEO Off-page:**
    - Diseñar una estrategia de backlinks creando contenido atractivo (como tutoriales o blogs) que pueda ser enlazado desde otras plataformas.
    - Crear un perfil en Google Search Console y analizar el tráfico y las páginas indexadas.
-
 4. **Evaluación del SEO:**
    - Usar herramientas como PageSpeed Insights y Google Search Console para analizar las mejoras implementadas.
    - Elaborar un informe que incluya las métricas iniciales y los cambios logrados.
