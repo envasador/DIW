@@ -154,18 +154,35 @@ El siguiente proyecto ha sido adaptado para cumplir con los criterios de evaluac
 ---
 
 ### **Fase 8: Análisis y estrategias para mejorar visibilidad en buscadores**
-
-**Objetivo:** Implementar estrategias que mejoren tanto la visibilidad como la accesibilidad web en motores de búsqueda (SEO inclusivo).
+**Objetivo:** Implementar estrategias avanzadas de SEO en una aplicación MERN que aborden los tres tipos de SEO: On-page, Off-page y Técnico.
 
 **Tareas:**
-1. Analizar cómo factores como etiquetas semánticas correctas, textos alternativos descriptivos e índices claros contribuyen al SEO.
-2. Implementar mejoras relacionadas con:
-    - Uso correcto de etiquetas HTML5 semánticas (<header>, <main>, <footer>, etc.).
-    - Creación de metadatos claros (títulos, descripciones).
-    - Optimización del rendimiento web (velocidad).
-3. Utilizar herramientas como Google Search Console o PageSpeed Insights para evaluar mejoras implementadas.
 
-**Entrega:** Informe sobre las estrategias aplicadas para mejorar visibilidad y accesibilidad SEO.
+1. **SEO On-page:**
+
+   - Crear una estructura semántica usando React para las páginas principales, incluyendo metaetiquetas dinámicas con React Helmet.
+   - Implementar URLs amigables y configurar rutas con React Router.
+   - Añadir contenido optimizado con palabras clave relacionadas con el tema de la aplicación.
+
+2. **SEO Técnico:**
+
+   - Configurar un sitemap dinámico utilizando Express que incluya las rutas principales de la aplicación.
+   - Implementar un archivo `robots.txt` para gestionar el acceso de los motores de búsqueda.
+   - Medir y optimizar el tiempo de carga utilizando herramientas como Lighthouse, ajustando imágenes y activando la compresión Gzip en el servidor.
+
+3. **SEO Off-page:**
+
+   - Diseñar una estrategia de backlinks creando contenido atractivo (como tutoriales o blogs) que pueda ser enlazado desde otras plataformas.
+   - Crear un perfil en Google Search Console y analizar el tráfico y las páginas indexadas.
+
+4. **Evaluación del SEO:**
+
+   - Usar herramientas como PageSpeed Insights y Google Search Console para analizar las mejoras implementadas.
+   - Elaborar un informe que incluya las métricas iniciales y los cambios logrados.
+
+**Entrega:**
+- Una aplicación MERN funcional con todas las optimizaciones SEO implementadas.
+- Un informe detallado que describa las estrategias aplicadas en cada tipo de SEO, incluyendo capturas de pantalla de las herramientas utilizadas y un análisis de los resultados obtenidos.
 
 ---
 
