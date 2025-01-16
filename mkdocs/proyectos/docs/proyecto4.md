@@ -33,24 +33,19 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
 ### Proceso de la Práctica
 
 1. **Evaluación inicial de estándares y navegación**
-
     - Elige el proyecto de un/a compañero/a.
     - Analiza los **estándares empleados** en el desarrollo:
         - ¿Qué estándares se han aplicado correctamente?
         - ¿Cuáles no cumplen con las pautas de usabilidad?
     - Evalúa la **facilidad de navegación** del sitio web con diferentes periféricos (ratón, teclado, pantalla táctil).
     - Realiza una reflexión final sobre la importancia de los estándares y la navegación intuitiva.
-
 2. **Pruebas de usabilidad y velocidad con herramientas automáticas**: Utiliza las siguientes herramientas para evaluar la **usabilidad y rendimiento** del sitio web:
-
    - **[WebPageTest](https://webpagetest.org)**:
       - Realiza el test en al menos **2 navegadores diferentes** (home).
-      - Evalúa la **navegación** en al menos **2 dispositivos** (listado y producto).
-     
+      - Evalúa la **navegación** en al menos **2 dispositivos** (listado y producto). 
    - **[PageSpeed Insights](https://pagespeed.web.dev/)**:  
       - Analiza al menos **3 páginas clave**: home, listado y producto.
       - Identifica los **elementos de mejora** y explica las recomendaciones.
-   
    - **Optimización con Lighthouse**:
       - Evalúa el rendimiento del sitio web utilizando **Lighthouse** en Chrome DevTools. Mide y analiza los siguientes parámetros:
          - **Largest Contentful Paint (LCP):** tiempo que tarda en renderizarse el elemento más grande visible.
@@ -59,8 +54,7 @@ Una vez desarrollado el proyecto web, se realizará un **testing de usabilidad**
          - **First Contentful Paint (FCP):** tiempo hasta que se muestra el primer elemento visual.
          - **First Input Delay (FID):** tiempo de respuesta a la primera interacción del usuario.
          - **Time to First Byte (TTFB):** tiempo hasta recibir el primer byte del servidor. 
-     - Documenta los resultados obtenidos y realiza recomendaciones específicas para optimizar cada parámetro medido.
-     
+     - Documenta los resultados obtenidos y realiza recomendaciones específicas para optimizar cada parámetro medido. 
    - **Evaluación con Ghost Inspector**
       - Realiza un testeo automatizado con **Ghost Inspector** para comprobar la navegación general y los procesos críticos del sitio web. 
       - Adjunta el **video generado** y analiza los resultados. Por ejemplo, presta atención a posibles fallos como botones inactivos, enlaces rotos o tiempos de carga excesivos. 
