@@ -18,6 +18,11 @@ hide:
 
 ## 2. Resultados de aprendizaje y criterios de evaluación
 
+**RA2: Crea interfaces Web homogéneos definiendo y aplicando estilos.**
+
+- CE. i )Se han analizado y utilizado tecnologías y frameworks para la creación de interfaces web con un diseño responsive.
+
+
 **RA3: Prepara archivos multimedia para la Web, analizando sus características y manejando herramientas específicas.**
 
 - CE. a) Se han reconocido las implicaciones de las licencias y los derechos de autor en el uso de material multimedia.
@@ -50,8 +55,8 @@ Desde el departamento gráfico se solicita elaborar una propuesta para un videoj
 - Como alternativa, se podrá realizar a modo de Concept Art del videojuego utilizando técnicas de ilustración digital o un collage artístico combinando elementos gráficos y texturas.
 - Crear un tráiler del videojuego, combinando imágenes, audio y vídeo para transmitir la esencia del juego. Se deben seleccionar y editar clips de vídeo, agregar efectos y transiciones, incluir una banda sonora adecuada y exportar el resultado en distintos formatos optimizados para web.
 - Elaborar un informe con una tabla detallada que incluya:
-   - Imágenes utilizadas: tipo de licencia, formato original, fuente, formato de salida para web e impresión, software de edición.
-   - Audios y vídeos: formato original, formatos de salida, códec utilizado y licencia.
+    - Imágenes utilizadas: tipo de licencia, formato original, fuente, formato de salida para web e impresión, software de edición.
+    - Audios y vídeos: formato original, formatos de salida, códec utilizado y licencia.
 
 **Entrega:**
 
@@ -85,7 +90,7 @@ Cualquier entrega que contenga la carpeta `node_modules` u otros archivos no esp
 
 ---
 
-## 4. **Propiedad intelectual y plagio**
+## 4. Propiedad intelectual y plagio
 
 El uso de recursos de terceros está permitido siempre que:
 
