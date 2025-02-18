@@ -13,3 +13,6 @@ En esta página encontrarás las descripciones de los diferentes proyectos de ev
 * [Proyecto 2: Testing de Usabilidad Diseño de interfaces web](proyecto2.md)
 * [Proyecto 3: Maquetando y desarrollando nuestra aplicación web (API)](proyecto3.md)
 * [Proyecto 4: Testing en producción](proyecto4.md)
+* [Proyecto 5: Mejora de la Accesibilidad Web](proyecto5.md)
+* [Proyecto 6: Arte 2D y Desarrollo Web Responsive](proyecto6.md)
+

@@ -19,6 +19,7 @@ El módulo se organiza en las siguientes unidades, que se actualizarán a medida
 * [Unidad 5: Testing en producción]()
 * [Unidad 6: Accesibilidad Web](ud6-accesibilidad-web.md)
 * [Unidad 7: SEO ](ud7-SEO.md)
+* [Unidad 8: Multimedia aplicada a productos digitales](ud8-Multimedia aplicada a productos digitales.md)
 
 ## Referencias web generales
 
