@@ -34,8 +34,6 @@ Para determinar si una imagen tiene derechos de autor, se pueden seguir los sigu
 - **Consultar bases de datos de derechos de autor:** Sitios como la Oficina de Derechos de Autor de EE.UU. o el Registro de Propiedad Intelectual de cada país pueden contener información sobre imágenes registradas.
 - **Optar por bancos de imágenes con licencia libre:** Plataformas como Unsplash, Pixabay, Pexels o Wikimedia Commons ofrecen imágenes de dominio público o con licencias abiertas para su uso.
 
----
-
 ## 2. Arte 2D
 
 ### 2.1. ¿Qué es el Arte 2D?
@@ -49,8 +47,6 @@ Los profesionales en el área de Arte 2D pueden desempeñar diferentes roles com
 - **Animador 2D:** Se encarga de dar movimiento a elementos visuales mediante software especializado como Adobe Animate, Toon Boom Harmony o Spine.
 - **UI/UX Artist:** Diseña interfaces gráficas y experiencia de usuario para aplicaciones y videojuegos.
 - **Matte Painter:** Crea fondos y escenarios digitales, combinando ilustración y retoque digital para lograr entornos realistas o fantásticos.
-
----
 
 ## 3. Imágenes: formatos y tipos
 
@@ -73,8 +69,6 @@ El tamaño y resolución de una imagen afectan directamente su calidad y peso en
 - **Resolución:** Se mide en píxeles por pulgada (PPI o DPI). Una mayor resolución implica más detalles en la imagen.
 - **Imágenes para impresión:** Normalmente requieren 300 DPI para una calidad óptima.
 - **Imágenes para web:** Generalmente se utilizan resoluciones de 72-96 DPI para optimizar el rendimiento.
-
----
 
 ## 4. Edición de imágenes
 
