@@ -41,12 +41,12 @@ hide:
 
 ### **Fase 1: Proyecto Arte 2D**
 
-Desde el departamento gráfico se solicita elaborar una propuesta para un videojuego 2D. El proyecto se desarrollará en parejas, siguiendo las siguientes directrices:
+Desde el departamento gráfico se solicita elaborar una propuesta para un videojuego 2D. El proyecto se desarrollará de forma individual, siguiendo las siguientes directrices:
 
 - Elegir una temática de videojuego con un mismo estilo artístico.
 - Definir de que va a tratar el juego, historía y personajes.
-- Crear un escenario compuesto por tres partes unidas como una imagen de mapa de bits //o imagen vectorial.
-- Diseñar al menos dos personajes en imagen vectorial y un logotipo.
+- Crear un escenario compuesto por dos partes unidas como una imagen de mapa de bits o imagen vectorial.
+- Diseñar al menos un personaje imagen vectorial o mapa de bits y un logotipo.
 - Como alternativa, se podrá realizar a modo de Concept Art del videojuego utilizando técnicas de ilustración digital o un collage artístico combinando elementos gráficos y texturas.
 - Crear un tráiler del videojuego, combinando imágenes, audio y vídeo para transmitir la esencia del juego. Se deben seleccionar y editar clips de vídeo, agregar efectos y transiciones, incluir una banda sonora adecuada y exportar el resultado en distintos formatos optimizados para web.
 - Elaborar un informe con una tabla detallada que incluya:
@@ -57,7 +57,7 @@ Desde el departamento gráfico se solicita elaborar una propuesta para un videoj
 
 - Documento con el informe completo.
 - Enlace al repositorio de GitHub.
-- Archivos generados necesarios para la justificación.
+- Archivos generados necesarios para la justificación. (también los editables)
 
 ---
 
@@ -102,11 +102,8 @@ Debéis entregar en un repositorío de GitHub (el mismo del proyecto de MERN):
 
 Al finalizar todas las fases, cada estudiante o equipo deberá entregar:
 1. El informe final documentado con todas las fases descritas.
-2. Los archivos actualizados del proyecto web con las mejoras implementadas.
-3. Evidencias gráficas o informes generados por herramientas externas que demuestren:
-  - Cumplimiento del nivel AA según WCAG 2.1.
-  - Estrategias aplicadas para mejorar visibilidad SEO inclusiva.
-  -
+2. El repositorio de GitHub con el proyecto y todos los archivos necesarios.
+
 **¡Ánimo! 🖖**
 
 
